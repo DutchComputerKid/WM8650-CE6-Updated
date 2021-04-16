@@ -1,0 +1,7 @@
+Run("\Program Files\MortScript\Reg Tweaks.reg")
+Sleep(1000)
+SendSpace
+Delete("\Windows\StartUp\Autorun.lnk")
+Delete("\Program Files\MortScript\Reg Tweaks.reg")
+Delete("\Program Files\MortScript\Autorun.mscr")
+reset

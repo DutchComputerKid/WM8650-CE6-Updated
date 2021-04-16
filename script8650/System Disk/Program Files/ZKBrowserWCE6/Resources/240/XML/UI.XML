@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<UI ID="CLASSIC">
+	<cached_ui_file>ui_cache.xml</cached_ui_file>
+
+	<!-- UI states Files  -->
+	<state_file>state0.xml</state_file>
+	<state_file>state1.xml</state_file>
+	<state_file>state2.xml</state_file>
+	<state_file>state3.xml</state_file>
+	<state_file>state4.xml</state_file>
+	<state_file>state_prompt2.xml</state_file>
+	<state_file>state_dialogbox.xml</state_file>
+	<state_file>state_empty.xml</state_file>
+	
+</UI>

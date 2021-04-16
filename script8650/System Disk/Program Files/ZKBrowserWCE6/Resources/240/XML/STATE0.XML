@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<state ID="0">
+	<!-- UI Files  -->
+	<btn_file>state0.png</btn_file>
+	<btn_focus_file>state0_focus.png</btn_focus_file>
+    <btn_hl_file>state0_hl.png</btn_hl_file>
+    <btn_tog_file>state0_tog.png</btn_tog_file>
+    <btn_tog_focus_file>state0_tog_focus.png</btn_tog_focus_file>
+	<btn_tog_hl_file>state0_tog_hl.png</btn_tog_hl_file>
+	<btn_imgmap_file>state0_imgmap.png</btn_imgmap_file>
+	<bg_file>state0_bg.png</bg_file>
+	<bg_imgmap_file>state0_bg_imgmap.png</bg_imgmap_file>
+  
+	<!-- When click on empty area, which state to go -->	
+	<empty_click_next_state>0</empty_click_next_state>
+
+	
+	<!-- Buttons  -->	
+	<button>
+		<name>SHOW</name>
+		<type>PUSH_BUTTON</type>
+		<img_map_color>FF0000</img_map_color>
+		<align>BR</align>
+		<push_next_state>1</push_next_state>
+	</button>
+	
+	<!-- progress bar 
+	<progress_bar>
+		<name>PROGRESS_BAR</name>
+		<img_map_color>C80000</img_map_color>
+		<pbar_color>00FF00</pbar_color>
+		<align>BLR</align>
+	</progress_bar> -->
+		
+</state>

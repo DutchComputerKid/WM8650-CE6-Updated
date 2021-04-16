@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<state ID="0">
+	<!-- UI Files  -->
+	<btn_file>state0.png</btn_file>
+	<btn_focus_file>state0_focus.png</btn_focus_file>
+    <btn_hl_file>state0_hl.png</btn_hl_file>
+    <btn_tog_file>state0_tog.png</btn_tog_file>
+    <btn_tog_focus_file>state0_tog_focus.png</btn_tog_focus_file>
+	<btn_tog_hl_file>state0_tog_hl.png</btn_tog_hl_file>
+    <btn_grey_file>state0_grey.png</btn_grey_file>
+	<btn_imgmap_file>state0_imgmap.png</btn_imgmap_file>
+	<bg_file>state0_bg.png</bg_file>
+	<bg_imgmap_file>state0_bg_imgmap.png</bg_imgmap_file>
+  
+  	<mscreen_yoffset>47</mscreen_yoffset>
+  
+	<!-- When click on empty area, which state to go -->	
+	<empty_click_next_state>0</empty_click_next_state>
+	
+	<!-- Initial focus element for key control-->
+	<!-- <initial_focus>GOTOURL_home</initial_focus> -->
+	<input_delay>1000</input_delay>
+		
+	<!-- Sub states-->
+	<substate>
+		<sub_id>1.1</sub_id>
+		<sub_xml_file>state1_1.xml</sub_xml_file>
+	</substate>
+
+	<substate>
+		<sub_id>1.2</sub_id>
+		<sub_xml_file>state1_2.xml</sub_xml_file>
+	</substate>
+	
+	<!-- Background images -->
+	<background>
+		<name>TOP_BAR</name>
+		<img_map_color>FF0000</img_map_color>
+		<align>TLR</align>
+	</background>
+
+	<!-- Buttons  -->
+	<button>
+		<name>BACK</name>
+		<type>PUSH_BUTTON</type>
+		<unfocus_with_mouse>1</unfocus_with_mouse>		
+		<img_map_color>FF0000</img_map_color>
+		<greyout>1</greyout>
+		<align>TL</align>
+	</button>
+	<button>
+		<name>FORWARD</name>
+		<type>PUSH_BUTTON</type>
+		<unfocus_with_mouse>1</unfocus_with_mouse>		
+		<greyout>1</greyout>
+		<img_map_color>F50000</img_map_color>
+		<align>TL</align>
+	</button>	
+	<button>
+		<name>LOAD_STOP</name>
+		<type>TOGGLE_BUTTON</type>
+		<unfocus_with_mouse>1</unfocus_with_mouse>		
+		<img_map_color>EB0000</img_map_color>
+		<align>TL</align>
+		<text_source>URLINPUT</text_source>
+	</button>
+	<button>
+		<name>GOTOURL_home</name>
+		<type>PUSH_BUTTON</type>
+		<unfocus_with_mouse>1</unfocus_with_mouse>		
+		<img_map_color>E10000</img_map_color>
+		<align>TL</align>
+		<push_next_state>1</push_next_state>
+		<url>ZK_HOME_PAGE</url>
+	</button>
+	<button>
+		<!-- Bookmark button  -->
+		<name>CHANGE_STATE_open_bookmark</name>
+		<type>PUSH_BUTTON</type>
+		<unfocus_with_mouse>1</unfocus_with_mouse>		
+		<img_map_color>D70000</img_map_color>
+		<align>TL</align>
+		<push_next_state>2</push_next_state>
+	</button>
+	<button>
+		<!-- add/delete Bookmark button  -->
+		<name>ADD_DEL_BOOKMARK</name>
+		<type>TOGGLE_BUTTON</type>
+		<unfocus_with_mouse>1</unfocus_with_mouse>		
+		<img_map_color>CD0000</img_map_color>
+		<align>TL</align>
+	</button>	
+
+	
+	<button>
+    <!-- Zoom button  -->
+		<name>CHANGE_STATE_zoom</name>
+		<type>PUSH_BUTTON</type>
+		<unfocus_with_mouse>1</unfocus_with_mouse>		
+		<img_map_color>B90000</img_map_color>
+		<align>TL</align>
+		<push_next_state>1.1</push_next_state>
+		<focus_next_state>1.1</focus_next_state>	
+	</button>
+	<button>
+		<!-- setting button  -->
+		<name>CHANGE_STATE_setting</name>
+		<type>PUSH_BUTTON</type>
+		<unfocus_with_mouse>1</unfocus_with_mouse>		
+		<img_map_color>AF0000</img_map_color>
+		<align>TL</align>
+		<push_next_state>1.2</push_next_state>
+		<focus_next_state>1.2</focus_next_state>			
+	</button>
+		
+
+	<!-- Inputbox  -->
+	<inputbox>
+		<name>URLINPUT</name>
+		<img_map_color>C30000</img_map_color>
+		<align>TL</align>
+		<unfocus_with_mouse>1</unfocus_with_mouse>
+		<has_progress_bar>1</has_progress_bar>
+		<inputbox_pbar_v_margin>13</inputbox_pbar_v_margin>
+		<search_history>1</search_history>
+		<history_pos>BOTTOM</history_pos>
+		<action_on_mouse_click>0</action_on_mouse_click>	
+	</inputbox>	
+
+
+	<!-- Scroll bar Buttons 
+	<scrollbar>
+		<name>SCROLLBAR_V</name>
+			
+		<button>			
+			<name>SCROLLBAR_BG_V</name>
+			<type>DISABLED_BUTTON</type>
+			<unfocus_with_mouse>1</unfocus_with_mouse>			
+			<img_map_color>C80000</img_map_color>
+			<align>RTB</align>	
+		</button>
+		
+		<button>			
+			<name>SCROLLBAR_SLIDE_V</name>
+			<type>DISABLED_BUTTON</type>
+			<unfocus_with_mouse>1</unfocus_with_mouse>				
+			<img_map_color>DC0000</img_map_color>
+			<align>TR</align>	
+		</button>		
+		
+		<button>
+			<name>SCROLL_UP</name>
+			<type>PUSH_BUTTON</type>
+			<unfocus_with_mouse>1</unfocus_with_mouse>				
+			<img_map_color>B40000</img_map_color>
+			<align>TR</align>
+		</button>
+		
+		<button>
+			<name>SCROLL_DOWN</name>
+			<type>PUSH_BUTTON</type>
+			<unfocus_with_mouse>1</unfocus_with_mouse>				
+			<img_map_color>AA0000</img_map_color>
+			<align>BR</align>
+		</button>
+			
+	</scrollbar>
+
+	<scrollbar>
+		<name>SCROLLBAR_H</name>
+			
+		<button>			
+			<name>SCROLLBAR_BG_H</name>
+			<type>DISABLED_BUTTON</type>
+			<unfocus_with_mouse>1</unfocus_with_mouse>				
+			<img_map_color>BE0000</img_map_color>
+			<align>BLR</align>	
+		</button>
+		
+		<button>			
+			<name>SCROLLBAR_SLIDE_H</name>
+			<type>DISABLED_BUTTON</type>
+			<unfocus_with_mouse>1</unfocus_with_mouse>				
+			<img_map_color>D20000</img_map_color>
+			<align>BL</align>	
+		</button>		
+		
+		<button>
+			<name>SCROLL_LEFT</name>
+			<type>PUSH_BUTTON</type>
+			<unfocus_with_mouse>1</unfocus_with_mouse>				
+			<img_map_color>A00000</img_map_color>
+			<align>BL</align>
+		</button>
+	
+		<button>
+			<name>SCROLL_RIGHT</name>
+			<type>PUSH_BUTTON</type>
+			<unfocus_with_mouse>1</unfocus_with_mouse>				
+			<img_map_color>960000</img_map_color>
+			<align>BR</align>
+		</button>		
+	</scrollbar> 
+	 -->
+
+</state>

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<utpsdoc type="ProfileName">
+<LogSign HasLog="0"/>
+<Profile imsi="20402" name="Netcom" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.netcom.no" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="20404" name="Tele2 Netherlands" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.tele2.nl" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="20408" name="Vodafone (business with compression)" phonenumber="*99#" user="vodafone" password="vodafone" autoapn="false" apn="office.vodafone.nl" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="20412" name="KPN Fast Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="fastinternet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="20416" name="Telfort" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="20420" name="T-Mobile" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="20610" name="Orange" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="20810" name="Internet Everywhere" phonenumber="*99#" user="" password="" autoapn="false" apn="iew.be" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="20820" name="SFR" phonenumber="*99#" user="" password="" autoapn="false" apn="slsfr" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="21401" name="Bouygues Telecom" phonenumber="*99#" user="" password="" autoapn="false" apn="ebouygtel.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="21402" name="INTERNET" phonenumber="*99#" user="vodafone" password="vodafone" autoapn="false" apn="ac.vodafone.es" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="21403" name="Internet PA" phonenumber="*99#" user="movistarpa" password="movistarpa" autoapn="false" apn="internet.movistar.pa" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="21404" name="Orange Internet" phonenumber="*99#" user="orange" password="orange" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="21406" name="Yoigo" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="21407" name="Internet" phonenumber="*99#" user="CLIENTE" password="EUSKALTEL" autoapn="false" apn="internet.euskaltel.mobi" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="21418" name="Movistar Banda Ancha Movil" phonenumber="*99#" user="internet" password="internet" autoapn="false" apn="internet" chap="true" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="21419" name="ONO Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.ono.com" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="21601" name="Internet" phonenumber="*99***1#" user="" password="" autoapn="false" apn="gprs-service.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="21630" name="Pannon Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="net" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="21805" name="T-Mobile HU" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="21901" name="mtel GPRS 1" phonenumber="*99#" user="" password="" autoapn="false" apn="mtelgprs1" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="21902" name="T-Mobile HR" phonenumber="*99#" user="" password="" autoapn="false" apn="web.htgprs" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="21905" name="Tele2 Croatia" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.tele2.hr" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="21910" name="mtel GPRS 2" phonenumber="*99#" user="" password="" autoapn="false" apn="mtelgprs2" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22001" name="Vipnet" phonenumber="*99#" user="" password="" autoapn="false" apn="data.vip.hr" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22002" name="Telenor Internet" phonenumber="*99#" user="telenor" password="gprs" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22004" name="Internet Bilo Gdje" phonenumber="*99#" user="" password="" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22005" name="T-Mobile CG" phonenumber="*99#" user="" password="" autoapn="false" apn="tmcg-data" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22105" name="mtel GPRS 3" phonenumber="*99#" user="" password="" autoapn="false" apn="mtelgprs3" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22201" name="mtel GPRS 4" phonenumber="*99#" user="" password="" autoapn="false" apn="mtelgprs4" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22205" name="TIM" phonenumber="*99#" user="" password="" autoapn="false" apn="ibox.tim.it" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22210" name="FREND SURFAJ" phonenumber="*99#" user="" password="" autoapn="false" apn="mtelfun" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22288" name="BT Mobile Internet(Default)" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.btitalia.it" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22298" name="WIND" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.wind" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22299" name="3 Italia" phonenumber="*99#" user="" password="" autoapn="false" apn="datacard.tre.it" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22305" name="3 Italia" phonenumber="*99#" user="" password="" autoapn="false" apn="datacard.tre.it" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22405" name="TOTAL NET 100" phonenumber="*99#" user="" password="" autoapn="false" apn="pcnet100" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22801" name="TOTAL NET 500" phonenumber="*99#" user="" password="" autoapn="false" apn="pcnet500" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22802" name="Swisscom " phonenumber="*99***1#" user="" password="" autoapn="false" apn="gprs.swisscom.ch" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22803" name="Sunrise" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="22808" name="Orange Prepay" phonenumber="*99#" user="" password="" autoapn="false" apn="click" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23001" name="Tele2 Switzerland" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.tele2.ch" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23003" name="T-Mobile CZ" phonenumber="*99#" user="wap" password="wap" autoapn="false" apn="internet.t-mobile.cz" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23102" name="O2" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23201" name="T-Mobile SK" phonenumber="*99#" user="internet" password="internet" autoapn="false" apn="internet" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23203" name="A1" phonenumber="*99#" user="ppp@a1plus.at" password="ppp" autoapn="false" apn="a1.net" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23205" name="T-Mobile A" phonenumber="*99#" user="t-mobile" password="tm" autoapn="false" apn="gprsinternet" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23207" name="Orange Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23212" name="T-Mobile Telering" phonenumber="*99#" user="" password="" autoapn="false" apn="WEB" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23402" name="Mobiles Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="web.yesss.at" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23410" name="O2 Internet" phonenumber="*99#" user="mobileweb" password="password" autoapn="false" apn="mobile.o2.co.uk" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23415" name="O2 Internet" phonenumber="*99#" user="mobileweb" password="password" autoapn="false" apn="mobile.o2.co.uk" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23420" name="Vodafone Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="Internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23430" name="3 Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="3Internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23431" name="T-Mobile UK" phonenumber="*99#" user="" password="" autoapn="false" apn="general.t-mobile.uk" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23432" name="T-Mobile UK" phonenumber="*99#" user="" password="" autoapn="false" apn="general.t-mobile.uk" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23433" name="T-Mobile UK" phonenumber="*99#" user="" password="" autoapn="false" apn="general.t-mobile.uk" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23801" name="Orange Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="consumerbroadband" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23802" name="TDC" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="23820" name="Telenor" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24001" name="Call Me" phonenumber="*99#" user="" password="" autoapn="false" apn="websp" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24006" name="Telia connect" phonenumber="*99#" user="" password="" autoapn="false" apn="online.telia.se" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24007" name="Telenor SE" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.telenor.se" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24201" name="Tele2 Sweden" phonenumber="*99#" user="" password="" autoapn="false" apn="mobileinternet.tele2.se" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24202" name="Telenor NO" phonenumber="*99#" user="" password="" autoapn="false" apn="telenor" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24205" name="Chess internet" phonenumber="*99#" user="chess" password="chess" autoapn="false" apn="internet.netcom.no" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24403" name="Saunalahti" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.saunalahti" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24405" name="Saunalahti" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.saunalahti" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24412" name="DNA Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24491" name="Sonera Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24601" name="Omnitel " phonenumber="*99#" user="omni" password="omni" autoapn="false" apn="omnitel" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24603" name="Tele2 Lietuva" phonenumber="*99#" user="" password="" autoapn="false" apn="mobileinternet.tele2.lt" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24701" name="LMT Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.lmt.lv" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24702" name="Tele2 Latvia" phonenumber="*99#" user="" password="" autoapn="false" apn="mobileinternet.tele2.lv" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24801" name="EMT Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.emt.ee" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24803" name="Tele2 Eesti AS" phonenumber="*99#" user="wap" password="wap" autoapn="false" apn="mobileinternet.tele2.ee" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25001" name="MTS" phonenumber="*99#" user="mts" password="mts" autoapn="false" apn="internet.MTS.ru" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25002" name="MegaFon" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25007" name="GPRS Smarts" phonenumber="*99#" user="wap" password="wap" autoapn="false" apn="internet.smarts.ru" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25012" name="BWC" phonenumber="*99***1#" user="bwc" password="bwc" autoapn="false" apn="inet.bwc.ru" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25015" name="GPRS Smarts" phonenumber="*99#" user="wap" password="wap" autoapn="false" apn="internet.smarts.ru" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25016" name="GPRS_NTC" phonenumber="*99***1#" user="ntc" password="ntc" autoapn="false" apn="internet.ntc" chap="true" pap="false" ip="" dns="80.243.64.67" dnsalt="80.243.68.34" wins="" winsalt=""/>
+<Profile imsi="25020" name="Tele2" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.tele2.ru" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25028" name="BEELINE" phonenumber="*99#" user="beeline" password="beeline" autoapn="false" apn="home.beeline.ru" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25028" name="Beeline" phonenumber="*99#" user="beeline" password="beeline" autoapn="false" apn="internet.beeline.ru" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25035" name="MOTIV-Internet" phonenumber="*99#" user="motiv" password="motiv" autoapn="false" apn="inet.ycc.ru" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25099" name="BEELINE" phonenumber="*99#" user="beeline" password="beeline" autoapn="false" apn="home.beeline.ru" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25501" name="Telesystem" phonenumber="*99#" user="" password="" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25502" name="Telesystem" phonenumber="*99#" user="" password="" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25503" name="Internet Prepaid" phonenumber="*99#" user="" password="" autoapn="false" apn="www.ab.kyivstar.net" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25506" name="life:)" phonenumber="*99#" user="" password="" autoapn="false" apn="Internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25701" name="velcom web 150(Default)" phonenumber="*99#" user="web3" password="web3" autoapn="false" apn="web3.velcom.by" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25702" name="Гипер.Net" phonenumber="*99#" user="mts" password="mts" autoapn="false" apn="hyper.net" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25901" name="Orange Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="25902" name="Moldcell MMI" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="26001" name="blueconnect" phonenumber="*99#" user="erainternet" password="erainternet" autoapn="false" apn="erainternet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="26002" name="blueconnect" phonenumber="*99#" user="erainternet" password="erainternet" autoapn="false" apn="erainternet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="26003" name="blueconnect" phonenumber="*99#" user="erainternet" password="erainternet" autoapn="false" apn="erainternet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="26006" name="PLAY" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="26201" name="T-Mobile D" phonenumber="*99#" user="t-mobile" password="tm" autoapn="false" apn="internet.t-mobile" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="26203" name="Internet" phonenumber="*99#" user="eplus" password="web" autoapn="false" apn="internet.eplus.de" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="26207" name="Zugang zum Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="event.vodafone.de" chap="true" pap="true" ip="" dns="139.007.030.125" dnsalt="139.007.030.126" wins="" winsalt=""/>
+<Profile imsi="26208" name="Zugang zum Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="event.vodafone.de" chap="true" pap="true" ip="" dns="139.007.030.125" dnsalt="139.007.030.126" wins="" winsalt=""/>
+<Profile imsi="26803" name="Kanguru" phonenumber="*99#" user="" password="" autoapn="false" apn="" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="26806" name="TMN" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="27077" name="Tele2Tango HSPA" phonenumber="*99#" user="tango" password="tango" autoapn="false" apn="hspa" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="27203" name="Broadband to go" phonenumber="*99#" user="" password="" autoapn="false" apn="broadband.mymeteor.ie" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="27401" name="Siminn 3G" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="27603" name="Eagle Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="27655" name="XS4ALL Mobiel Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="Umts.xs4all.nl" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="27877" name="melitaXL" phonenumber="*99#" user="" password="" autoapn="false" apn="web.melita" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="28201" name="Geocell Connect" phonenumber="*99#" user="" password="" autoapn="false" apn="Internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="28305" name="MTS-Internet" phonenumber="*99#" user="mts" password="mts" autoapn="false" apn="internet.mts.ru" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="28401" name="MTEL" phonenumber="*99#" user="" password="" autoapn="false" apn="inet-gprs.mtel.bg" chap="true" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="28403" name="vivatel" phonenumber="*99#" user="vivatel" password="vivatel" autoapn="false" apn="internet.vivatel.bg" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="28404" name="vivatel" phonenumber="*99#" user="vivatel" password="vivatel" autoapn="false" apn="internet.vivatel.bg" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="28405" name="Globul" phonenumber="*99#" user="globul" password="" autoapn="false" apn="globul" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="28601" name="Turkcell Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="28602" name="KKTC Telsim" phonenumber="*99#" user="" password="" autoapn="false" apn="edge.kktctelsim.com" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="28603" name="AVEA Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="28604" name="AVEA APN" phonenumber="*99#" user="" password="" autoapn="false" apn="AVEA" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="29340" name="Vodafone live!" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.simobil.si" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="29401" name="T-Mobile MK" phonenumber="*99#" user="internet" password="t-mobile" autoapn="false" apn="internet" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="29701" name="Internet Bilo Gdje" phonenumber="*99#" user="" password="" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="29702" name="T-Mobile CG" phonenumber="*99#" user="" password="" autoapn="false" apn="tmcg-data" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="33403" name="Internet GPRS" phonenumber="*99#" user="movistar" password="movistar" autoapn="false" apn="internet.movistar.mx" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="33420" name="Telcel 3G" phonenumber="*99#" user="" password="" autoapn="false" apn="ba.amx" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="33805" name="ONLY" phonenumber="*99#" user="" password="" autoapn="true" apn="onlyweb" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="34002" name="ONLY" phonenumber="*99#" user="" password="" autoapn="true" apn="onlyweb" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="34640" name="LIME postpaid" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="35210" name="LIME postpaid" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="37002" name="Banda Ancha Claro" phonenumber="*99#" user="" password="" autoapn="false" apn="ba.amx" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40001" name="Azercell" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40402" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40403" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40404" name="Idea" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40410" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40414" name="Reliance" phonenumber="#777" user="" password="" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40431" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40434" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40438" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40440" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40444" name="Reliance" phonenumber="#777" user="" password="" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40445" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40449" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40451" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40453" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40454" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40455" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40457" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40458" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40459" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40462" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40464" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40466" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40471" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40472" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40473" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40474" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40475" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40476" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40477" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40480" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40481" name="BSNL West" phonenumber="*99#" user="" password="" autoapn="false" apn="gprswest.cellone.in" chap="true" pap="false" ip="" dns="210.212.163.44" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40490" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40492" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40493" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40494" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40495" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40496" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40497" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40498" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40551" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40552" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40553" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40554" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40555" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="40556" name="Airtel" phonenumber="*99#" user="" password="" autoapn="false" apn="airtelgprs.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="41003" name="Ufone Postpay" phonenumber="*99#" user="" password="" autoapn="false" apn="ufone.internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="41004" name="ZONG" phonenumber="*99#" user="" password="" autoapn="false" apn="zonginternet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="41006" name="Telenor Internet-Volume Based" phonenumber="*99#" user="Telenor" password="Telenor" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="41007" name="Warid EDGE Card" phonenumber="*99#" user="" password="" autoapn="false" apn="warid" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="41301" name="Mobitel" phonenumber="*99#" user="" password="" autoapn="false" apn="mobitel3g" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="41302" name="Dialog Broadband (Post Paid)" phonenumber="*99***1#" user="" password="" autoapn="false" apn="dialogbb" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="41601" name="Zain Sudan" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="41701" name="Syriatel" phonenumber="*99#" user="" password="" autoapn="false" apn="net.syriatel.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="41805" name="Asianet" phonenumber="*99#" user="" password="" autoapn="false" apn="" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="41860" name="reber" phonenumber="#777" user="reber" password="reber" autoapn="false" apn="" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="41902" name="Zain 3G" phonenumber="*99#" user="pps" password="pps" autoapn="false" apn="pps" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="41904" name="VIVA" phonenumber="*99#" user="" password="" autoapn="false" apn="VIVA" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="42001" name="JAWALNet" phonenumber="*99#" user="" password="" autoapn="false" apn="jawalnet.com.sa" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="42003" name="Mobily Prepaid Plan" phonenumber="*99#" user="" password="" autoapn="false" apn="Web2" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="42004" name="Zain SA" phonenumber="*99#" user="" password="" autoapn="false" apn="zain" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="42202" name="Oman Mobile" phonenumber="*99#" user="Taif" password="Taif" autoapn="false" apn="Taif" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="42203" name="Nawras" phonenumber="*99#" user="" password="" autoapn="false" apn="isp.nawras.com.om" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="42402" name="etisalat" phonenumber="*99#" user="" password="" autoapn="false" apn="etisalat.ae" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="42601" name="Batelco" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.batelco.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="42602" name="Zain Bahrain" phonenumber="*99#" user="hsdpa" password="hsdpa" autoapn="false" apn="hsdpa" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="43801" name="MTS-Internet" phonenumber="*99#" user="MTS" password="MTS" autoapn="false" apn="net.mts.tm" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="44000" name="emb.ne.jp" phonenumber="*99***1#" user="em" password="em" autoapn="false" apn="emb.ne.jp" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="45201" name="Mobifone" phonenumber="*99＃" user="mms" password="mms" autoapn="false" apn="m-wap" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="45204" name="Viettel" phonenumber="*99#" user="" password="" autoapn="false" apn="e-connect" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="45406" name="SmarTone-Vodafone" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="45412" name="akdigitel" phonenumber="*99#" user="" password="" autoapn="false" apn="cmnet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="45501" name="CTM Mobile" phonenumber="*99#" user="" password="" autoapn="false" apn="ctm-mobile" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="45504" name="CTM Mobile" phonenumber="*99#" user="" password="" autoapn="false" apn="ctm-mobile" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="45703" name="StarTelecom" phonenumber="*99＃" user="" password="" autoapn="false" apn="startelecom" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="45719" name="pccwprepaid" phonenumber="*99#" user="" password="" autoapn="false" apn="pccw" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="46000" name="CMCC" phonenumber="*99#" user="" password="" autoapn="false" apn="cmnet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="46001" name="Unicom" phonenumber="*99#" user="" password="" autoapn="false" apn="3gnet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="46003" name="CDMA" phonenumber="#777" user="huawei" password="huawei" autoapn="false" apn="" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="46009" name="WCDMA" phonenumber="*99#" user="" password="" autoapn="false" apn="1234" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="46601" name="遠傳電信" phonenumber="*99#" user="" password="" autoapn="false" apn="fetims" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="46689" name="威寶電信" phonenumber="*99#" user="" password="" autoapn="false" apn="vibo" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="46692" name="中華電信" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="46693" name="台湾大哥大" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="46697" name="台湾大哥大" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="47001" name="GP-INTERNET" phonenumber="*99#" user="" password="" autoapn="false" apn="gpinternet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="47202" name="Wataniya Maldives" phonenumber="*99#" user="" password="" autoapn="false" apn="WataniyaNet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="50212" name="MAXIS" phonenumber="*99#" user="maxis" password="wap" autoapn="false" apn="maxisbb" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="50216" name="DiGi Broadband" phonenumber="*99#" user="" password="" autoapn="false" apn="3gdgnet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="50219" name="Celcom Broadband" phonenumber="*99#" user="" password="" autoapn="false" apn="celcom3g" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="50502" name="OPTUS" phonenumber="*99#" user="" password="" autoapn="false" apn="connect" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="50503" name="Crazy John’s – Vodafone Australia" phonenumber="*99#" user="" password="" autoapn="false" apn="purtona.net" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="51001" name="Indosat 3G" phonenumber="*99#" user="" password="" autoapn="false" apn="indosat3g" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="51008" name="AXIS Internet" phonenumber="*99#" user="axis" password="" autoapn="false" apn="AXIS" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="51010" name="Tsel Broadband" phonenumber="*99#" user="" password="" autoapn="false" apn="flash" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="51011" name="XL GPRS" phonenumber="*99#" user="xlgprs" password="proxl" autoapn="false" apn="www.xlgprs.net" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="51021" name="indosatm2" phonenumber="*99#" user="" password="" autoapn="false" apn="indosatm2" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="51502" name="Globe Visibility-Prepaid" phonenumber="*99***1#" user="" password="" autoapn="false" apn="internet.globe.com.ph" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="51511" name="Sun Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="minternet" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="52001" name="AIS Internet " phonenumber="*99#" user="" password="" autoapn="false" apn="Internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="52018" name="dtac" phonenumber="*99#" user="" password="" autoapn="true" apn="" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="52099" name="TRUE Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="52501" name="SingTel" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="52502" name="SingTel" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="52505" name="StarHub" phonenumber="*99#" user="" password="" autoapn="false" apn="shinternet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="53703" name="ONLY" phonenumber="*99#" user="" password="" autoapn="true" apn="onlyweb" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="53988" name="ONLY" phonenumber="*99#" user="" password="" autoapn="true" apn="onlyweb" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="54105" name="ONLY" phonenumber="*99#" user="" password="" autoapn="true" apn="onlyweb" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="54202" name="Digicel Pacific" phonenumber="*99#" user="" password="" autoapn="false" apn="web.digicelpacific.com" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="54900" name="ONLY" phonenumber="*99#" user="" password="" autoapn="true" apn="onlyweb" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="60201" name="Mobinil" phonenumber="*99#" user="" password="" autoapn="false" apn="mobinilweb" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="60202" name="Vodafone Internet" phonenumber="*99#" user="internet" password="internet" autoapn="false" apn="internet.vodafone.net" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="60203" name="Etisalat Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.etisalat" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="60301" name="Mobilis Internet" phonenumber="*99#" user="internet" password="internet" autoapn="false" apn="internet" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="60303" name="Nedjma" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="60400" name="Internet Méditel" phonenumber="*99#" user="MEDINET" password="MEDINET" autoapn="false" apn="internet1.meditel.ma" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="60401" name="3G IAM" phonenumber="*99#" user="" password="" autoapn="false" apn="www.iamgprs2.ma" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="60606" name="Libyana Net" phonenumber="*99#" user="" password="" autoapn="false" apn="web" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="61202" name="Moov Internet CI" phonenumber="*99#" user="moov" password="moov" autoapn="false" apn="moov" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="61203" name="Oweb" phonenumber="*99#" user="web" password="web" autoapn="false" apn="orangeciweb" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="61205" name="MTN CI" phonenumber="*99#" user="" password="" autoapn="false" apn="web.mtn.ci" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="61403" name="Moov Internet Niger" phonenumber="*99#" user="moov" password="moov" autoapn="false" apn="moov" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="61503" name="Moov Internet Togo" phonenumber="*99#" user="moov" password="moov" autoapn="false" apn="moov" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="61602" name="Moov Internet Benin" phonenumber="*99#" user="moov" password="moov" autoapn="false" apn="moov" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="61801" name="MTN" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="61901" name="Zain Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.sl.zain.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="62006" name="Zain Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="62120" name="Zain Mobile Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.ng.zain.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="62130" name="MTN 3G" phonenumber="*99#" user="web" password="web" autoapn="false" apn="web.gprs.mtnnigeria.net" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="62140" name="Multilinks Telkom" phonenumber="*99#" user="" password="" autoapn="false" apn="" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="62150" name="GLO 3G PLUS(PREPAID)" phonenumber="*99#" user="flat" password="flat" autoapn="false" apn="gloflat" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="62301" name="Moov Internet RCA" phonenumber="*99#" user="moov" password="moov" autoapn="false" apn="moov" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="62303" name="Orange" phonenumber="*99#" user="" password="" autoapn="false" apn="orangecawap" chap="false" pap="false" ip="192.168.230.68" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="62401" name="MTN Mobile Internet" phonenumber="*99#" user="mtnuser" password="mtnuser" autoapn="false" apn="mtnwap" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="62802" name="Moov Internet Gabon" phonenumber="*99#" user="moov" password="moov" autoapn="false" apn="moov" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="62803" name="Zain Internet Mobile" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.ga.celtel.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="62901" name="ZAIN RDC" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="62910" name="MTN INTERNET" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.mtn.cg" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="63001" name="Vodacom Congo" phonenumber="*99#" user="" password="" autoapn="false" apn="Vodanet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="63002" name="ZAIN  RDC" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="63005" name="Standard Telecom" phonenumber="#777" user="stelecom" password="" autoapn="false" apn="" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="63202" name="MTN" phonenumber="*99#" user="" password="" autoapn="false" apn="Internet.mtn-bissau.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="63401" name="Zain Sudan" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="63510" name="MTN Rwanda" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.mtn" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="63902" name="Safaricom" phonenumber="*99#" user="saf" password="data" autoapn="false" apn="safaricom" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="63903" name="Zain 3.5G" phonenumber="*99#" user="hspps" password="hspps" autoapn="false" apn="hspps" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="64003" name="Zantel" phonenumber="#777" user="@zantel.com" password="" autoapn="false" apn="" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="64004" name="Vodacom TZ" phonenumber="*99***1#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="64005" name="Zain TZ" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="64110" name="MTN Mobile Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="MTNDATA" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="64111" name="UT 3G connect" phonenumber="*99#" user="" password="" autoapn="false" apn="utbroadband" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="64122" name="Warid Mobile Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="web.waridtel.co.ug" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="64304" name="mcel" phonenumber="*99#" user="" password="" autoapn="false" apn="isp.mcel.mz" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="64501" name="Zain ZAMBIA" phonenumber="*99#" user="" password="" autoapn="false" apn="Internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="64502" name="Celtel Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="64700" name="Business Everywhere" phonenumber="*99#" user="orange" password="orange" autoapn="false" apn="orangerun" chap="true" pap="false" ip="192.168.010.100" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="64702" name="ONLY" phonenumber="*99#" user="" password="" autoapn="true" apn="onlyweb" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="64710" name="SFR" phonenumber="*99#" user="" password="" autoapn="false" apn="slsfr" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="64901" name="MTC Connect" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="64903" name="Cell One" phonenumber="*99#" user="" password="" autoapn="false" apn="cellone" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="65001" name="TNM Malawi" phonenumber="*99#" user="" password="" autoapn="false" apn="Internet" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="65010" name="Zain Malawi" phonenumber="*99#" user="" password="" autoapn="false" apn="Internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="65201" name="Mascom Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.mascom" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="65502" name="Telkom" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="65510" name="MTN Data" phonenumber="*99#" user="MTN" password="MTN" autoapn="false" apn="myMTN" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="70401" name="Claro" phonenumber="*99#" user="" password="" autoapn="false" apn="ba.amx  " chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="70402" name="TIGO" phonenumber="*99#" user="" password="" autoapn="false" apn="web.colombiamovil.com.co" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="70403" name="Internet GT" phonenumber="*99#" user="movistargt" password="movistargt" autoapn="false" apn="internet.movistar.gt" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="70601" name="Claro" phonenumber="*99#" user="" password="" autoapn="false" apn="ba.amx  " chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="70603" name="TIGO Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.tigo.bo" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="70604" name="Internet SV" phonenumber="*99#" user="movistarsv" password="movistarsv" autoapn="false" apn="internet.movistar.sv" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="70801" name="Claro 3G " phonenumber="*99#" user="webmegatel" password="webmegatel" autoapn="false" apn="web.megatel.hn" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="70802" name="TIGO" phonenumber="*99#" user="" password="" autoapn="false" apn="web.colombiamovil.com.co" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="71021" name="WEB Claro" phonenumber="*99#" user="CLAROWEB" password="CLAROWEB" autoapn="false" apn="web.claro.com.pa" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="71030" name="Internet Nicaragua" phonenumber="*99#" user="movistarni" password="movistarni" autoapn="false" apn="internet.movistar.ni" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="71073" name="WEB Claro" phonenumber="*99#" user="CLAROWEB" password="CLAROWEB" autoapn="false" apn="web.claro.com.pa" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="71401" name="CWP" phonenumber="*99#" user="" password="" autoapn="false" apn="apn01.cwpanama.com.pa" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="71402" name="Internet PA" phonenumber="*99#" user="movistarpa" password="movistarpa" autoapn="false" apn="internet.movistar.pa" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="71403" name="Claro1" phonenumber="*99***1#" user="claro" password="claro" autoapn="false" apn="claro.com.br" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="71404" name="Digicel Panama" phonenumber="*99#" user="" password="" autoapn="false" apn="web.digicelpanama.com" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="71606" name="Movistar" phonenumber="*99#" user="" password="" autoapn="false" apn="Movistar.pe" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="71610" name="Claro" phonenumber="*99#" user="" password="" autoapn="false" apn="claro.pe" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72207" name="Movistar Banda Ancha Movil" phonenumber="*99#" user="internet" password="internet" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72401" name="TIM FAST CONNECT1" phonenumber="*99***1#" user="tim" password="tim" autoapn="false" apn="tim.br" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72402" name="TIM FAST CONNECT1" phonenumber="*99***1#" user="tim" password="tim" autoapn="false" apn="tim.br" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72403" name="TIM FAST CONNECT" phonenumber="*99***1#" user="tim" password="tim" autoapn="false" apn="tim.br" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72404" name="TIM FAST CONNECT" phonenumber="*99***1#" user="tim" password="tim" autoapn="false" apn="tim.br" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72405" name="CLARO" phonenumber="*99***1#" user="claro " password="claro " autoapn="false" apn="bandalarga.claro.com.br" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72406" name="VIVO ZAP" phonenumber="*99#" user="vivo" password="vivo" autoapn="false" apn="zap.vivo.com.br" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72407" name="VIVO ZAP" phonenumber="*99#" user="vivo" password="vivo" autoapn="false" apn="zap.vivo.com.br" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72410" name="VIVO ZAP" phonenumber="*99#" user="vivo" password="vivo" autoapn="false" apn="zap.vivo.com.br" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72411" name="VIVO ZAP" phonenumber="*99#" user="vivo" password="vivo" autoapn="false" apn="zap.vivo.com.br" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72415" name="Sercomtel" phonenumber="*99#" user="sercomtel" password="sercomtel" autoapn="false" apn="sercomtel.com.br" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72416" name="BRT WAP 1" phonenumber="*99#" user="brt" password="brt" autoapn="false" apn="brt.br" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72423" name="VIVO ZAP" phonenumber="*99#" user="vivo" password="vivo" autoapn="false" apn="zap.vivo.com.br" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72424" name="Amazonia Cel GPRS " phonenumber="*99***1#" user="celular" password="celular" autoapn="false" apn="gprs.amazoniacelular.com.br" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72431" name="OI" phonenumber="*99***1#" user="oi" password="oi" autoapn="false" apn="gprs.oi.com.br" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72432" name="CTBC" phonenumber="*99#" user="ctbc" password="" autoapn="false" apn="ctbc.br" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72433" name="CTBC" phonenumber="*99#" user="ctbc" password="" autoapn="false" apn="ctbc.br" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="72434" name="CTBC" phonenumber="*99#" user="ctbc" password="" autoapn="false" apn="ctbc.br" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="73001" name="Entel PCS" phonenumber="*99#" user="entelpcs" password="entelpcs" autoapn="false" apn="imovil.entelpcs.cl" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="73002" name="Movistar" phonenumber="*99#" user="web" password="web" autoapn="false" apn="web.tmovil.cl" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="73003" name="WEB Claro" phonenumber="*99#" user="CLAROWEB" password="CLAROWEB" autoapn="false" apn="web.claro.com.pa" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="73010" name="Entel PCS" phonenumber="*99#" user="entelpcs" password="entelpcs" autoapn="false" apn="imovil.entelpcs.cl" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="73212" name="Internet PA" phonenumber="*99#" user="movistarpa" password="movistarpa" autoapn="false" apn="internet.movistar.pa" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="73402" name="Digitel WEB" phonenumber="*99#" user="" password="" autoapn="false" apn="gprsweb.digitel.ve" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="73603" name="TIGO" phonenumber="*99#" user="" password="" autoapn="false" apn="web.colombiamovil.com.co" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="74000" name="movistar" phonenumber="*99#" user="" password="" autoapn="false" apn="navega.movistar.ec" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="74001" name="WEB Comcel 3GSM" phonenumber="*99#" user="COMCELWEB" password="COMCELWEB" autoapn="false" apn="internet.comcel.com.co" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="74002" name="ALEGRO INTERNET" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.alegro.net.ec" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="74401" name="VOX" phonenumber="*99***1#" user="VOX" password="vox" autoapn="false" apn="vox.internet" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="74402" name="OI" phonenumber="*99***1#" user="oi" password="oi" autoapn="false" apn="gprs.oi.com.br" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="74404" name="TIGO" phonenumber="*99#" user="" password="" autoapn="false" apn="web.colombiamovil.com.co" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="74405" name="Hipuu! Movil" phonenumber="*99#" user="personal" password="personal" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="74801" name="ANCEL" phonenumber="*99#" user="" password="" autoapn="false" apn="gprs.ancel" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="74807" name="Movistar Banda Ancha Móvil" phonenumber="*99#" user="movistar" password="movistar" autoapn="false" apn="apnumt.movistar.com.uy" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="74810" name="OI" phonenumber="*99***1#" user="oi" password="oi" autoapn="false" apn="gprs.oi.com.br" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="89320" name="BASE" phonenumber="*99#" user="base" password="base" autoapn="false" apn="gprs.base.be" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="204208" name="KPN Fast Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="fastinternet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="219021" name="Tele2 Hrvatska Prepaid" phonenumber="*99#" user="" password="" autoapn="false" apn="data.tele2.hr" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="219023" name="Tele2 Hrvatska Prepaid" phonenumber="*99#" user="" password="" autoapn="false" apn="data.tele2.hr" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="232103" name="Drei AT" phonenumber="*99#" user="" password="" autoapn="false" apn="drei.at" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="238063" name="Oister Denmark" phonenumber="*99#" user="" password="" autoapn="false" apn="bredband.oister.dk" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="240023" name="3 Sweden" phonenumber="*99#" user="" password="" autoapn="false" apn="bredband.tre.se" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="240043" name="3 Sweden" phonenumber="*99#" user="" password="" autoapn="false" apn="bredband.tre.se" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="240077" name="Comviq" phonenumber="*99#" user="" password="" autoapn="false" apn="data.comviq.se" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="240078" name="Comviq" phonenumber="*99#" user="" password="" autoapn="false" apn="data.comviq.se" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="272053" name="3DataModem" phonenumber="*99#" user="" password="" autoapn="false" apn="3ireland.ie" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="330110" name="Internet Claro " phonenumber="*99#" user="" password="" autoapn="false" apn="internet.claropr.com" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="334020" name="Claro1" phonenumber="*99***1#" user="claro" password="claro" autoapn="false" apn="claro.com.br" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="338070" name="Banda Ancha Claro" phonenumber="*99#" user="" password="" autoapn="false" apn="ba.amx" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="338180" name="LIME postpaid" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="342600" name="LIME postpaid" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="344920" name="LIME postpaid" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="348170" name="LIME postpaid" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="354860" name="LIME postpaid" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="356110" name="LIME postpaid" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="358110" name="LIME postpaid" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="360110" name="LIME postpaid" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="365840" name="LIME postpaid" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="366110" name="LIME postpaid" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="376350" name="LIME postpaid" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405025" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405027" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405029" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405030" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405031" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405032" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405034" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405035" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405036" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405037" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405038" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405041" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405042" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405043" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405044" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405045" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405046" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="405047" name="TATA Indicom" phonenumber="#777" user="internet" password="internet" autoapn="false" apn="" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="454043" name="" phonenumber="*99#" user="" password="" autoapn="false" apn="ipc.three.com.hk" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="505063" name="3 Mobile Broadband" phonenumber="*99#" user="" password="" autoapn="false" apn="3netaccess" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="708001" name="Claro" phonenumber="*99#" user="" password="" autoapn="false" apn="ba.amx  " chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="722310" name="OI" phonenumber="*99***1#" user="oi" password="oi" autoapn="false" apn="gprs.oi.com.br" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="732101" name="TIGO" phonenumber="*99#" user="" password="" autoapn="false" apn="web.colombiamovil.com.co" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="732103" name="TIGO" phonenumber="*99#" user="" password="" autoapn="false" apn="web.colombiamovil.com.co" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="732111" name="TIGO Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.tigo.bo" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="732123" name="TIGO" phonenumber="*99#" user="" password="" autoapn="false" apn="web.colombiamovil.com.co" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="2300202" name="O2" phonenumber="*99#" user="" password="" autoapn="false" apn="internet" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="2470211" name="Zelta Zivtina" phonenumber="*99#" user="" password="" autoapn="false" apn="data.tele2.lv" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="2470212" name="Zelta Zivtina" phonenumber="*99#" user="" password="" autoapn="false" apn="data.tele2.lv" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="2620708" name="Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="pinternet.interkom.de" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="2620739" name="o2 Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="surfo2" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="2620740" name="Internet(Komfort)" phonenumber="*99#" user="" password="" autoapn="false" apn="webmobil2" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="2620741" name="KD Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="surf.kabeld" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="2620749" name="LOOP Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="pinternet.interkom.de" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="2620750" name="Internet(Prepaid)" phonenumber="*99#" user="" password="" autoapn="false" apn="webmobil1" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="2620751" name="Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="pinternet.interkom.de" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="2620839" name="o2 Internet" phonenumber="*99#" user="" password="" autoapn="false" apn="surfo2" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="20412802" name="Tele2 Breedband" phonenumber="*99#" user="username" password="password" autoapn="false" apn="internet.versatel.nl" chap="true" pap="false" ip="" dns="62.58.126.130" dnsalt="62.58.222.130" wins="" winsalt=""/>
+<Profile imsi="24007604" name="Tele2 Netherlands" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.tele2.nl" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24007605" name="Tele2 Netherlands" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.tele2.nl" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24007606" name="Tele2 Netherlands" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.tele2.nl" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24007612" name="Tele2 Netherlands" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.tele2.nl" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24007619" name="Tele2 Netherlands" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.tele2.nl" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24007675" name="Tele2 Switzerland" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.tele2.ch" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24007676" name="Tele2 Switzerland" phonenumber="*99#" user="" password="" autoapn="false" apn="internet.tele2.ch" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24007683" name="Tele2 Norway" phonenumber="*99#" user="" password="" autoapn="false" apn="mobileinternet.tele2.no" chap="false" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24007695" name="Tele2 Hrvatska Prepaid" phonenumber="*99#" user="" password="" autoapn="false" apn="data.tele2.hr" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24007696" name="Tele2 Hrvatska" phonenumber="*99#" user="" password="" autoapn="false" apn="mobileinternet.tele2.hr" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24007697" name="Tele2 Hrvatska Prepaid" phonenumber="*99#" user="" password="" autoapn="false" apn="data.tele2.hr" chap="false" pap="true" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24803000" name="Tele2 Eesti AS" phonenumber="*99#" user="" password="" autoapn="false" apn="mobileinternet.tele2.ee" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+<Profile imsi="24803005" name="Tele2 Eesti Prepaid" phonenumber="*99#" user="" password="" autoapn="false" apn="data.tele2.ee" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt=""/>
+</utpsdoc>

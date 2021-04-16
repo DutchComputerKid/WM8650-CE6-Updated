@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<state ID="2">
+	<!-- UI Files  -->
+	<btn_file>state2.png</btn_file>
+	<btn_hl_file>state2_hl.png</btn_hl_file>
+    <btn_focus_file>state2_focus.png</btn_focus_file>
+    <btn_grey_file>state2_grey.png</btn_grey_file>
+	<btn_imgmap_file>state2_imgmap.png</btn_imgmap_file>
+	<bg_file>state2_bg.png</bg_file>
+	<bg_imgmap_file>state2_bg_imgmap.png</bg_imgmap_file>
+
+    
+	<!-- When click on empty area, which state to go -->	
+	<empty_click_next_state>0</empty_click_next_state>
+
+	<!-- If this state is not transparaent, set the below will speed up ui drawing speed -->
+	<no_transparency>true</no_transparency>	
+
+	<!-- Initial focus element for key control-->
+	<initial_focus>BOOKMARK1</initial_focus>
+	
+	<!-- Background fill rect -->
+	<bg_fillrect>
+		<name>STATE2_BG_Rect</name>
+		<img_map_color>0000FF</img_map_color>
+		<fill_color_start>FF404040</fill_color_start>
+		<fill_color_end>FFA0A0A0</fill_color_end>		
+		<align>TBLR</align>
+	</bg_fillrect>	
+	
+
+	<!-- Buttons  -->
+	<!-- Bookmark back button  
+	<button>
+
+		<name>CHANGE_STATE_bookmark_back</name>
+		<type>PUSH_BUTTON</type>
+		<img_map_color>8C0000</img_map_color>
+		<align>BL</align>
+		<push_next_state>1</push_next_state>
+	</button>
+	-->
+	
+	<button>
+		<!-- Bookmark label  -->
+		<name>bookmark_label</name>
+		<type>DISABLED_BUTTON</type>
+		<img_map_color>780000</img_map_color>
+		<align>TL</align>
+	</button>
+	
+	<button>
+    <!-- Delete BOOKMARK button  -->
+		<name>CHANGE_STATE_delbm</name>
+		<type>PUSH_BUTTON</type>
+		<img_map_color>DC0000</img_map_color>
+		<align>BL</align>
+		<push_next_state>3</push_next_state>
+	</button>
+	
+	
+	<!-- Bookmarks -->
+	<bookmark_app>
+		<name>OPEN_BOOKMARK_LIST</name>
+		<img_map_color>E60000</img_map_color>
+		<text_color>FFD0D0D0</text_color>
+		<columns>4</columns>
+		<rows>2</rows>
+		<numbering>1</numbering>
+
+		<button>
+			<!-- Bookmark previous page  -->
+			<name>PREV_BOOKMARK_PAGE</name>
+			<type>PUSH_BUTTON</type>
+			<greyout>1</greyout>
+			<img_map_color>C80000</img_map_color>
+			<align>TL</align>
+		</button>
+	
+		<button>
+			<!-- Bookmark next page -->
+			<name>NEXT_BOOKMARK_PAGE</name>
+			<type>PUSH_BUTTON</type>
+			<greyout>1</greyout>
+			<img_map_color>AA0000</img_map_color>
+			<align>BL</align>
+		</button>		
+	
+		<bookmark>
+			<name>BOOKMARK1</name>
+			<align>TL</align>
+			<push_next_state>1</push_next_state>
+			<shortcut_key>49</shortcut_key>
+			<greyout>1</greyout>			
+		</bookmark>
+	
+		<bookmark>
+			<name>BOOKMARK2</name>
+			<align>TL</align>
+			<push_next_state>1</push_next_state>
+			<shortcut_key>50</shortcut_key>		
+			<greyout>1</greyout>			
+		</bookmark>
+		
+		<bookmark>
+			<name>BOOKMARK3</name>
+			<align>TL</align>
+			<push_next_state>1</push_next_state>
+			<shortcut_key>51</shortcut_key>
+			<greyout>1</greyout>			
+		</bookmark>
+		
+		<bookmark>
+			<name>BOOKMARK4</name>
+			<align>TL</align>
+			<push_next_state>1</push_next_state>
+			<shortcut_key>52</shortcut_key>	
+			<greyout>1</greyout>				
+		</bookmark>
+	
+		<bookmark>
+			<name>BOOKMARK5</name>
+			<align>TL</align>
+			<push_next_state>1</push_next_state>
+			<shortcut_key>53</shortcut_key>		
+			<greyout>1</greyout>			
+		</bookmark>				
+	
+		<bookmark>
+			<name>BOOKMARK6</name>
+			<align>TL</align>
+			<push_next_state>1</push_next_state>
+			<shortcut_key>54</shortcut_key>	
+			<greyout>1</greyout>				
+		</bookmark>
+	
+		<bookmark>
+			<name>BOOKMARK7</name>
+			<align>TL</align>
+			<push_next_state>1</push_next_state>
+			<shortcut_key>55</shortcut_key>	
+			<greyout>1</greyout>				
+		</bookmark>
+		
+		<bookmark>
+			<name>BOOKMARK8</name>
+			<align>TL</align>
+			<push_next_state>1</push_next_state>
+			<shortcut_key>56</shortcut_key>		
+			<greyout>1</greyout>			
+		</bookmark>
+
+	</bookmark_app>
+		
+</state>

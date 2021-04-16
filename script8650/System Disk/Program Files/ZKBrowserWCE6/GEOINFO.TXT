@@ -1,0 +1,5 @@
+<br />
+<b>Warning</b>:  Use of undefined constant latitude - assumed 'latitude' (this will throw an Error in a future version of PHP) in <b>/home/zetakey/www/www/_geo/geo_qy.php</b> on line <b>17</b><br />
+52.0767 <br />
+<b>Warning</b>:  Use of undefined constant longitude - assumed 'longitude' (this will throw an Error in a future version of PHP) in <b>/home/zetakey/www/www/_geo/geo_qy.php</b> on line <b>19</b><br />
+4.29861

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<state ID="scrollbar">
+	<!-- UI Files  -->
+	<btn_file>state_scrollbar.png</btn_file>
+	<btn_hl_file>state_scrollbar_hl.png</btn_hl_file>
+	<btn_imgmap_file>state_scrollbar_imgmap.png</btn_imgmap_file>
+
+	<!-- When click on empty area, which state to go -->	
+	<empty_click_next_state>scrollbar</empty_click_next_state>
+			
+	<!-- vertical scrollbar  -->
+	<scrollbar>
+		<name>V_SCROLLBAR</name>
+		<barback_imgmap_color>D00000</barback_imgmap_color>
+		<bar1_imgmap_color>C00000</bar1_imgmap_color>
+		<bar2_imgmap_color>B00000</bar2_imgmap_color>
+		<bar3_imgmap_color>A00000</bar3_imgmap_color>
+	</scrollbar>	
+
+</state>

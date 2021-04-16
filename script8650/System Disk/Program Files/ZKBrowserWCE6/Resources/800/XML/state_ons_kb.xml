@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="utf-8"?>
+<state ID="ons_kb">
+	<!-- UI Files  -->
+	<btn_file>state_onskb.png</btn_file>
+	<btn_hl_file>state_onskb_hl.png</btn_hl_file>
+	<btn_focus_file>state_onskb_focus.png</btn_focus_file>
+	<btn_tog_focus_file>state_onskb_tog_focus.png</btn_tog_focus_file>
+	<btn_tog_file>state_onskb_tog.png</btn_tog_file>
+    <btn_tog_hl_file>state_onskb_tog_hl.png</btn_tog_hl_file>
+	<bg_file>state_onskb_bg.png</bg_file>
+	<btn_imgmap_file>state_onskb_imgmap.png</btn_imgmap_file>
+	<bg_imgmap_file>state_onskb_bg_imgmap.png</bg_imgmap_file>
+
+	<!-- Initial focus element for key control-->
+	<initial_focus>KEY_A3</initial_focus>
+
+	<!-- When click on empty area, which state to go -->	
+	<empty_click_next_state>ons_kb</empty_click_next_state>
+	
+	<!-- Background images -->
+	<background>
+		<name>ONS_KEYBOARD_BG</name>
+		<shared_img>KEYBOARD_BACKGROUND</shared_img>
+		<img_map_color>FF0000</img_map_color>
+		<align>BL</align>
+	</background>
+			
+	<background>
+		<name>ONS_KEYBOARD_IME_BG</name>
+		<img_map_color>F00000</img_map_color>
+		<align>BL</align>
+	</background>
+
+
+
+	<!-- main keyboard -->
+	<!-- keyboard buttons -->
+	<button>
+		<name>KEY_2_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<label_text>2</label_text>
+		<label_shift_text>@</label_shift_text>		
+		<label_symbol_text>@</label_symbol_text>		
+		<label_symbol_shift_text>@</label_symbol_shift_text>						
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>000014</img_map_color>
+		<shared_img>KEY_2</shared_img>		
+		<align>BL</align>
+	</button>	
+		
+	<button>
+		<name>KEY_A_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>		
+		<label_text>a</label_text>
+		<label_shift_text>A</label_shift_text>
+		<label_symbol_text>{</label_symbol_text>
+		<label_symbol_shift_text>{</label_symbol_shift_text>
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>0A0000</img_map_color>
+		<shared_img>KEY_2</shared_img>	
+		<align>BL</align>
+	</button>
+
+	<button>
+		<name>KEY_B_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>b</label_text>
+		<label_shift_text>B</label_shift_text>
+		<label_symbol_text>ü</label_symbol_text>	
+		<label_symbol_shift_text>Ü</label_symbol_shift_text>		
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>140000</img_map_color>
+		<align>BL</align>
+	</button>
+	
+	<button>
+		<name>KEY_C_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>c</label_text>
+		<label_shift_text>C</label_shift_text>		
+		<label_symbol_text>ë</label_symbol_text>	
+		<label_symbol_shift_text>Ë</label_symbol_shift_text>			
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>1E0000</img_map_color>
+		<align>BL</align>
+	</button>
+	
+	<button>
+		<name>KEY_D_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>d</label_text>
+		<label_shift_text>D</label_shift_text>		
+		<label_symbol_text>[</label_symbol_text>
+		<label_symbol_shift_text>[</label_symbol_shift_text>		
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>280000</img_map_color>
+		<align>BL</align>		
+	</button>
+
+	<button>
+		<name>KEY_E_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>e</label_text>
+		<label_shift_text>E</label_shift_text>		
+		<label_symbol_text>.</label_symbol_text>
+		<label_symbol_shift_text>.</label_symbol_shift_text>			
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>320000</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>KEY_F_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>f</label_text>
+		<label_shift_text>F</label_shift_text>	
+		<label_symbol_text>]</label_symbol_text>
+		<label_symbol_shift_text>]</label_symbol_shift_text>				
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>3C0000</img_map_color>
+		<align>BL</align>
+	</button>
+
+	<button>
+		<name>KEY_G_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>g</label_text>
+		<label_shift_text>G</label_shift_text>
+		<label_symbol_text>/</label_symbol_text>
+		<label_symbol_shift_text>/</label_symbol_shift_text>					
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>460000</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>KEY_H_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>h</label_text>
+		<label_shift_text>H</label_shift_text>		
+		<label_symbol_text>\</label_symbol_text>
+		<label_symbol_shift_text>\</label_symbol_shift_text>			
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>500000</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>KEY_I_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>i</label_text>
+		<label_shift_text>I</label_shift_text>	
+		<label_symbol_text>&quot;</label_symbol_text>
+		<label_symbol_shift_text>&quot;</label_symbol_shift_text>				
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>5A0000</img_map_color>
+		<align>BL</align>	
+	</button>
+	
+	<button>
+		<name>KEY_J_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>j</label_text>
+		<label_shift_text>J</label_shift_text>		
+		<label_symbol_text>&lt;</label_symbol_text>
+		<label_symbol_shift_text>&lt;</label_symbol_shift_text>				
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>640000</img_map_color>
+		<align>BL</align>	
+	</button>
+	
+	<button>
+		<name>KEY_K_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>k</label_text>
+		<label_shift_text>K</label_shift_text>		
+		<label_symbol_text>&gt;</label_symbol_text>
+		<label_symbol_shift_text>&gt;</label_symbol_shift_text>				
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>6E0000</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>KEY_L_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>l</label_text>
+		<label_shift_text>L</label_shift_text>
+		<label_symbol_text>?</label_symbol_text>
+		<label_symbol_shift_text>?</label_symbol_shift_text>		
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>780000</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>KEY_M_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>m</label_text>
+		<label_shift_text>M</label_shift_text>	
+		<label_symbol_text>ñ</label_symbol_text>
+		<label_symbol_shift_text>Ñ</label_symbol_shift_text>					
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>820000</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>KEY_N_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>n</label_text>
+		<label_shift_text>N</label_shift_text>		
+		<label_symbol_text>ç</label_symbol_text>
+		<label_symbol_shift_text>Ç</label_symbol_shift_text>				
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>8C0000</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>KEY_O_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>o</label_text>
+		<label_shift_text>O</label_shift_text>		
+		<label_symbol_text>~</label_symbol_text>
+		<label_symbol_shift_text>~</label_symbol_shift_text>				
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>960000</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>KEY_P_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>p</label_text>
+		<label_shift_text>P</label_shift_text>	
+		<label_symbol_text>`</label_symbol_text>
+		<label_symbol_shift_text>`</label_symbol_shift_text>					
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>A00000</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>KEY_Q_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>q</label_text>
+		<label_shift_text>Q</label_shift_text>	
+		<label_symbol_text>-</label_symbol_text>
+		<label_symbol_shift_text>-</label_symbol_shift_text>					
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>AA0000</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>KEY_R_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>r</label_text>
+		<label_shift_text>R</label_shift_text>		
+		<label_symbol_text>,</label_symbol_text>
+		<label_symbol_shift_text>,</label_symbol_shift_text>				
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>B40000</img_map_color>
+		<align>BL</align>
+	</button>
+
+	<button>
+		<name>KEY_S_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>s</label_text>
+		<label_shift_text>S</label_shift_text>	
+		<label_symbol_text>}</label_symbol_text>
+		<label_symbol_shift_text>}</label_symbol_shift_text>					
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>BE0000</img_map_color>
+		<align>BL</align>
+	</button>
+
+
+	<button>
+		<name>KEY_T_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>t</label_text>
+		<label_shift_text>T</label_shift_text>	
+		<label_symbol_text>;</label_symbol_text>
+		<label_symbol_shift_text>;</label_symbol_shift_text>					
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>C80000</img_map_color>
+		<align>BL</align>	
+	</button>
+	
+	<button>
+		<name>KEY_U_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>u</label_text>
+		<label_shift_text>U</label_shift_text>		
+		<label_symbol_text>'</label_symbol_text>
+		<label_symbol_shift_text>'</label_symbol_shift_text>				
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>D20000</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>KEY_V_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>v</label_text>
+		<label_shift_text>V</label_shift_text>	
+		<label_symbol_text>ö</label_symbol_text>
+		<label_symbol_shift_text>Ö</label_symbol_shift_text>					
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>DC0000</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>KEY_W_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>w</label_text>
+		<label_shift_text>W</label_shift_text>		
+		<label_symbol_text>=</label_symbol_text>
+		<label_symbol_shift_text>=</label_symbol_shift_text>				
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>E10000</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>KEY_X_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>x</label_text>
+		<label_shift_text>X</label_shift_text>		
+		<label_symbol_text>ä</label_symbol_text>
+		<label_symbol_shift_text>Ä</label_symbol_shift_text>				
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>			
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>E60000</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>KEY_Y_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>y</label_text>
+		<label_shift_text>Y</label_shift_text>	
+		<label_symbol_text>:</label_symbol_text>
+		<label_symbol_shift_text>:</label_symbol_shift_text>					
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>EB0000</img_map_color>
+		<align>BL</align>
+	</button>
+
+	<button>
+		<name>KEY_Z_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>z</label_text>
+		<label_shift_text>Z</label_shift_text>		
+		<label_symbol_text>ÿ</label_symbol_text>
+		<label_symbol_shift_text>Ÿ</label_symbol_shift_text>				
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>F00000</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>KEY_1_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_1</shared_img>		
+		<label_text>1</label_text>
+		<label_shift_text>!</label_shift_text>			
+		<label_symbol_text>!</label_symbol_text>	
+		<label_symbol_shift_text>!</label_symbol_shift_text>								
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>00000A</img_map_color>
+		<align>BL</align>
+	</button>
+	
+	<button>
+		<name>KEY_3_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>3</label_text>
+		<label_shift_text>#</label_shift_text>		
+		<label_symbol_text>#</label_symbol_text>	
+		<label_symbol_shift_text>#</label_symbol_shift_text>
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>00001E</img_map_color>
+		<align>BL</align>
+	</button>		
+
+	<button>
+		<name>KEY_4_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>4</label_text>
+		<label_shift_text>$</label_shift_text>	
+		<label_symbol_text>$</label_symbol_text>	
+		<label_symbol_shift_text>$</label_symbol_shift_text>						
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>000028</img_map_color>
+		<align>BL</align>
+	</button>
+
+	<button>
+		<name>KEY_5_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>5</label_text>
+		<label_shift_text>%</label_shift_text>	
+		<label_symbol_text>%</label_symbol_text>	
+		<label_symbol_shift_text>%</label_symbol_shift_text>						
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>000032</img_map_color>
+		<align>BL</align>	
+	</button>
+	
+	<button>
+		<name>KEY_6_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>6</label_text>
+		<label_shift_text>^</label_shift_text>	
+		<label_symbol_text>^</label_symbol_text>
+		<label_symbol_shift_text>^</label_symbol_shift_text>						
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>00003C</img_map_color>
+		<align>BL</align>	
+	</button>	
+
+	<button>
+		<name>KEY_7_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>7</label_text>
+		<label_shift_text>&amp;</label_shift_text>		
+		<label_symbol_text>&amp;</label_symbol_text>	
+		<label_symbol_shift_text>&amp;</label_symbol_shift_text>
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>000046</img_map_color>
+		<align>BL</align>	
+	</button>
+	
+	<button>
+		<name>KEY_8_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>8</label_text>
+		<label_shift_text>*</label_shift_text>	
+		<label_symbol_text>*</label_symbol_text>	
+		<label_symbol_shift_text>*</label_symbol_shift_text>						
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>000050</img_map_color>
+		<align>BL</align>
+	</button>
+	
+	<button>
+		<name>KEY_9_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>9</label_text>
+		<label_shift_text>(</label_shift_text>	
+		<label_symbol_text>(</label_symbol_text>
+		<label_symbol_shift_text>(</label_symbol_shift_text>						
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>00005A</img_map_color>
+		<align>BL</align>		
+	</button>
+	
+	<button>
+		<name>KEY_0_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>0</label_text>
+		<label_shift_text>)</label_shift_text>	
+		<label_symbol_text>)</label_symbol_text>
+		<label_symbol_shift_text>)</label_symbol_shift_text>						
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>000064</img_map_color>
+		<align>BL</align>	
+	</button>
+		
+	<button>
+		<name>KEY_S1_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>/</label_text>
+		<label_shift_text>_</label_shift_text>	
+		<label_symbol_text>_</label_symbol_text>		
+		<label_symbol_shift_text>_</label_symbol_shift_text>		
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>000082</img_map_color>
+		<align>BL</align>	
+	</button>
+	
+	<button>
+		<name>KEY_S2_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>_</label_text>
+		<label_shift_text>+</label_shift_text>	
+		<label_symbol_text>+</label_symbol_text>		
+		<label_symbol_shift_text>+</label_symbol_shift_text>		
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>000078</img_map_color>
+		<align>BL</align>	
+	</button>	
+
+	
+	<button>
+		<name>KEY_S4_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_2</shared_img>
+		<label_text>.</label_text>
+		<label_shift_text>|</label_shift_text>			
+		<label_symbol_text>|</label_symbol_text>		
+		<label_symbol_shift_text>|</label_symbol_shift_text>			
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>60</label_font_scale>	
+		<img_map_color>FD0000</img_map_color>
+		<align>BL</align>
+	</button>	
+	
+
+	<button>
+		<name>KEY_WWW_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_WWW</shared_img>			
+		<label_text>www.</label_text>
+		<label_shift_text>www.</label_shift_text>
+		<label_symbol_text>www.</label_symbol_text>
+		<label_symbol_shift_text>www.</label_symbol_shift_text>		
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>40</label_font_scale>				
+		<img_map_color>00E600</img_map_color>	
+		<align>BL</align>
+	</button>		
+
+	<button>
+		<name>KEY_DOTCOM_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>KEY_WWW</shared_img>		
+		<label_text>.com</label_text>
+		<label_shift_text>.com</label_shift_text>
+		<label_symbol_text>.com</label_symbol_text>
+		<label_symbol_shift_text>.com</label_symbol_shift_text>
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>	
+		<label_font_scale>40</label_font_scale>				
+		<img_map_color>00C800</img_map_color>
+		<align>BL</align>
+	</button>
+	
+
+	
+	<button>
+		<name>BTN_SPACE_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>BTN_SPACE</shared_img>			
+		<img_map_color>0000AA</img_map_color>
+		<align>BL</align>	
+	</button>
+	
+	<button>
+		<name>BTN_CLEAR_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>BTN_CLEAR</shared_img>				
+		<shortcut_key>65530</shortcut_key>		
+		<img_map_color>00D200</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>BTN_BACKSPACE_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>BTN_BACKSPACE</shared_img>	
+		<img_map_color>00A000</img_map_color>
+		<align>BL</align>
+	</button>	
+
+	<button>
+		<name>BTN_BACKSPACE2_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>BTN_BACKSPACE</shared_img>
+		<img_map_color>00AA00</img_map_color>
+		<align>BL</align>	
+	</button>	
+	
+	<button>
+		<name>BTN_SHIFT_ONS</name>
+		<type>TOGGLE_BUTTON</type>
+		<shared_img>BTN_SHIFT</shared_img>	
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+    	<label_font_scale>40</label_font_scale>			
+		<tog_btn_reset>1</tog_btn_reset>
+		<img_map_color>00F000</img_map_color>
+		<align>BL</align>	
+	</button>
+
+	<button>
+		<name>BTN_SHIFT2_ONS</name>
+		<type>TOGGLE_BUTTON</type>
+		<shared_img>BTN_SHIFT</shared_img>	
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+    	<label_font_scale>40</label_font_scale>			
+		<tog_btn_reset>1</tog_btn_reset>
+		<img_map_color>00FA00</img_map_color>
+		<align>BL</align>			
+	</button>
+
+	<button>
+		<name>BTN_SYMBOL_ONS</name>
+		<type>TOGGLE_BUTTON</type>
+		<shared_img>BTN_SYMBOL</shared_img>			
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+    	<label_font_scale>40</label_font_scale>			
+		<tog_btn_reset>1</tog_btn_reset>
+		<img_map_color>00BE00</img_map_color>
+		<align>BL</align>	
+	</button>	
+	
+	<button>
+		<name>BTN_SYMBOL2_ONS</name>
+		<type>TOGGLE_BUTTON</type>
+		<shared_img>BTN_SYMBOL2</shared_img>			
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+    	<label_font_scale>40</label_font_scale>			
+		<tog_btn_reset>1</tog_btn_reset>
+		<img_map_color>00B400</img_map_color>
+		<align>BL</align>	
+	</button>		
+
+	<button>
+		<name>BTN_BACK_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>BTN_BACK</shared_img>			
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+    	<label_font_scale>40</label_font_scale>			
+		<tog_btn_reset>1</tog_btn_reset>
+		<img_map_color>008C00</img_map_color>
+		<push_next_state>1</push_next_state>	
+		<shortcut_key>65397</shortcut_key><!-- F6 -->			
+		<align>BL</align>	
+	</button>	
+
+	<button>
+		<name>BTN_BACK2_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>BTN_BACK</shared_img>			
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+    	<label_font_scale>40</label_font_scale>			
+		<tog_btn_reset>1</tog_btn_reset>
+		<img_map_color>009600</img_map_color>
+		<push_next_state>1</push_next_state>		
+		<align>BL</align>		
+	</button>			
+	
+	<button>
+		<name>BTN_ENTER_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<push_next_state>ons_kb</push_next_state>
+		<img_map_color>00006E</img_map_color>
+		<align>BL</align>		
+		<shared>1</shared>
+	</button>	
+	
+		
+	<button>
+		<name>BTN_ENTER2_ONS</name>
+		<shared_img>BTN_ENTER_ONS</shared_img>
+		<type>PUSH_BUTTON</type>		
+		<push_next_state>0</push_next_state>
+		<img_map_color>00DC00</img_map_color>
+		<align>BL</align>			
+	</button>	
+	
+	
+	<button>
+		<name>BTN_PREV_FIELD_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>BTN_PREV_FIELD</shared_img>		
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+    	<label_font_scale>40</label_font_scale>			
+		<tog_btn_reset>1</tog_btn_reset>
+		<img_map_color>D2D200</img_map_color>
+		<align>BL</align>		
+	</button>	
+	
+	<button>
+		<name>BTN_NEXT_FIELD_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>BTN_NEXT_FIELD</shared_img>				
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+    	<label_font_scale>40</label_font_scale>			
+		<tog_btn_reset>1</tog_btn_reset>
+		<img_map_color>C8C800</img_map_color>
+		<align>BL</align>		
+	</button>	
+	
+	<button>
+		<name>BTN_BEGIN_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>BTN_BEGIN</shared_img>			
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+    	<label_font_scale>40</label_font_scale>			
+		<tog_btn_reset>1</tog_btn_reset>
+		<img_map_color>FAFA00</img_map_color>
+		<align>BL</align>	
+	</button>
+	
+	<button>
+		<name>BTN_END_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>BTN_END</shared_img>			
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+    	<label_font_scale>40</label_font_scale>			
+		<tog_btn_reset>1</tog_btn_reset>
+		<img_map_color>DCDC00</img_map_color>
+		<align>BL</align>		
+	</button>	
+	
+	<button>
+		<name>BTN_LEFT_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>BTN_LEFT</shared_img>			
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+    	<label_font_scale>40</label_font_scale>			
+		<tog_btn_reset>1</tog_btn_reset>
+		<img_map_color>F0F000</img_map_color>
+		<align>BL</align>		
+	</button>
+	
+	<button>
+		<name>BTN_RIGHT_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<shared_img>BTN_RIGHT</shared_img>			
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+    	<label_font_scale>40</label_font_scale>			
+		<tog_btn_reset>1</tog_btn_reset>
+		<img_map_color>E6E600</img_map_color>
+		<align>BL</align>		
+	</button>							
+
+
+
+
+
+
+	<!-- IME panel -->
+	<button>
+		<name>NEXT_IME_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<label_text>English</label_text>
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>center</label_align>		
+		<label_font_scale>70</label_font_scale>	
+		<img_map_color>0000FF</img_map_color>
+		<align>BL</align>
+	</button>		
+
+
+	<button>
+		<name>SELECT_TEXT_ONS_1</name>
+		<type>PUSH_BUTTON</type>
+		<default_disabled>1</default_disabled>
+		<label_text> </label_text>
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>CL</label_align>	
+		<label_align_offset>5</label_align_offset>	
+		<label_font_scale>90</label_font_scale>	
+		<img_map_color>0000BE</img_map_color>
+		<align>BL</align>
+		<shared>1</shared>
+	</button>		
+	
+	<button>
+		<name>SELECT_TEXT_ONS_2</name>
+		<type>PUSH_BUTTON</type>
+		<default_disabled>1</default_disabled>		
+		<shared_img>SELECT_TEXT_ONS_1</shared_img>
+		<label_text> </label_text>
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>CL</label_align>	
+		<label_align_offset>5</label_align_offset>	
+		<label_font_scale>90</label_font_scale>	
+		<img_map_color>0000C8</img_map_color>
+		<align>BL</align>
+	</button>	
+	
+	<button>
+		<name>SELECT_TEXT_ONS_3</name>
+		<type>PUSH_BUTTON</type>
+		<default_disabled>1</default_disabled>		
+		<shared_img>SELECT_TEXT_ONS_1</shared_img>
+		<label_text> </label_text>
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>CL</label_align>	
+		<label_align_offset>5</label_align_offset>	
+		<label_font_scale>90</label_font_scale>	
+		<img_map_color>0000D2</img_map_color>
+		<align>BL</align>
+	</button>	
+	
+	<button>
+		<name>SELECT_TEXT_ONS_4</name>
+		<type>PUSH_BUTTON</type>
+		<default_disabled>1</default_disabled>		
+		<shared_img>SELECT_TEXT_ONS_1</shared_img>
+		<label_text> </label_text>
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>CL</label_align>	
+		<label_align_offset>5</label_align_offset>	
+		<label_font_scale>90</label_font_scale>	
+		<img_map_color>0000DC</img_map_color>
+		<align>BL</align>
+	</button>	
+	
+	<button>
+		<name>SELECT_TEXT_ONS_5</name>
+		<type>PUSH_BUTTON</type>
+		<default_disabled>1</default_disabled>		
+		<shared_img>SELECT_TEXT_ONS_1</shared_img>
+		<label_text> </label_text>
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>CL</label_align>	
+		<label_align_offset>5</label_align_offset>	
+		<label_font_scale>90</label_font_scale>	
+		<img_map_color>0000E6</img_map_color>
+		<align>BL</align>
+	</button>	
+	
+	<button>
+		<name>SELECT_TEXT_ONS_6</name>
+		<type>DISABLED_BUTTON</type>
+		<label_text1> </label_text1>
+		<label_color>FFFFFFFF</label_color>	
+		<label_align>CL</label_align>	
+		<label_align_offset>5</label_align_offset>	
+		<label_font_scale>100</label_font_scale>	
+		<img_map_color>0000B4</img_map_color>
+		<align>BL</align>
+	</button>							
+
+	<button>
+		<name>NEXT_SELECT_PAGE_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<default_disabled>1</default_disabled>
+		<img_map_color>0000FA</img_map_color>
+		<align>BL</align>
+	</button>	
+		
+	<button>
+		<name>PREV_SELECT_PAGE_ONS</name>
+		<type>PUSH_BUTTON</type>
+		<default_disabled>1</default_disabled>
+		<img_map_color>0000F0</img_map_color>
+		<align>BL</align>
+	</button>	
+
+
+</state>

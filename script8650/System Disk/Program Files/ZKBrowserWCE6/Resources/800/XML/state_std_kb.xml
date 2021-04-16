@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<state ID="std_kb">
+	<!-- UI Files  -->
+	<btn_imgmap_file>state_share1_imgmap.png</btn_imgmap_file>
+	<bg_imgmap_file>state_share1_bg_imgmap.png</bg_imgmap_file>
+
+	<!-- When click on empty area, which state to go -->	
+	<empty_click_next_state>0</empty_click_next_state>
+	<show_when_ui_disabled>true</show_when_ui_disabled>
+	<initial_focus>KBINPUT</initial_focus>
+	
+	<!-- Background images -->
+	<ref>
+		<name>STB_KB1_BG</name>
+		<shared_name>INPUTBOX_BG</shared_name>
+		<img_map_color>FF0000</img_map_color>
+		<align>TL</align>
+		<is_bg>1</is_bg>
+	</ref>
+	
+	<!-- Buttons  -->
+	<ref>
+		<name>BTN_KB1_CHECK</name>
+		<shared_name>KB1_CHECK</shared_name>
+		<img_map_color>00C800</img_map_color>
+		<align>TL</align>
+	</ref>
+
+	<!-- Inputbox  -->
+	<ref>
+		<name>KB1_INPUT</name>
+		<shared_name>KBINPUT</shared_name>		
+		<img_map_color>00FF00</img_map_color>
+		<align>TL</align>
+	</ref>	
+
+
+
+</state>

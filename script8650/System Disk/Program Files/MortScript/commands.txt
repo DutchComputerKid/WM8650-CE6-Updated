@@ -1,0 +1,569 @@
+This is a quick overview. Please read the manual (readme.txt) for details!
+
+Syntax
+======
+Allowed parameter formats:
+- "string"
+  quoted string: contained whitespaces remain unmodified, use double quotes
+  to include quotes (e.g. "This is ""quoted"""), ^CR^=carriage return,
+  ^LF^=line feed, ^NL^=new line (Windows/DOS = ^CR^^LF^), ^TAB^=tabulator.
+- variable
+  contents of the variable
+- expression
+  result of the expression, e.g. "Variable = "&variable
+- referred variables
+  The (string) result of an expression in square brackets is used as variable name,
+  e.g. [ some & "Array[" & idx & "]" ] could refer to the variable "myArray[42]".
+
+For assignments (variable = expression), array indexes, and in expressions,f
+percent signs around variables are optional (i.e., %x% = %y[%z%]% is the
+same as x = y[z]), strings must be quoted.
+
+For boolean parameters (yes/no, true/false), 1 is yes/true, 0 is no/false.
+There are also these predefined variables:
+ON, YES, TRUE = 1
+OFF, NO, FALSE = 0
+CANCEL = 2
+PI = 3.1415...
+PHI = 1.618...
+EULERT = 2.7182... (e)
+SQRT2 = 1.4142... (sqare root of 2)
+
+Lines can be continued by using "\" as last character. Example:
+Message message, \
+        "Title"
+
+Comments must start with "#" (trailing whitespaces are allowed). Example:
+# This is a comment
+
+Expressions
+===========
+Strings:   "any text, ""in quotes"""
+Numbers:   123 (only integer operations!)
+Variables: variable, array[index]
+
+Operators by priority (highest first):
+()        Brackets
+NOT       Negation (True<->False)
+^         Power (5^2=5*5)
+* / MOD   Multiplication, division, modulo (remainder, integer only)
++ -       Addition, subtraction
+& \       String concatenation (\ for paths)
+>,  >=, <,  <=, =,  <>   Numerical comparsions
+gt, ge, lt, le, eq, ne   Alphanumerical comparsions
+c?a:b     If c is TRUE, evaluates to a, otherwise b
+AND &&    Binary/logical and
+OR  ||    Binary/logical or
+
+Numerical and alphanumerical comparsions have same priority,
+they're only splitted for better overview.
+AND and OR use binary logic, i.e. 3 AND 7 will return 3 (111 AND 011 = 011),
+while && and || use "C logic", i.e. everything that's not 0 is "true" (1), so
+3 && 7 will return 1.
+
+Available commands and functions
+================================
+
+If "<type> =" is used, it is a function. This means, it returns a value and must be
+used in an expression (command parameter or condition). For example:
+var = Input( "Enter value" )
+If( wndExists( "Explorer" ) )
+  ...
+EndIf
+Message( "Your input: " & Input( "Value:" ) )
+
+Error handling
+--------------
+ErrorLevel( "off"|"critical"|"syntax"|"error"|"warn" )
+
+Variables
+---------
+Set( <variable>,<expression> ) (better use <variable> = <expression>)
+<variable> = <expression>
+  also allowed: +=, -=, *=, /=, &=, \=; e.g. x/=2 meaning the same as x=x/2
+Clear( <variable> )
+bool   = IsEmpty( <variable> )
+int    = VarType( <variable> ) - returns VAR_EMPTY, VAR_INT, VAR_FLOAT, VAR_STRING, or VAR_ARRAY
+Local( [ <variable> {, <variable} ] )
+Global( <variable> {, <variable} )
+
+String operations
+-----------------
+string = Part( <string>,<seperator>,<index>[,<trim?>] )
+int    = Length( <string> )
+string = SubStr( <string>,<start>,<length> )
+string = CharAt( <string>,<position> )
+int    = Find( <string>,<search string>[,<start>] )
+string = Replace( <string>,<search string>,<new string> )
+int    = ReverseFind( <string>,<search character> )
+string = ToUpper( <string> )
+string = ToLower( <string> )
+string = RepeatString( <string>, <count> )
+string = UCChar( <unicode value> )
+string = UCValue( <character> )
+
+Math / floating point operations
+--------------------------------
+string = Format( <number>, <digits after decimal point> [, <min. digits before decimal point> ] )
+string = NumberToHex( <number> )
+int    = HexToNumber( <string with hex number> )
+int    = Ceil( <number> [,<precision>] )
+int    = Floor( <number> [,<precision>] )
+int    = Round( <number> [,<precision>] ) (<.5 floor, >=.5 ceil)
+float  = Sin( <radians> ) (radians = degree*PI/180)
+float  = Cos( <radians> )
+float  = Tan( <radians> )
+float  = SinH( <radians> ) (hyberbolic)
+float  = CosH( <radians> )
+float  = TanH( <radians> )
+float  = ArcSin( <radians> ) (arcus)
+float  = ArcCos( <radians> )
+float  = ArcTan( <radians> )
+float  = Log( <number> ) (based to EULERT / "e")
+float  = Log10( <number> ) (based to 10)
+float  = Exp( <number> ) (same as EULERT ^ number)
+float  = Sqrt( <number> ) (square root)
+float  = Root( <number>, <exponent> ) (root to given exponent)
+int    = CompareFloat( <number>, <number>, <precition> )
+value  = Min( <value>, <value> {,<value>} )
+value  = Max( <value>, <value> {,<value>} )
+
+Array operations
+----------------
+Split( <string>,<seperator>,<trim?>,<variable>{,<variable>} ) (if only one variable, it's used as array)
+array = Split( <string>,<seperator> [,<trim?>] )
+string = Join( <array> [, <text between values>] )
+array = Array( value {, value } )
+array = Map( key, value {, key, value} )
+int   = MaxIndex( array )  (last defined element with numerical index starting from 1)
+int   = ElementCount( array ) (complete count of all elements, incl. alphanumerical indexes and cleared entries)
+bool  = InArray( array, value )
+
+Evaluate expressions in strings
+-------------------------------
+value  = Eval( <expression as string> ) (e.g. res = Eval("var" & index & " & ""...""") )
+
+Execution
+---------
+Run( <application> [, <parameter>] )
+RunWait( <application> [, <parameter>] )
+New( <menu entry> ) (Windows Mobile only)
+
+RunAt( <unix timestamp>, <application> [, <parameter>] )
+RunAt( <year>, <month>, <day>, <hour>, <minute>, <application> [, <parameter>] )
+RunOnPowerOn( <application> [, <parameter>] )
+RemoveNotifications( <application> [, <parameter>] )
+
+Window control
+--------------
+Show( <window title> )
+Minimize( <window title> )
+Close( <window title> )
+window = ActiveWindow()
+array  = FindWindows( [ <title> [, <search type> [, <case sens.?> [, <app window?>
+                      [, <invisible?> [, <class name> ] ] ] ] ] ] )
+window = FindWindow( [ <title> [, <search type> [, <case sens.?> [, <app window?>
+                     [, <invisible?> [, <class name> ] ] ] ] ] ] )
+bool   = WndActive( <window title> )
+bool   = WndExists( <window title> )
+WaitFor( <window title>,<seconds> )
+WaitForActive( <window title>,<seconds> )
+string = WindowText( <x>, <y> )
+string = WndClass( <x>, <y> )
+GetWindowPos( <window title>, <left>, <top>, <right>, <bottom> )
+int    = WndLeft( <window title> )
+int    = WndRight( <window title> )
+int    = WndTop( <window title> )
+int    = WndBottom( <window title> )
+
+Sending keys
+------------
+SendKeys( [<window title>,]<string> )
+SendSpecial( <key> [, <state> )
+  Available keys (quoted string): Alt, Ctrl, Shift, CR, Win, Context, Tab, ESC, Space,
+    Up, Down, Left, Right, Home, End, PageUp, PageDown, Delete, Backspace, Insert, Snapshot,
+    F1 - F12, LeftSoft, RightSoft
+  Availabe states (quoted string): up, down - omit parameter for short press
+Send<special character> [ ( <window title>,<ctrl>,<shift> ) ]
+  Special charaters: CR, Tab, Esc, Space, Backspace, Delete, Insert
+                     Up, Down, Left, Right, Home, End, PageUp, PageDown,
+                     LeftSoft, RightSoft, Win, Context
+Snapshot [ ( <window title> ) ]
+SendCtrlKey( [<window title>,]<key> )
+
+Sending window messages
+-----------------------
+SendOK [ ( <window title> ) ]
+SendCancel [ ( <window title> ) ]
+SendYes [ ( <window title> ) ]
+SendNo [ ( <window title> ) ]
+SendCommand( [<window title>,] <command id> )
+SendMessage( [<window title>,] <message id>, <wparam>, <lparam> ) (only numerical parameters supported!)
+int = SendMessage( [<window title>,] <message id>, <wparam>, <lparam> ) (same as above as function)
+PostMessage( [<window title>,] <message id>, <wparam>, <lparam> ) (only numerical parameters supported!)
+
+
+Sending taps ("mouse events")
+-----------------------------
+MouseClick( [<window title>,]<x>,<y> )
+MouseDblClick( [<window title>,]<x>,<y> )
+MouseDown( [<window title>,]<x>,<y> )
+MouseUp( [<window title>,]<x>,<y> )
+
+PC version only: Prefix with "Middle" or "Right" for those buttons, e.g. RightMouseClick(...)
+
+Waiting
+-------
+Sleep( <milliseconds> )
+SleepMessage( <seconds>,<message>[,<title>[,<allowOK>[,<condition]]] )
+WaitFor( <window title>,<seconds> )
+WaitForActive( <window title>,<seconds> )
+
+Time
+----
+int    = TimeStamp()      (local time as Unix timestamp)
+int    = TimeStampUTC()   (UTC time as Unix timestamp)
+string = FormatTime( <format> [, <timestamp> ] ) (formatted)
+string = TimeZoneName()   (Name of current timezone)
+int    = TimeZoneBias()   (offset to UTC in minutes)
+bool   = TimeZoneDST()    (Daylight Saving Time active?)
+int    = MakeTimeStamp( <year>, <month>, <day>[, <hour>[, <minute>[, <second>]]] )
+GetTime( <hour>,<minute>,<seconds>[,<day>,<month>,<year>] ) (variable references!)
+SetTime( <hour>,<minute>,<seconds>[,<day>,<month>,<year>] )
+SetDate( <day>,<month>,<year> )
+
+FormatTime format strings:
+H = hour (24h)
+h = hour (12h)
+i = minute
+s = second
+d = day of month
+m = month
+Y = year (4 digits)
+y = year (2 digits)
+w = day of week (0=sunday,1=monday,...)
+u = unix time stamp
+A = AM/PM
+a = am/pm
+{MM} = month name (localized by system)
+{M} = month abbrevation (localized by system)
+{WW} = name of day (Monday etc., localized by system)
+{W} = abbreviated name of day (localized by system)
+
+Copy, rename, move, delete files
+--------------------------------
+Copy( <source file>,<target file>[,<overwrite?>] )
+XCopy( <source files>,<target directory>[,<overwrite?>[,<recursive?>]] )
+Rename( <source file>,<target file>[,<overwrite?>] )
+Move( <source files>,<target directory>[,<overwrite?>[,<recursive?>]] )
+Delete( <files> )
+DelTree( <files or directory> )
+CreateShortcut( <shortcut file>,<target file>[,<overwrite?>] )
+
+Read and write text files
+-------------------------
+string = IniRead( <file/url>,<section>,<key>[,<codepage>] )
+IniWrite( <file>,<section>,<key>,<value>[,<codepage>] )
+string = ReadFile( <file/url> [,<length> [,<codepage>]] )
+string = ReadLine( <file/url> [,<codepage>] )
+WriteFile( <file>,<contents>[,<append?>[,<codepage]] )
+WriteLine( <file>,<line>[,<codepage>] )
+CloseFile( <file> )
+
+COM access
+----------
+SetComInfo( <port>, <timeout> [, <baud rate> [, <parity> [, <bits>
+            [, <stop bits> [, <control> ]]]]] )
+port: "COM1:" to "COM9:"
+baud rate: usually one of 4800, 9600, 19200, 38400, 57600, 76800, 115200
+parity: "none", "even", "odd", "mark", "space"
+bits: 4-8, usually 8
+stop bits: 1, "1.5", 2
+control: "none", "RTS/CTS", "XON/XOFF"
+
+
+File system informations
+------------------------
+bool   = FileExists( <file> )
+bool   = DirExists( <directory> )
+int    = FileCreateTime( <file> )
+int    = FileModifyTime( <file> )
+int    = FileSize( <file> [, BYTES|KB|MB|GB] ) (max. 2147483647)
+int    = FreeDiskSpace( <directory> [, BYTES|KB|MB|GB] ) (max. 2147483647)
+int    = TotalDiskSpace( <directory> [, BYTES|KB|MB|GB] ) (max. 2147483647)
+bool   = FileAttribute( <file>, <attribute> )
+bool   = SetFileAttribute( <file>, <attribute>, <set?> )
+  Allowed values for "attribute":
+  hidden, readonly, system, archive (<- changeable)
+  directory, romfile, compressed (<- cannot be set, romfile only for WM)
+SetFileAttribs( <file>,<readonly>[,<hidden>[,<archive>]] ) (1=set,0=remove,""/omit=keep)
+string = FileVersion( <file> )
+GetVersion( <file>,<variable>,<variable>,<variable>,<variable> )
+array  = DirContents( <directory>, <type> ) (type = DC_FILES, DC_DIRS, or DC_ALL)
+
+Zip files
+---------
+Please note: ZIP doesn't support Unicode for filenames.
+MortScript uses the old DOS encoding 437, like most popular ZIP progrograms.
+I.e., you might get troubles with (un)zipping files with non-ASCII characters.
+Rate: 0=no compression, 9=highest
+
+ZipFile( <source file>,<zip file>,<filename in archive>[,<rate>] )
+ZipFiles( <source files>,<zip file>[,<subdirectories?>[,<path in zip>[,<rate>]]] )
+UnzipFile( <zip file>,<filename in archive>,<target file> )
+UnzipAll( <zip file>,<target directory> )
+UnzipPath( <zip file>,<path in archive>,<target directory> )
+
+Connections
+-----------
+Connect( <connection name> )   for fixed connection name
+Connect( <title>, <message> )  for selection of connections
+Connect                        for default http connection
+CloseConnection                closes only connection established by "Connect"
+Disconnect                     closes all connections (GPRS, ActiveSync, ...)
+bool   = Connected()
+bool   = InternetConnected( [<url>] )
+ToggleWLAN( <bool> )           experimental!
+SetProxy( <proxy> )            not necessary if Connect was used
+Download( <url>,<target file> )
+FtpUpload( <source file>, <target file>, <server>, [ <user> [, <password> [, <passive?> [, <port>] ] ] ] )
+
+Directory operations
+--------------------
+MkDir( <directory> )
+RmDir( <directory> )
+ChDir( <directory> ) PC version only!
+string = SystemPath( <path> )
+  valid values for path: ProgramsMenu, StartMenu, Startup, Documents, ProgramFiles,
+                         ScriptExe, ScriptPath, ScriptName, ScriptExt
+string = MortScriptExe()      current MortScript.exe with path
+
+Registry
+--------
+RegWriteString( <root>,<path>,<key>,<value> )
+RegWriteDWord(  <root>,<path>,<key>,<value> )
+RegWriteBinary( <root>,<path>,<key>,<value> )
+RegWriteMultiString( <root>,<path>,<key>,<value> ) (value should be an array)
+RegWriteExt( <root>,<path>,<key>,<value> ) (value in .reg stlye, e.g. dword:00001a2b)
+value = RegRead( <root>,<path>,<key> )
+value = RegReadExt( <root>,<path>,<key> ) (value in .reg stlye, e.g. dword:00001a2b)
+value = RegType( <root>,<path>,<key> ) (returns "binary", "dword", "multi_sz", "sz", "expand_sz", "none", or "unknown")
+RegDelete( <root>,<path>,<key> )
+RegDeleteKey( <root>,<path>,<values?>,<recursive?> )
+bool  = RegKeyExists( <root>,<path> )
+bool  = RegValueExists( <root>,<path>,<value> )
+
+"root" values: HKCU (HKEY_CURRENT_USER), HKLM (HKEY_LOCAL_MACHINE),
+               HKCR (HKEY_CLASSES_ROOT), HKUS (HKEY_USERS)
+
+Binary values are handled as strings whith the hex dump, e.g. "01020A".
+
+Dialog
+------
+string = Input( <message> [,<title> [,<numeric?> [, <multiline?> [, <default> ]]]] )
+Message( <text>[,<title>] )
+SetMessageFont( <font size>, <font name> )  (for BigMessage, SleepMessage, Input; Message uses a system dialog that doesn't support own fonts!)
+BigMessage( <text>[,<title>] )
+SleepMessage( <seconds>,<message>[,<title>[,<allowOK>[,<condition]]] )
+int    = Question( <message> [,<title> [,<type>]] )  (Type=OkCancel,YesNo,YesNoCancel; Yes/OK=1,No=0,Cancel=2)
+SetChoiceEntryFormat( <item height> [, <font size>, <font name> ] )
+int    = Choice( <title>,<message>,<default>,<timeout>,<array> ) (if only one text is given, it's assumed to be a array variable)
+int    = Choice( <title>,<message>,<default>,<timeout>,<text1>,<text2>{,<text3>} ) (if only one text is given, it's assumed to be a array variable)
+string = SelectDirectory( <title>, <message> [,<default>] )
+string = SelectFile( <title>, <save?> [, <filter> [, <info> [,<default>]]] )
+
+Status window
+-------------
+StatusInfo( <title> [, <list info> ] ) (title and list info text)
+StatusType( ST_HIDDEN|ST_LIST|ST_MESSAGE [, <keepOpen>] [, <allowCancel> ]] )
+StatusHistorySize( <count> ) (number of entries in list)
+StatusMessage( <message> [, <style> [, <keepOpen>] [, <allowCancel>  ]]] )
+StatusMessageAppend( <message> )  (appends last message)
+StatusRemoveLastMessage()
+StatusClear() (removes all previous messages)
+StatusShow() (bring status window to foreground)
+StatusListEntryFormat( <item height> [, <font size>, <font name> ] )
+WriteStatusHistory( <file name> [, <append> [,<encoding>]] )
+
+Processes
+---------
+bool   = SupportsProcHandling()  (For PNAs, check if ProcExists and Kill will work)
+bool   = ProcExists( <process name> )
+bool   = ScriptProcExists( <script name> )
+string = ActiveProcess( [ <full path?> ] )
+string = WindowProcess( <window title> [, <full path?> ] )
+array  = ProcList( [ <full path?> [, <search string> ] ] )
+Kill( <process name> )
+array  = ActiveScripts( [ <full path?> [, <search string> ] ] )
+KillScript( <script name> )
+
+Signals
+-------
+int = GetVolume()      (Windows Mobile only)
+SetVolume( <value> )   (Windows Mobile only)
+PlaySound( <wav file> )
+Vibrate( <milliseconds> )
+
+Display/screen
+--------------
+int    = ColorAt( <x>,<y> )
+int    = RGB( <red>,<green>,<blue> )
+int    = Red( <color> )
+int    = Green( <color> )
+int    = Blue( <color> )
+array  = ScreenToChars( <x>, <y>, <width>, <height>, <color> [, <background color?> [, <foreg. char> [, <backg. char> ] ] ] )
+Rotate( 0|90|180|270 ) (only Windows Mobile 2003 SE or higher)
+array  = ScreenshotClick( [ message, x, y, text color, back color ] )
+SetBacklight( <battery>,<external> ) (PPC only)
+ToggleDisplay( <on/off> ) (PPC only)
+bool   = Screen( "landscape"|"portrait"|"square"|"vga"|"qvga" )
+int    = ScreenWidth()
+int    = ScreenHeight()
+string = CurrentCursor( [<window>] ) (returns "arrow", "wait", "cross", "help", or "uparrow")
+RedrawToday
+ShowWaitCursor
+HideWaitCursor
+
+Clipboard
+---------
+SetClipText( <text> )
+string = GetClipText()
+
+Memory
+------
+int    = FreeMemory( [BYTES|KB|MB|GB] )  (max. 2147483647)
+int    = TotalMemory( [BYTES|KB|MB|GB] ) (max. 2147483647)
+
+Energy
+------
+bool   = ExternalPowered()
+int    = BatteryPercentage()
+int    = BackupBatteryPercentage()
+PowerOff
+IdleTimerReset (Windows Mobile only)
+
+System
+------
+MortScriptType()
+string = MortScriptVersion()  (similar to FileVersion)
+string = MortScriptExe()      (current MortScript.exe with path)
+GetMortScriptVersion( <variable>,<variable>,<variable>,<variable> ) (similar to GetVersion)
+value = SystemVersion( [<element>] )
+  element: "major", "minor", "build", "platform", omit for major.minor.build
+Reset (Windows Mobile only)
+
+Control structures
+==================
+If ( <condition> )
+{ ElseIf ( <condition> ) }
+[ Else ]
+EndIf
+
+  Choice ( <title>,<message>,<text1>[,<text2>,...] )
+| ChoiceDefault ( <title>,<message>,<default>,<timeout>,<text1>,[<text2>,...] )
+Case ( <index>[,<index>,...] )
+[ Default ]
+EndChoice
+(if only one text is given, it's assumed to be a array variable)
+
+Switch ( <value> )
+Case ( <index>[,<index>,...] )
+[ Default ]
+EndSwitch
+
+Try
+[ Catch ]
+EndTry
+
+While ( <condition> )
+EndWhile
+
+Repeat ( <count> )
+EndRepeat
+
+For <variable> = <value> to <value> [ step <value> ]
+Next
+
+  ForEach <variable> in values ( <value>{,<value>} )
+| ForEach <variable>[,<variable>] in array ( <array variable> )
+| ForEach <variable> in split ( <string>,<seperator>,<trim?> )
+| ForEach <variable> in charsOf ( <string>,<seperator> )
+| ForEach <variable> in iniSections ( <file/url>[ , <codepage> ] )
+| ForEach <keyVariable>,<valueVariable> in iniKeys ( <file/url>,<section>[ , <codepage> ] )
+| ForEach <variable> in regSubkeys ( <root>, <key> )
+| ForEach <valueVariable>,<dataVariable> in regValues ( <root>,<key> )
+| ForEach <variable> in files ( <file/url>,<files> )
+| ForEach <variable> in directories ( <file/url>,<directories> )
+EndForEach
+
+Break
+Continue
+
+Call( <subroutine> { , <parameter> } )
+CallFunction( <subroutine>, <result variable>, { , <parameter> } )
+(mind to use quotes for the subroutine name, e.g. "Call ("MySubRoutine")"
+or use the old syntax without parentheses, like "Call MySubRoutine").
+
+@<subroutine>( [parameters] )
+value = @<subroutine>( [parameters] )
+CallScript( <mortscript file (full path!)> { , <parameter> } )
+CallScriptFunction( <mortscript file>, <result variable>, { , <parameter> } )
+
+Return( <value> ) (only sets result for Call(Script)Function, does not leave Sub/Script!)
+ExitSub( <value> ) (Return + leave sub)
+
+Sub <subroutine> [ ( <parameters> ) ]
+EndSub
+
+Include( <filename> ) (includes Sub/EndSub blocks of other files - fixed file names, no variables!)
+
+Exit
+
+
+Old conditions
+==============
+Only for compatibility, please use functions instead!
+I.e. "If ( wndExists( "window" ) )" instead of "If wndExists "window"".
+
+[not] equals <value1>,<value2>
+[not] expression <expression>
+[not] fileExists <file>
+[not] dirExists <directory>
+[not] procExists <application>
+[not] wndExists <window title>
+[not] wndActive <window title>
+[not] question <text>[,<title>]
+[not] screen landscape|portrait|vga|qvga
+[not] regKeyExists <root>,<path>,<key>
+[not] regKeyEqualsString <root>,<path>,<key>,<value>
+[not] regKeyEqualsDWord <root>,<path>,<key>,<value>
+
+
+Obsolete commands
+=================
+These commands are for backward compatibility, you should use the new functions/commands instead.
+
+Eval <variable>,<expression as string> (e.g. { "%var" & %index% & "% & ""...""" })
+Input <variable>,<numeric?>,<message>[,<title>]
+GetPart <string>,<seperator>,<trim?>,<index>,<variable>
+SubStr <string>,<start>,<length>,<variable>
+Find <string>,<search string>,<variable>
+ReverseFind <string>,<search character>,<variable>
+MakeUpper <variable>
+MakeLower <variable>
+GetRGB <red>,<green>,<blue>,<variable>
+GetActiveWindow <variable>
+GetVersion <file>,<variable>
+IniRead <file/url>,<section>,<key>,<variable>
+ReadFile <file/url>,<variable>
+GetSystemPath <path>,<variable>
+RegReadString  <root>,<path>,<key>,<variable>
+RegReadDWord   <root>,<path>,<key>,<variable>
+RegReadBinary  <root>,<path>,<key>,<variable>
+Input <variable>,<numeric?>,<message>[,<title>]
+GetMortScriptType <variable>
+GetSystemPath [ProgramsMenu|StartMenu|Startup|Documents|ProgramFiles],<variable>
+GetColorAt <x>,<y>,<variable>
+GetWindowText <x>,<y>,<variable>
+GetClipText <variable>
+GetActiveProcess <variable>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<state ID="dialogbox">
+	<!-- UI Files  -->
+	<btn_file>state_dialogbox.png</btn_file>
+	<btn_focus_file>state_dialogbox_focus.png</btn_focus_file>
+	<btn_hl_file>state_dialogbox_hl.png</btn_hl_file>
+	<btn_imgmap_file>state_dialogbox_imgmap.png</btn_imgmap_file>
+	<bg_imgmap_file>state_dialogbox_bg_imgmap.png</bg_imgmap_file>
+
+	<!-- When click on empty area, which state to go -->	
+	<empty_click_next_state>dialogbox</empty_click_next_state>
+			
+	<!-- Initial focus element for key control-->
+	<initial_focus>DLG2_INPUT1_BOX</initial_focus>
+				
+	<!-- Background fill rect -->
+	<bg_fillrect>
+		<name>DIALOGBOX_BG</name>
+		<img_map_color>900000</img_map_color>
+		<fill_color_start>FF404040</fill_color_start>
+		<fill_color_end>FFA0A0A0</fill_color_end>		
+		<align>TL</align>
+	</bg_fillrect>	
+	
+	<!-- Buttons  -->
+	<button>
+		<!-- Dialog message button  -->
+		<name>DIALOGBOX_MESSAGE</name>
+		<type>DISABLED_BUTTON</type>
+		<img_map_color>FF0000</img_map_color>
+		<label_text>Default Message</label_text>
+		<label_color>FFFFFFFF</label_color>
+		<label_font_scale>40</label_font_scale>
+		<label_align>center</label_align>
+		<align>TL</align>
+	</button>	
+	
+
+	<button>
+		<!-- Dialog OK button  -->
+		<name>DIALOGBOX_OK</name>
+		<type>PUSH_BUTTON</type>
+		<img_map_color>B00000</img_map_color>
+		<align>TL</align>
+		<push_next_state>0</push_next_state>
+		<shortcut_key>13</shortcut_key>
+	</button>	
+
+
+
+</state>

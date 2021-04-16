@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Local Page</title>
+  <style>
+  html, body,  body, #targetframe{
+      width:100%;
+      height: 100%;
+    }
+  </style>
+  <meta name = "viewport" content = "width = device-width">
+
+  <script charset="utf-8">
+
+  function onload(){
+
+    var url = location.search.split('url=')[1];
+
+    if (url !== undefined){
+      document.getElementById("targetframe").src = url;
+      console.log("set to iframe");
+    }
+    else{
+      console.log("No URL Get")
+    }
+  }
+
+  </script>
+
+</head>
+<body onload=onload();>
+
+<iframe id="targetframe" src="">    <!--you can preset the url here in src="http://www.zetakey.com"  -->
+</iframe>
+
+
+</body>
+</html>

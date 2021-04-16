@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+    <message id="0">File System Error</message>
+    <message id="1">Downloading</message>
+    <message id="2">Download Complete</message>
+    <message id="3">User Name</message>
+    <message id="4">Password</message>
+    <message id="5">Font Size</message>
+    <message id="6">Set Minimum Font Size</message>
+    <message id="7">Authentication is required</message>
+    <message id="8">Allow Geolocation data to be shared?</message>
+	<message id="9">Set Proxy</message>
+    <message id="10">Buffering...</message>
+	<message id="11">Download Failed</message>
+	<message id="12">Enter Password</message>
+	<message id="13">Enter Search Text</message>
+	<message id="14">Enter Email</message>
+</messages>
+

@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OperatorList>
+	<MccMnc>
+		<Region descr="Test PLMN">
+			<Item mcc="001" mnc="01" shortdescr="Test1-1" fulldescr="Test PLMN 1-1"/>
+			<Item mcc="001" mnc="02" shortdescr="Test1-2" fulldescr="Test PLMN 1-2"/>
+			<Item mcc="002" mnc="01" shortdescr="Test2-1" fulldescr="Test PLMN 2-1"/>
+		</Region>
+		<Region descr="Greece">
+			<Item mcc="202" mnc="01" shortdescr="COSMOTE" fulldescr="GR COSMOTE"/> 
+			<Item mcc="202" mnc="05" shortdescr="voda GR" fulldescr="vodafone GR"/>
+			<Item mcc="202" mnc="09" shortdescr="Q-TELCOM" fulldescr="GR Q-TELECOM"/>
+			<Item mcc="202" mnc="10" shortdescr="TIM" fulldescr="TIM GR"/>
+		</Region>
+		<Region descr="Netherlands">
+			<Item mcc="204" mnc="04" shortdescr="voda NL" fulldescr="vodafone NL"/>
+			<Item mcc="204" mnc="08" shortdescr="NL KPN" fulldescr="NL KPN"/>
+			<Item mcc="204" mnc="12" shortdescr="NL Tlfrt" fulldescr="NL Telfort"/>
+			<Item mcc="204" mnc="16" shortdescr="TMO NL" fulldescr="T-Mobile NL"/>
+			<Item mcc="204" mnc="20" shortdescr="Orange" fulldescr="Orange NL"/>
+		</Region>
+		<Region descr="Belgium">
+			<Item mcc="206" mnc="01" shortdescr="PROXI" fulldescr="BEL PROXIMUS"/>
+			<Item mcc="206" mnc="10" shortdescr="mobi*" fulldescr="B Mobistar"/>
+			<Item mcc="206" mnc="20" shortdescr="BASE" fulldescr="BASE"/>
+		</Region>
+		<Region descr="France">
+			<Item mcc="208" mnc="01" shortdescr="Orange" fulldescr="Orange F"/>
+			<Item mcc="208" mnc="10" shortdescr="SFR" fulldescr="F SFR"/>
+			<Item mcc="208" mnc="20" shortdescr="BYTEL" fulldescr="F - BOUYGUES TELECOM"/>
+		</Region>
+		<Region descr="Andorra">
+			<Item mcc="213" mnc="03" shortdescr="M-AND" fulldescr="STA-MOBILAND"/>
+		</Region>
+		<Region descr="Spain">
+			<Item mcc="214" mnc="01" shortdescr="voda ES" fulldescr="vodafone ES"/>
+			<Item mcc="214" mnc="02" shortdescr="TM España 2" fulldescr="TM España 2"/>
+			<Item mcc="214" mnc="03" shortdescr="AMENA" fulldescr="E AMENA"/>
+			<Item mcc="214" mnc="04" shortdescr="Xfera" fulldescr="Xfera Moviles SA"/>
+			<Item mcc="214" mnc="06" shortdescr="EUSKALTEL" fulldescr="EUSKALTEL"/>
+			<Item mcc="214" mnc="07" shortdescr="TM España 1" fulldescr="TM España 1"/>
+			<Item mcc="214" mnc="08" shortdescr="EUSKALTEL" fulldescr="EUSKALTEL"/>
+		</Region>
+		<Region descr="Hungary">
+			<Item mcc="216" mnc="01" shortdescr="pannon" fulldescr="H pannon 3G"/>
+			<Item mcc="216" mnc="01" shortdescr="pannon3G" fulldescr="H pannon 3G"/>
+			<Item mcc="216" mnc="30" shortdescr="TMO H" fulldescr="T-Mobile H"/>
+			<Item mcc="216" mnc="70" shortdescr="voda HU" fulldescr="vodafone HU"/>
+		</Region>
+		<Region descr="Bosnia">
+			<Item mcc="218" mnc="03" shortdescr="ERONET" fulldescr="BA-ERONET"/>
+			<Item mcc="218" mnc="05" shortdescr="MOBI'S" fulldescr="MOBI'S"/>
+			<Item mcc="218" mnc="90" shortdescr="GSMBIH" fulldescr="BH GSMBIH"/>
+		</Region>
+		<Region descr="Croatia">
+			<Item mcc="219" mnc="01" shortdescr="T-Mobile" fulldescr="T-Mobile HR"/>
+			<Item mcc="219" mnc="02" shortdescr="TELE2" fulldescr="HR TELE2, HR 21902"/>
+			<Item mcc="219" mnc="10" shortdescr="VIP" fulldescr="HR VIP"/>
+		</Region>
+		<Region descr="Yugoslavia">
+			<Item mcc="220" mnc="01" shortdescr="MOBTEL" fulldescr="YU MOBTEL"/>
+			<Item mcc="220" mnc="02" shortdescr="ProMonte" fulldescr="ProMonte"/>
+			<Item mcc="220" mnc="03" shortdescr="SCGTS" fulldescr="YUG 03"/>
+			<Item mcc="220" mnc="04" shortdescr="MONET" fulldescr="MONET"/>
+		</Region>
+		<Region descr="Italy">
+			<Item mcc="222" mnc="01" shortdescr="TIM" fulldescr="I TIM"/>
+			<Item mcc="222" mnc="10" shortdescr="voda IT" fulldescr="vodafone IT"/>
+			<Item mcc="222" mnc="88" shortdescr="I WIND" fulldescr="I WIND"/>
+			<Item mcc="222" mnc="98" shortdescr="3 ITA" fulldescr="3 ITA"/>
+			<Item mcc="222" mnc="99" shortdescr="3 ITA" fulldescr="3 Italy"/>
+		</Region>
+		<Region descr="Romania">
+			<Item mcc="226" mnc="01" shortdescr="CONNEX" fulldescr="RO CONNEX"/>
+			<Item mcc="226" mnc="03" shortdescr="COSMOTE" fulldescr="RO COSMOTE"/>
+			<Item mcc="226" mnc="10" shortdescr="ORANGE" fulldescr="RO ORANGE"/>
+		</Region>
+		<Region descr="Switzerland">
+			<Item mcc="228" mnc="01" shortdescr="SWISS" fulldescr="Swisscom"/>
+			<Item mcc="228" mnc="02" shortdescr="sunrise" fulldescr="sunrise"/>
+			<Item mcc="228" mnc="03" shortdescr="ORANGE" fulldescr="orange CH"/>
+			<Item mcc="228" mnc="07" shortdescr="In&amp;Phone" fulldescr="In&amp;Phone"/>
+			<Item mcc="228" mnc="08" shortdescr="T2" fulldescr="CHE, Tele2 Switzerland"/>
+		</Region>
+		<Region descr="Czech Republic">
+			<Item mcc="230" mnc="01" shortdescr="TMO CZ" fulldescr="T-Mobile CZ"/>
+			<Item mcc="230" mnc="02" shortdescr="O2 CZ" fulldescr="O2 CZ"/>
+			<Item mcc="230" mnc="03" shortdescr="Vodafone" fulldescr="Vodafone CZ"/>
+		</Region>
+		<Region descr="Slovak Republic">
+			<Item mcc="231" mnc="01" shortdescr="Orange" fulldescr="Orange SK"/>
+			<Item mcc="231" mnc="02" shortdescr="T-Mobile SK" fulldescr="T-Mobile SK"/>
+			<Item mcc="231" mnc="02" shortdescr="T-Mobile SK" fulldescr="T-Mobile SK"/>
+		</Region>
+		<Region descr="Austria">
+			<Item mcc="232" mnc="01" shortdescr="A1" fulldescr="A1"/>
+			<Item mcc="232" mnc="01" shortdescr="A1" fulldescr="A1"/>
+			<Item mcc="232" mnc="03" shortdescr="T-Mobile A" fulldescr="T-Mobile A"/>
+			<Item mcc="232" mnc="05" shortdescr="one" fulldescr="one"/>
+			<Item mcc="232" mnc="05" shortdescr="one" fulldescr="one"/>
+			<Item mcc="232" mnc="07" shortdescr="tele.ring" fulldescr="T-Mobile Telering"/>
+			<Item mcc="232" mnc="10" shortdescr="3 " fulldescr="3 AT"/>
+			<Item mcc="232" mnc="12" shortdescr="one" fulldescr="one"/>
+			<Item mcc="232" mnc="12" shortdescr="one" fulldescr="one"/>
+		</Region>
+		<Region descr="United Kingdom">
+		    <Item mcc="234" mnc="5"  shortdescr="C&amp;W" fulldescr="C&amp;W"/>
+		    <Item mcc="234" mnc="5"  shortdescr="C&amp;W" fulldescr="C&amp;W"/>
+			<Item mcc="234" mnc="10" shortdescr="O2 - UK" fulldescr="O2 - UK"/>
+            <Item mcc="234" mnc="10" shortdescr="O2 -UK" fulldescr="O2 - UK"/>
+			<Item mcc="234" mnc="15" shortdescr="voda UK" fulldescr="vodafone UK"/>
+			<Item mcc="234" mnc="20" shortdescr="3 UK" fulldescr="3 UK"/>
+			<Item mcc="234" mnc="30" shortdescr="T-Mobile UK" fulldescr="T-Mobile UK"/>
+			<Item mcc="234" mnc="31" shortdescr="T-Mobile UK" fulldescr="T-Mobile UK"/>
+			<Item mcc="234" mnc="32" shortdescr="T-Mobile UK" fulldescr="T-Mobile UK"/>
+			<Item mcc="234" mnc="33" shortdescr="Orange" fulldescr="Orange"/>
+			<Item mcc="234" mnc="50" shortdescr="JT-Wave" fulldescr="JT-Wave"/>
+			<Item mcc="234" mnc="50" shortdescr="JT-Wave" fulldescr="JT-Wave"/>
+			<Item mcc="234" mnc="50" shortdescr="JT-Wave" fulldescr="JT-Wave"/>
+			<Item mcc="234" mnc="55" shortdescr="C&amp;W" fulldescr="Cable&amp;Wireless Guernsey"/>
+			<Item mcc="234" mnc="58" shortdescr="Pronto" fulldescr="Manx Pronto"/>
+		</Region>
+		<Region descr="Denmark">
+			<Item mcc="238" mnc="01" shortdescr="DK TDC" fulldescr="TDC MOBIL"/>
+			<Item mcc="238" mnc="02" shortdescr="SONO" fulldescr="DK SONOFON"/>
+			<Item mcc="238" mnc="06" shortdescr="3 DK" fulldescr="3 DK"/>
+			<Item mcc="238" mnc="20" shortdescr="TELIA" fulldescr="TELIA DK"/>
+			<Item mcc="238" mnc="30" shortdescr="Orange" fulldescr="Orange A/S"/>
+		</Region>
+		<Region descr="Sweden">
+			<Item mcc="240" mnc="01" shortdescr="TELIA" fulldescr="TELIA S"/>
+			<Item mcc="240" mnc="02" shortdescr="3 SE" fulldescr="3 SE"/>
+			<Item mcc="240" mnc="03" shortdescr="Orange" fulldescr="Orange Sverige AB"/>
+			<Item mcc="240" mnc="04" shortdescr="3 SE" fulldescr="3 SE"/>
+			<Item mcc="240" mnc="05" shortdescr="Sweden3G" fulldescr="Sweden 3G"/>
+			<Item mcc="240" mnc="07" shortdescr="Tele2Comviq" fulldescr="S COMVIQ"/>
+			<Item mcc="240" mnc="08" shortdescr="TelenorS" fulldescr="Telenor SE"/>
+			<Item mcc="240" mnc="10" shortdescr="Spring" fulldescr="SpringMobil SE"/>
+		</Region>
+		<Region descr="Norway">
+			<Item mcc="242" mnc="01" shortdescr="TELENOR" fulldescr="N Telenor"/>
+			<Item mcc="242" mnc="02" shortdescr="NetCom" fulldescr="N NetCom"/>
+			<Item mcc="242" mnc="03"  shortdescr="T3" fulldescr="Teletopia 3"/>
+			<Item mcc="242" mnc="05"  shortdescr="NetworkN" fulldescr="Network Norway N"/>
+		</Region>
+		<Region descr="Finland">
+			<Item mcc="244" mnc="03" shortdescr="FINNET" fulldescr="FINNET or FI 2G"/>
+			<Item mcc="244" mnc="05" shortdescr="elisa" fulldescr="FI elisa"/>
+			<Item mcc="244" mnc="05" shortdescr="elisa" fulldescr="FI elisa"/>
+			<Item mcc="244" mnc="09" shortdescr="Finnet" fulldescr="Finnet Group"/>
+			<Item mcc="244" mnc="12" shortdescr="FINNET"  fulldescr="FINNET or FI 2G"/>
+			<Item mcc="244" mnc="14" shortdescr="FI AMT" fulldescr="FI AMT"/>
+			<Item mcc="244" mnc="91" shortdescr="SONERA" fulldescr="FI SONERA"/>
+		</Region>
+		<Region descr="Lithuania">
+			<Item mcc="246" mnc="01" shortdescr="OMT" fulldescr="OMNITEL LT"/>
+			<Item mcc="246" mnc="02" shortdescr="BITE" fulldescr="LT BITE GSM"/>
+			<Item mcc="246" mnc="03" shortdescr="TELE2" fulldescr="TELE2"/>
+		</Region>
+		<Region descr="Latvia">
+			<Item mcc="247" mnc="01" shortdescr="LMT" fulldescr="LV LMT"/>
+			<Item mcc="247" mnc="01" shortdescr="LMT GSM" fulldescr="LV LMT GSM, LV LMT"/>
+			<Item mcc="247" mnc="02" shortdescr="TELE2" fulldescr="LV TELE2"/>
+			<Item mcc="247" mnc="05" shortdescr="BITE LV" fulldescr="BITE LV"/>
+			<Item mcc="247" mnc="05" shortdescr="BITE LV" fulldescr="BITE LV"/>
+		</Region>
+		<Region descr="Estonia">
+			<Item mcc="248" mnc="01" shortdescr="EMT" fulldescr="EE EMT"/>\
+			<Item mcc="248" mnc="01" shortdescr="EMT" fulldescr="EE EMT"/>
+			<Item mcc="248" mnc="02" shortdescr="elisa" fulldescr="EE elisa"/>
+			<Item mcc="248" mnc="02" shortdescr="elisa" fulldescr="EE elisa"/>
+			<Item mcc="248" mnc="03" shortdescr="TELE2" fulldescr="TELE2"/>
+		</Region>
+		<Region descr="Russia">
+			<Item mcc="250" mnc="01" shortdescr="MTS" fulldescr="MTS-RUS"/>
+			<Item mcc="250" mnc="02" shortdescr="MegaFon" fulldescr="MegaFon RUS"/>
+			<Item mcc="250" mnc="02" shortdescr="MegaFon" fulldescr="MegaFon RUS"/>
+			<Item mcc="250" mnc="02" shortdescr="MegaFon" fulldescr="MegaFon"/>
+			<Item mcc="250" mnc="04" shortdescr="RUS_SCN" fulldescr="SIBCHALLENGE RUS"/>
+			<Item mcc="250" mnc="05" shortdescr="STC" fulldescr="SCS, RUS 05, RUS SCS, RUS"/>
+			<Item mcc="250" mnc="05" shortdescr="ETK" fulldescr="ETK RUS"/>
+			<Item mcc="250" mnc="05" shortdescr="RUS 5" fulldescr="Yeniseitelecom"/>
+			<Item mcc="250" mnc="05" shortdescr="SCS" fulldescr="SCS RUS"/>
+			<Item mcc="250" mnc="07" shortdescr="BMT" fulldescr="RUS BMT"/>
+			<Item mcc="250" mnc="07" shortdescr="SMARTS" fulldescr="RUS 07, RUS SMARTS"/>
+			<Item mcc="250" mnc="10" shortdescr="DTC" fulldescr="RUS DTC"/>
+			<Item mcc="250" mnc="11" shortdescr="ORENSOT" fulldescr="ORENSOT"/>
+			<Item mcc="250" mnc="12" shortdescr="Far East" fulldescr="RUS 12, RUS Far East"/>
+			<Item mcc="250" mnc="12" shortdescr="SIBI" fulldescr="SIBI-RUS"/>
+			<Item mcc="250" mnc="12" shortdescr="AKOS GSM" fulldescr="RUS 12"/>
+			<Item mcc="250" mnc="12" shortdescr="RF FEast" fulldescr="RF FAR EAST"/>
+			<Item mcc="250" mnc="12" shortdescr="SAKHALIN" fulldescr="RUS - Sakhalin"/>
+			<Item mcc="250" mnc="12" shortdescr="BWC" fulldescr="Far East, RUS 12, 250 12"/>
+			<Item mcc="250" mnc="13" shortdescr="KUGSM" fulldescr="RUS Kuban-GSM"/>
+			<Item mcc="250" mnc="15" shortdescr="SMARTS" fulldescr="RUS15, RUS SMARTS"/>
+			<Item mcc="250" mnc="16" shortdescr="NTC" fulldescr="RUS16,250 16"/>
+			<Item mcc="250" mnc="17" shortdescr="ERMAK" fulldescr="RUS 17"/>
+			<Item mcc="250" mnc="19" shortdescr="INDIGO" fulldescr="RUS: INDIGO"/>
+			<Item mcc="250" mnc="19" shortdescr="INDIGO" fulldescr="RUS INDIGO"/>
+			<Item mcc="250" mnc="19" shortdescr="DTIGSM" fulldescr="DTI"/>
+			<Item mcc="250" mnc="20" shortdescr="MOTIV" fulldescr="RUS 20"/>
+			<Item mcc="250" mnc="20" shortdescr="TELE2" fulldescr="TELE2"/>
+			<Item mcc="250" mnc="20" shortdescr="TELE2" fulldescr="TELE2"/>
+			<Item mcc="250" mnc="20" shortdescr="TELE2" fulldescr="TELE2"/>
+			<Item mcc="250" mnc="20" shortdescr="TELE2" fulldescr="TELE2"/>
+			<Item mcc="250" mnc="20" shortdescr="VOTEK" fulldescr="RUSSIA VOTEK MOBILE"/>
+			<Item mcc="250" mnc="20" shortdescr="TELE2" fulldescr="TELE2"/>
+			<Item mcc="250" mnc="20" shortdescr="TELE2" fulldescr="TELE2"/>
+			<Item mcc="250" mnc="28" shortdescr="Beeline" fulldescr="RUS Beeline"/>
+			<Item mcc="250" mnc="39" shortdescr="SUCT" fulldescr="RUS SUCT"/>
+			<Item mcc="250" mnc="39" shortdescr="RUS39" fulldescr="Uraltel"/>
+			<Item mcc="250" mnc="39" shortdescr="Uraltel" fulldescr="Uraltel"/>
+			<Item mcc="250" mnc="44" shortdescr="NC-GSM" fulldescr="RUS North Caucasian GSM"/>
+			<Item mcc="250" mnc="92" shortdescr="Primtel" fulldescr="Primetelefone RUS"/>
+			<Item mcc="250" mnc="99" shortdescr="Beeline" fulldescr="Beeline"/>
+		</Region>
+		<Region descr="Ukraine">
+			<Item mcc="255" mnc="01" shortdescr="UMC" fulldescr="UA UMC"/>
+			<Item mcc="255" mnc="02" shortdescr="Beeline" fulldescr="Beeline UA"/>
+			<Item mcc="255" mnc="03" shortdescr="UA-KS" fulldescr="UA-KYIVSTAR"/>
+			<Item mcc="255" mnc="05" shortdescr="GT" fulldescr="UA-GT"/>
+			<Item mcc="255" mnc="06" shortdescr="life:)" fulldescr="life:)"/>
+		</Region>
+		<Region descr="Belarus">
+			<Item mcc="257" mnc="01" shortdescr="VELCOM" fulldescr="BY VELCOM"/>
+			<Item mcc="257" mnc="02" shortdescr="MTS" fulldescr="MTS BY"/>
+			<Item mcc="257" mnc="25" shortdescr="BeST" fulldescr="BeST BY"/>
+		</Region>
+		<Region descr="Moldova">
+			<Item mcc="259" mnc="01" shortdescr="VOXTEL" fulldescr="MD VOXTEL"/>
+			<Item mcc="259" mnc="02" shortdescr="MDCELL" fulldescr="MD MOLDCELL"/>
+		</Region>
+		<Region descr="Poland">
+			<Item mcc="260" mnc="01" shortdescr="PLUS" fulldescr="Plus GSM"/>
+			<Item mcc="260" mnc="02" shortdescr="Era" fulldescr="Era"/>
+			<Item mcc="260" mnc="03" shortdescr="Orange" fulldescr="Orange PL"/>
+			<Item mcc="260" mnc="03" shortdescr="Orange" fulldescr="Orange PL"/>
+		</Region>
+		<Region descr="Germany">
+			<Item mcc="262" mnc="01" shortdescr="TMO D" fulldescr="T-Mobile D"/>
+			<Item mcc="262" mnc="02" shortdescr="Vodafone" fulldescr="Vodafone.de"/>
+			<Item mcc="262" mnc="03" shortdescr="E-Plus" fulldescr="E-Plus"/>
+			<Item mcc="262" mnc="07" shortdescr="o2 - de" fulldescr="o2 - de"/>
+			<Item mcc="262" mnc="08" shortdescr="o2 - de" fulldescr="o2 - de"/>
+		</Region>
+		<Region descr="Gibraltar">
+			<Item mcc="266" mnc="01" shortdescr="GIBTEL" fulldescr="GIBTEL GSM"/>
+		</Region>
+		<Region descr="Portugal">
+			<Item mcc="268" mnc="01" shortdescr="voda P" fulldescr="vodafone P"/>
+			<Item mcc="268" mnc="03" shortdescr="OPTIM" fulldescr="P OPTIMUS"/>
+			<Item mcc="268" mnc="06" shortdescr="TMN" fulldescr="P TMN"/>
+			<Item mcc="268" mnc="06" shortdescr="TMN" fulldescr="P TMN"/>
+		</Region>
+		<Region descr="Luxembourg">
+			<Item mcc="270" mnc="01" shortdescr="LUXGSM" fulldescr="L LUXGSM"/>
+			<Item mcc="270" mnc="77" shortdescr="TANGO" fulldescr="L TANGO"/>
+			<Item mcc="270" mnc="99" shortdescr="VOX.LU" fulldescr="L VOX.LU"/>
+			<Item mcc="270" mnc="99" shortdescr="VOX.LU" fulldescr="L VOX.LU"/>
+		</Region>
+		<Region descr="Ireland">
+			<Item mcc="272" mnc="01" shortdescr="voda IE" fulldescr="vodafone IE"/>
+			<Item mcc="272" mnc="02" shortdescr="O2 - IRL" fulldescr="O2 - IRL"/>
+			<Item mcc="272" mnc="03" shortdescr="METEOR" fulldescr="IRL - METEOR"/>
+			<Item mcc="272" mnc="05" shortdescr="3 IRL" fulldescr="3 IRL"/>
+		</Region>
+		<Region descr="Iceland">
+			<Item mcc="274" mnc="01" shortdescr="SIMINN" fulldescr="Siminn"/>
+			<Item mcc="274" mnc="02" shortdescr="Vodafone" fulldescr="Og Vodafone"/>
+			<Item mcc="274" mnc="03" shortdescr="Vodafone" fulldescr="Og Vodafone"/>
+			<Item mcc="274" mnc="04" shortdescr="Viking" fulldescr="Viking"/>
+		</Region>
+		<Region descr="Albania">
+		    <Item mcc="276" mnc="01" shortdescr="A M C" fulldescr="AMC - AL"/>
+			<Item mcc="276" mnc="02" shortdescr="voda AL" fulldescr="vodafone AL"/>
+		</Region>
+		<Region descr="Malta">
+			<Item mcc="278" mnc="01" shortdescr="voda MT" fulldescr="vodafone MT"/>
+			<Item mcc="278" mnc="21" shortdescr="gomobile" fulldescr="go mobile"/>
+		</Region>
+		<Region descr="Cyprus">
+			<Item mcc="280" mnc="01" shortdescr="CYTAVODA" fulldescr="CYTAMOBILE-VODAFONE"/>
+			<Item mcc="280" mnc="10" shortdescr="areeba" fulldescr="areeba"/>
+		</Region>
+		<Region descr="Georgia">
+			<Item mcc="282" mnc="01" shortdescr="GCELL" fulldescr="GEO-GEOCELL"/>
+			<Item mcc="282" mnc="02" shortdescr="MAGTI" fulldescr="MAGTI-GSM-GEO"/>
+		</Region>
+		<Region descr="Armenia">
+			<Item mcc="283" mnc="01" shortdescr="ARMMO1" fulldescr="RA-ARMGSM"/>
+			<Item mcc="283" mnc="05" shortdescr="RA 05" fulldescr="RA 05"/>
+		</Region>
+		<Region descr="Bulgaria">
+			<Item mcc="284" mnc="01" shortdescr="M-Tel" fulldescr="M-Tel BG"/>
+			<Item mcc="284" mnc="01" shortdescr="M-Tel" fulldescr="M-Tel BG"/>
+			<Item mcc="284" mnc="01" shortdescr="M-Tel" fulldescr="M-Tel BG"/>
+			<Item mcc="284" mnc="05" shortdescr="GLOBUL" fulldescr="BG GLOBUL"/>
+		</Region>
+		<Region descr="Turkey">
+			<Item mcc="286" mnc="01" shortdescr="TCELL" fulldescr="TR TURKCELL"/>
+			<Item mcc="286" mnc="02" shortdescr="TELSIM" fulldescr="TR TELSIM"/>
+			<Item mcc="286" mnc="03" shortdescr="AVEA" fulldescr="AVEA"/>
+		</Region>
+		<Region descr="Faroe Islands">
+			<Item mcc="288" mnc="01" shortdescr="FT-GSM" fulldescr="F?roya Tele"/>
+			<Item mcc="288" mnc="02" shortdescr="KALL" fulldescr="KALL"/>
+		</Region>
+		<Region descr="Greenland">
+			<Item mcc="290" mnc="01" shortdescr="TELE GRL" fulldescr="TELE Greenland"/>
+		</Region>
+		<Region descr="Slovenia">
+			<Item mcc="293" mnc="40" shortdescr="SI voda" fulldescr="SI vodafone"/>
+			<Item mcc="293" mnc="41" shortdescr="MOBITEL" fulldescr="MOBITEL"/>
+			<Item mcc="293" mnc="70" shortdescr="VEGA 070" fulldescr="SI VEGA 070"/>
+		</Region>
+		<Region descr="Macedonia">
+			<Item mcc="294" mnc="01" shortdescr="MOBI-M" fulldescr="MKD-MOBIMAK"/>
+			<Item mcc="294" mnc="02" shortdescr="COSMOFON" fulldescr="MKD COSMOFON"/>
+		</Region>
+		<Region descr="Liechtenstein">
+			<Item mcc="295" mnc="01" shortdescr="Swiss FL" fulldescr="SwisscomFL"/>
+			<Item mcc="295" mnc="02" shortdescr="OFL" fulldescr="Orange FL"/>
+			<Item mcc="295" mnc="05" shortdescr="FL1" fulldescr="FL1"/>
+			<Item mcc="295" mnc="77" shortdescr="TANGO" fulldescr="LI TANGO"/>
+		</Region>
+		<Region descr="Canada">
+			<Item mcc="302" mnc="370" shortdescr="Fido" fulldescr="Fido"/>
+			<Item mcc="302" mnc="720" shortdescr="ROGERS" fulldescr="CAN Rogers Wireless Inc."/>
+			<Item mcc="308" mnc="01" shortdescr="AMERIS" fulldescr="SPM AMERIS"/>
+		</Region>
+		<Region descr="Papua New Guinea">
+			<Item mcc="310" mnc="-1" shortdescr="Cingular" fulldescr="Cingular"/>
+			<Item mcc="310" mnc="20" shortdescr="UnionTel" fulldescr="US - Union Telephone"/>
+			<Item mcc="310" mnc="26" shortdescr="TMO" fulldescr="T-Mobile"/>
+			<Item mcc="310" mnc="30" shortdescr="CENT USA" fulldescr="Centennial Communications"/>
+			<Item mcc="310" mnc="31" shortdescr="TMO" fulldescr="T-Mobile"/>
+			<Item mcc="310" mnc="32" shortdescr="IT&amp;E" fulldescr="IT&amp;E"/>
+			<Item mcc="310" mnc="40" shortdescr="CONCHO" fulldescr="USATX"/>
+			<Item mcc="310" mnc="46" shortdescr="SIMMETRY" fulldescr="USA SIMMETRY"/>
+			<Item mcc="310" mnc="70" shortdescr="HIGHLAND" fulldescr="Highland"/>
+			<Item mcc="310" mnc="80" shortdescr="Corr" fulldescr="Corr Wireless"/>
+			<Item mcc="310" mnc="90" shortdescr="Edge" fulldescr="Edge Wireless"/>
+			<Item mcc="310" mnc="100" shortdescr="PLATEAU" fulldescr="US PLATEAU"/>
+			<Item mcc="310" mnc="100" shortdescr="PLATEAU" fulldescr="US PLATEAU"/>
+			<Item mcc="310" mnc="100" shortdescr="PLATEAU" fulldescr="US PLATEAU"/>
+			<Item mcc="310" mnc="160" shortdescr="TMO" fulldescr="T-Mobile"/>
+			<Item mcc="310" mnc="190" shortdescr="D-HARBOR" fulldescr="USA Dutch Harbor"/>
+			<Item mcc="310" mnc="200" shortdescr="TMO" fulldescr="T-Mobile"/>
+			<Item mcc="310" mnc="210" shortdescr="TMO" fulldescr="T-Mobile"/>
+			<Item mcc="310" mnc="220" shortdescr="TMO" fulldescr="T-Mobile"/>
+			<Item mcc="310" mnc="230" shortdescr="TMO" fulldescr="T-Mobile"/>
+			<Item mcc="310" mnc="240" shortdescr="TMO" fulldescr="T-Mobile"/>
+			<Item mcc="310" mnc="250" shortdescr="TMO" fulldescr="T-Mobile"/>
+			<Item mcc="310" mnc="260" shortdescr="TMO" fulldescr="T-Mobile"/>
+			<Item mcc="310" mnc="270" shortdescr="TMO" fulldescr="T-Mobile"/>
+			<Item mcc="310" mnc="320" shortdescr="Cell" fulldescr="USA - CellularOne"/>
+			<Item mcc="310" mnc="340" shortdescr="WestLink" fulldescr="USA 340"/>
+			<Item mcc="310" mnc="390" shortdescr="CELL 1 ET" fulldescr="Cell1ET"/>
+			<Item mcc="310" mnc="400" shortdescr="iCAN_GSM" fulldescr="USA i CAN"/>
+			<Item mcc="310" mnc="450" shortdescr="NECCI" fulldescr="Cell One of NE Colorado"/>
+			<Item mcc="310" mnc="530" shortdescr="W V W" fulldescr="USA-WVA WIRELESS"/>
+			<Item mcc="310" mnc="560" shortdescr="Cell One" fulldescr="Cellular One DCS"/>
+			<Item mcc="310" mnc="570" shortdescr="Chinook" fulldescr="Chinook"/>
+			<Item mcc="310" mnc="590" shortdescr="ROAMING" fulldescr="USA - Extended Area"/>
+			<Item mcc="310" mnc="630" shortdescr="AMERLINK" fulldescr="USA AmeriLink"/>
+			<Item mcc="310" mnc="640" shortdescr="ARDGMC" fulldescr="USA AE Airadigm"/>
+			<Item mcc="310" mnc="650" shortdescr="Jasper" fulldescr="Jasper"/>
+			<Item mcc="310" mnc="660" shortdescr="TMO" fulldescr="T-Mobile"/>
+			<Item mcc="310" mnc="680" shortdescr="Dobson MI" fulldescr="Dobson Communications Corporation"/>
+			<Item mcc="310" mnc="680" shortdescr="Dobson MI" fulldescr="Dobson Communications Corporation"/>
+			<Item mcc="310" mnc="690" shortdescr="IMMIX" fulldescr="USA - Immix Wireless"/>
+			<Item mcc="310" mnc="710" shortdescr="ASTAC" fulldescr="USA ASTAC"/>
+			<Item mcc="310" mnc="740" shortdescr="TLXT" fulldescr="TELEMETRIX"/>
+			<Item mcc="310" mnc="770" shortdescr="IWS" fulldescr="Iowa Wireless USA"/>
+			<Item mcc="310" mnc="790" shortdescr="Pinpoint" fulldescr="USA Pinpoint"/>
+			<Item mcc="310" mnc="870" shortdescr="PACE" fulldescr="US"/>
+			<Item mcc="310" mnc="880" shortdescr="ACSIAC" fulldescr="USAACSI"/>
+			<Item mcc="310" mnc="900" shortdescr="TXCELL" fulldescr="Texas Cellular"/>
+			<Item mcc="310" mnc="910" shortdescr="FCSI" fulldescr="USAFC"/>
+			<Item mcc="310" mnc="940" shortdescr="DCT" fulldescr="Digital Cellular"/>
+			<Item mcc="310" mnc="950" shortdescr="XIT" fulldescr="USA XIT Wireless"/>
+			<Item mcc="311" mnc="00" shortdescr="WILKES" fulldescr="Wilkes USA"/>
+			<Item mcc="311" mnc="00" shortdescr="Mid-Tex" fulldescr="USA Mid-Tex Cellular, Ltd"/>
+			<Item mcc="311" mnc="01" shortdescr="WILKES" fulldescr="Wilkes USA"/>
+			<Item mcc="311" mnc="05" shortdescr="WILKES" fulldescr="Wilkes USA"/>
+			<Item mcc="311" mnc="30" shortdescr="Indigo" fulldescr="Indigo"/>
+			<Item mcc="311" mnc="70" shortdescr="EASTER" fulldescr="USAEC"/>
+			<Item mcc="311" mnc="80" shortdescr="PINECell" fulldescr="Pine Cellular"/>
+			<Item mcc="311" mnc="90" shortdescr="SXLP" fulldescr="USASXLP"/>
+			<Item mcc="311" mnc="110" shortdescr="HPW" fulldescr="High Plains"/>
+			<Item mcc="311" mnc="130" shortdescr="C1AMARIL" fulldescr="Cell One Amarillo"/>
+			<Item mcc="311" mnc="170" shortdescr="PetroCom" fulldescr="PetroCom"/>
+			<Item mcc="311" mnc="190" shortdescr="C1ECI" fulldescr="USAC1ECI"/>
+			<Item mcc="311" mnc="210" shortdescr="FARMERS" fulldescr="FARMERS"/>
+			<Item mcc="311" mnc="250" shortdescr="iCAN_GSM" fulldescr="USA i CAN"/>
+			<Item mcc="311" mnc="260" shortdescr="MAURITEL" fulldescr="MAURITEL MOBILES"/>
+			<Item mcc="311" mnc="310" shortdescr="LamarCel" fulldescr="Lamar Cellular"/>
+		</Region>
+		<Region descr="Mexico">
+			<Item mcc="334" mnc="03" shortdescr="movistar" fulldescr="TM Mexico"/>
+			<Item mcc="334" mnc="20" shortdescr="TELCEL" fulldescr="Mx Telcel GSM"/>
+		</Region>
+		<Region descr="Jamaica">
+			<Item mcc="338" mnc="05" shortdescr="DIGICEL" fulldescr="DIGICEL"/>
+			<Item mcc="338" mnc="180" shortdescr="C&amp;W" fulldescr="C&amp;W"/>
+		</Region>
+		<Region descr="French West Indies">
+			<Item mcc="340" mnc="01" shortdescr="Orange" fulldescr="F-Orange"/>
+			<Item mcc="340" mnc="02" shortdescr="ONLY" fulldescr="ONLY"/>
+			<Item mcc="340" mnc="08" shortdescr="AMIGO" fulldescr="AMIGO"/>
+			<Item mcc="340" mnc="20" shortdescr="BOUYG-C" fulldescr="BOUYGTEL-C"/>
+			<Item mcc="342" mnc="600" shortdescr="C&amp;W" fulldescr="C&amp;W"/>
+			<Item mcc="342" mnc="750" shortdescr="DIGICEL" fulldescr="DIGICEL"/>
+			<Item mcc="342" mnc="810" shortdescr="Cingular" fulldescr="Cingular"/>
+		</Region>
+		<Region descr="Antigua">
+			<Item mcc="344" mnc="30" shortdescr="APUA-PCS" fulldescr="APUA PCS ANTIGUA"/>
+			<Item mcc="344" mnc="920" shortdescr="C&amp;W" fulldescr="C&amp;W"/>
+			<Item mcc="344" mnc="930" shortdescr="Cingular" fulldescr="Cingular"/>
+			<Item mcc="346" mnc="140" shortdescr="C&amp;W" fulldescr="C&amp;W"/>
+			<Item mcc="348" mnc="570" shortdescr="CCTBVI" fulldescr="CCT Boatphone"/>
+		</Region>
+		<Region descr="Bermuda">
+			<Item mcc="350" mnc="02" shortdescr="MOBILITY" fulldescr="BTC MOBILITY LTD."/>
+			<Item mcc="350" mnc="10" shortdescr="Cingular" fulldescr="Cingular"/>
+			<Item mcc="352" mnc="30" shortdescr="DIGICEL" fulldescr="DIGICEL"/>
+			<Item mcc="352" mnc="30" shortdescr="Cingular" fulldescr="Cingular"/>
+			<Item mcc="352" mnc="110" shortdescr="C&amp;W" fulldescr="C&amp;W"/>
+			<Item mcc="354" mnc="860" shortdescr="C&amp;W" fulldescr="C&amp;W"/>
+			<Item mcc="356" mnc="110" shortdescr="C&amp;W" fulldescr="C&amp;W"/>
+			<Item mcc="358" mnc="30" shortdescr="Cingular" fulldescr="Cingular"/>
+			<Item mcc="358" mnc="50" shortdescr="DIGICEL" fulldescr="DIGICEL"/>
+			<Item mcc="358" mnc="110" shortdescr="C&amp;W" fulldescr="C&amp;W"/>
+			<Item mcc="360" mnc="10" shortdescr="Cingular" fulldescr="Cingular"/>
+			<Item mcc="360" mnc="70" shortdescr="DIGICEL" fulldescr="DIGICEL"/>
+			<Item mcc="360" mnc="110" shortdescr="C&amp;W" fulldescr="C&amp;W"/>
+		</Region>
+		<Region descr="Netherlands Antilles">
+			<Item mcc="362" mnc="51" shortdescr="Telcell" fulldescr="Telcell GSM"/>
+			<Item mcc="362" mnc="69" shortdescr="CT GSM" fulldescr="ANT CURACAO TELECOM GSM"/>
+			<Item mcc="362" mnc="630" shortdescr="Cingular" fulldescr="Cingular"/>
+			<Item mcc="362" mnc="951" shortdescr="CHIPPIE" fulldescr="ANT"/>
+			<Item mcc="363" mnc="01" shortdescr="SETARGSM" fulldescr="SETAR GSM"/>
+			<Item mcc="363" mnc="01" shortdescr="SETARGSM" fulldescr="SETAR GSM"/>
+			<Item mcc="363" mnc="20" shortdescr="DIGICEL" fulldescr="DIGICEL"/>
+			<Item mcc="364" mnc="39" shortdescr="BaTelCel" fulldescr="BaTelCell"/>
+			<Item mcc="365" mnc="840" shortdescr="C&amp;W" fulldescr="C&amp;W"/>
+			<Item mcc="366" mnc="20" shortdescr="Cingular" fulldescr="Cingular"/>
+			<Item mcc="366" mnc="110" shortdescr="C&amp;W" fulldescr="C&amp;W"/>
+		</Region>
+		<Region descr="Cuba">
+			<Item mcc="368" mnc="01" shortdescr="C_COM" fulldescr="CU/C_COM"/>
+		</Region>
+		<Region descr="Dominican Republic">
+			<Item mcc="370" mnc="01" shortdescr="orange" fulldescr="orange"/>
+			<Item mcc="372" mnc="01" shortdescr="VOILA" fulldescr="COMCEL"/>
+		</Region>
+		<Region descr="Trinidad and Tobaga">
+			<Item mcc="374" mnc="12" shortdescr="TSTT" fulldescr="TSTT"/>
+			<Item mcc="376" mnc="350" shortdescr="C&amp;W" fulldescr="C&amp;W"/>
+		</Region>
+		<Region descr="Azerbaijan">
+			<Item mcc="400" mnc="01" shortdescr="ACELL" fulldescr="AZE - AZERCELL GSM"/>
+			<Item mcc="400" mnc="02" shortdescr="BKCELL" fulldescr="BAKCELL GSM 2000"/>
+			<Item mcc="400" mnc="04" shortdescr="AZERFON" fulldescr="Azerfon"/>
+		</Region>
+		<Region descr="Kazakhstan">
+			<Item mcc="401" mnc="01" shortdescr="Beeline" fulldescr="Beeline KZ"/>
+			<Item mcc="401" mnc="02" shortdescr="KCELL" fulldescr="KZ KCELL"/>
+			<Item mcc="402" mnc="11" shortdescr="B-Mobile" fulldescr="BT B-Mobile"/>
+		</Region>
+		<Region descr="India">
+			<Item mcc="404" mnc="01" shortdescr="Hutch" fulldescr="Hutch"/>
+			<Item mcc="404" mnc="02" shortdescr="AirTel" fulldescr="AirTel"/>
+			<Item mcc="404" mnc="03" shortdescr="AirTel" fulldescr="AirTel"/>
+			<Item mcc="404" mnc="04" shortdescr="IDEA" fulldescr="IDEA"/>
+			<Item mcc="404" mnc="05" shortdescr="Hutch" fulldescr="Hutch"/>
+			<Item mcc="404" mnc="07" shortdescr="IDEA" fulldescr="IDEA"/>
+			<Item mcc="404" mnc="10" shortdescr="AirTel" fulldescr="AirTel"/>
+			<Item mcc="404" mnc="11" shortdescr="Hutch" fulldescr="Hutch"/>
+			<Item mcc="404" mnc="12" shortdescr="IDEA" fulldescr="IDEA"/>
+			<Item mcc="404" mnc="13" shortdescr="Hutch" fulldescr="Hutch"/>
+			<Item mcc="404" mnc="14" shortdescr="SPICE" fulldescr="INA SPICE"/>
+			<Item mcc="404" mnc="15" shortdescr="Hutch" fulldescr="Hutch"/>
+			<Item mcc="404" mnc="17" shortdescr="AIRCEL" fulldescr="AIRCEL"/>
+			<Item mcc="404" mnc="19" shortdescr="IDEA" fulldescr="IDEA"/>
+			<Item mcc="404" mnc="20" shortdescr="Hutch" fulldescr="Hutch"/>
+			<Item mcc="404" mnc="21" shortdescr="BPL MOBILE" fulldescr="BPL MOBILE"/>
+			<Item mcc="404" mnc="22" shortdescr="IDEA" fulldescr="IDEA"/>
+			<Item mcc="404" mnc="24" shortdescr="IDEA" fulldescr="IDEA"/>
+			<Item mcc="404" mnc="25" shortdescr="AIRCEL" fulldescr="AIRCEL"/>
+			<Item mcc="404" mnc="28" shortdescr="AIRCEL" fulldescr="AIRCEL"/>
+			<Item mcc="404" mnc="29" shortdescr="AIRCEL" fulldescr="AIRCEL"/>
+			<Item mcc="404" mnc="30" shortdescr="Hutch" fulldescr="Hutch"/>
+			<Item mcc="404" mnc="31" shortdescr="AirTel" fulldescr="AirTel"/>
+			<Item mcc="404" mnc="33" shortdescr="AIRCEL" fulldescr="AIRCEL"/>
+			<Item mcc="404" mnc="34" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="35" shortdescr="AIRCEL" fulldescr="AIRCEL"/>
+			<Item mcc="404" mnc="37" shortdescr="AIRCEL" fulldescr="AIRCEL"/>
+			<Item mcc="404" mnc="38" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="40" shortdescr="AIRTEL" fulldescr="IND AIRTEL"/>
+			<Item mcc="404" mnc="41" shortdescr="RPG" fulldescr="INA RPG"/>
+			<Item mcc="404" mnc="42" shortdescr="AIRCEL" fulldescr="INA AIRCEL"/>
+			<Item mcc="404" mnc="44" shortdescr="SPICE" fulldescr="INA SPICE"/>
+			<Item mcc="404" mnc="45" shortdescr="AirTel" fulldescr="AirTel"/>
+			<Item mcc="404" mnc="49" shortdescr="AirTel" fulldescr="AirTel"/>
+			<Item mcc="404" mnc="51" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="53" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="54" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="55" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="56" shortdescr="IDEA" fulldescr="IDEA"/>
+			<Item mcc="404" mnc="57" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="58" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="59" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="60" shortdescr="Hutch" fulldescr="Hutch"/>
+			<Item mcc="404" mnc="62" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="64" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="66" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="68" shortdescr="DOLPHIN" fulldescr="IN-DOLPHIN"/>
+			<Item mcc="404" mnc="69" shortdescr="DOLPHIN" fulldescr="IN-DOLPHIN"/>
+			<Item mcc="404" mnc="70" shortdescr="Oasis" fulldescr="INDH1"/>
+			<Item mcc="404" mnc="71" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="72" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="73" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="74" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="75" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="76" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="77" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="78" shortdescr="IDEA" fulldescr="IDEA"/>
+			<Item mcc="404" mnc="79" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="80" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="81" shortdescr="CellOne" fulldescr="CellOne"/>
+			<Item mcc="404" mnc="82" shortdescr="IDEA" fulldescr="IDEA"/>
+			<Item mcc="404" mnc="84" shortdescr="Hutch" fulldescr="Hutch"/>
+			<Item mcc="404" mnc="86" shortdescr="Hutch" fulldescr="Hutch"/>
+			<Item mcc="404" mnc="87" shortdescr="IDEA" fulldescr="IDEA"/>
+			<Item mcc="404" mnc="88" shortdescr="Hutch" fulldescr="Hutch"/>
+			<Item mcc="404" mnc="89" shortdescr="IDEA" fulldescr="IDEA"/>
+			<Item mcc="404" mnc="90" shortdescr="AirTel" fulldescr="AirTel"/>
+			<Item mcc="404" mnc="92" shortdescr="AirTel" fulldescr="AirTel"/>
+			<Item mcc="404" mnc="93" shortdescr="AirTel" fulldescr="AirTel"/>
+			<Item mcc="404" mnc="94" shortdescr="AirTel" fulldescr="AirTel"/>
+			<Item mcc="404" mnc="95" shortdescr="AirTel" fulldescr="AirTel"/>
+			<Item mcc="404" mnc="96" shortdescr="AirTel" fulldescr="AirTel"/>
+			<Item mcc="404" mnc="97" shortdescr="AirTel" fulldescr="AirTel"/>
+			<Item mcc="404" mnc="98" shortdescr="AirTel" fulldescr="AirTel"/>
+			<Item mcc="405" mnc="51" shortdescr="AIRTEL" fulldescr="IND AirTel"/>
+			<Item mcc="405" mnc="52" shortdescr="AIRTEL" fulldescr="IND AirTel"/>
+			<Item mcc="405" mnc="53" shortdescr="AIRTEL" fulldescr="IND AirTel"/>
+			<Item mcc="405" mnc="54" shortdescr="AIRTEL" fulldescr="IND AirTel"/>
+			<Item mcc="405" mnc="55" shortdescr="AIRTEL" fulldescr="IND AirTel"/>
+			<Item mcc="405" mnc="56" shortdescr="Airtel" fulldescr="IND AirTel"/>
+			<Item mcc="405" mnc="66" shortdescr="Hutch" fulldescr="Hutch"/>
+			<Item mcc="405" mnc="67" shortdescr="HUTCH" fulldescr="HUTCH"/>
+		</Region>
+		<Region descr="Pakistan">
+			<Item mcc="410" mnc="01" shortdescr="Mobilink" fulldescr="Mobilink"/>
+			<Item mcc="410" mnc="03" shortdescr="UFONE" fulldescr="PK-UFONE"/>
+			<Item mcc="410" mnc="04" shortdescr="PAKTEL" fulldescr="PAK - PL"/>
+			<Item mcc="410" mnc="06" shortdescr="TELENOR" fulldescr="Telenor PK"/>
+			<Item mcc="410" mnc="07" shortdescr="WaridTel" fulldescr="WaridTel"/>
+			<Item mcc="412" mnc="01" shortdescr="AWCC" fulldescr="AF AWCC"/>
+			<Item mcc="412" mnc="20" shortdescr="ROSHAN" fulldescr="ROSHAN"/>
+			<Item mcc="412" mnc="40" shortdescr="AREEBA" fulldescr="AREEBA"/>
+		</Region>
+		<Region descr="Sri Lanka">
+		    <Item mcc="413" mnc="01" shortdescr="MOBITEL" fulldescr="Mobitel"/>
+			<Item mcc="413" mnc="02" shortdescr="DIALOG" fulldescr="SRI DIALOG"/>
+			<Item mcc="413" mnc="03" shortdescr="CELLTEL" fulldescr="SRI - CELLTEL"/>
+			<Item mcc="413" mnc="08" shortdescr="Hutch" fulldescr="Hutch"/>
+		</Region>
+		<Region descr="Myanmar">
+			<Item mcc="414" mnc="01" shortdescr="MPTGSM" fulldescr="MM 900"/>
+		</Region>
+		<Region descr="Lebanon">
+			<Item mcc="415" mnc="01" shortdescr="alfa" fulldescr="alfa"/>
+			<Item mcc="415" mnc="03" shortdescr="MTC LIBAN" fulldescr="RL MTC Lebanon"/>
+		</Region>
+		<Region descr="Jordan">
+			<Item mcc="416" mnc="01" shortdescr="FSTLNK" fulldescr="Fastlink"/>
+			<Item mcc="416" mnc="03" shortdescr="UMNIAH" fulldescr="UMNIAH"/>
+			<Item mcc="416" mnc="77" shortdescr="MobCom" fulldescr="JO MobCom"/>
+		</Region>
+		<Region descr="Syria">
+		    <Item mcc="417" mnc="01" shortdescr="SYRIATEL" fulldescr="SYRIATEL"/>
+			<Item mcc="417" mnc="02" shortdescr="areeba" fulldescr="areeba"/>
+			<Item mcc="417" mnc="09" shortdescr="MOBILE" fulldescr="SYR MOBILE SYR"/>
+			<Item mcc="418" mnc="00" shortdescr="ASIACELL" fulldescr="ASIACELL"/>
+			<Item mcc="418" mnc="02" shortdescr="SanaTel" fulldescr="SanaTel"/>
+			<Item mcc="418" mnc="05" shortdescr="ASIACELL" fulldescr="ASIACELL"/>
+			<Item mcc="418" mnc="08" shortdescr="SanaTel" fulldescr="SanaTel"/>
+			<Item mcc="418" mnc="20" shortdescr="ATHEER" fulldescr="Atheer Iraq"/>
+			<Item mcc="418" mnc="30" shortdescr="IRAQNA" fulldescr="IRAQNA"/>
+		</Region>
+		<Region descr="Kuwait">
+			<Item mcc="419" mnc="02" shortdescr="MTC" fulldescr="KT MTCNet"/>
+			<Item mcc="419" mnc="03" shortdescr="WATANIYA" fulldescr="KT WATANIYA"/>
+		</Region>
+		<Region descr="Saudi Arabia">
+			<Item mcc="420" mnc="01" shortdescr="KSA" fulldescr="ALJAWAL"/>
+			<Item mcc="420" mnc="03" shortdescr="Mobily" fulldescr="Mobily" langid="IDS_OP_Mobily"/>
+		</Region>
+		<Region descr="Yemen">
+			<Item mcc="421" mnc="01" shortdescr="SABAFON" fulldescr="SabaFon"/>
+			<Item mcc="421" mnc="02" shortdescr="SPACETEL" fulldescr="SPACETEL"/>
+		</Region>
+		<Region descr="Oman">
+			<Item mcc="422" mnc="02" shortdescr="OMAN" fulldescr="OMAN MOBILE"/>
+			<Item mcc="422" mnc="03" shortdescr="nawras" fulldescr="nawras"/>
+		</Region>
+		<Region descr="United Arab Emirates">
+			<Item mcc="424" mnc="02" shortdescr="ETSLT" fulldescr="UAE ETISALAT"/>
+			<Item mcc="424" mnc="03" shortdescr="du" fulldescr="du"/>
+			<Item mcc="424" mnc="03" shortdescr="du" fulldescr="du"/>
+		</Region>
+		<Region descr="Palestinian Authority">
+			<Item mcc="425" mnc="01" shortdescr="ORANGE" fulldescr="IL ORANGE"/>
+			<Item mcc="425" mnc="02" shortdescr="Cellcom" fulldescr="IL Cellcom"/>
+			<Item mcc="425" mnc="05" shortdescr="JAWWAL" fulldescr="JAWWAL-PALESTINE"/>
+		</Region>
+		<Region descr="Bahrain">
+			<Item mcc="426" mnc="01" shortdescr="BATELCO" fulldescr="BATELCO"/>
+			<Item mcc="426" mnc="02" shortdescr="MTC-VFBH" fulldescr="MTC VODAFONE BH"/>
+			<Item mcc="426" mnc="02" shortdescr="MTC-VFBH" fulldescr="MTC Vodafone BH"/>
+		</Region>
+		<Region descr="Qatar">
+			<Item mcc="427" mnc="01" shortdescr="Qtel" fulldescr="Qat - Qtel"/>
+		</Region>
+		<Region descr="Mongolia">
+			<Item mcc="428" mnc="99" shortdescr="MobiCom" fulldescr="MN MobiCom"/>
+		</Region>
+		<Region descr="Iran">
+			<Item mcc="432" mnc="11" shortdescr="432 11" fulldescr="IR-TCI"/>
+			<Item mcc="432" mnc="14" shortdescr="KIFZO" fulldescr="IR KISH"/>
+			<Item mcc="432" mnc="19" shortdescr="MTCE" fulldescr="IR MTCE"/>
+			<Item mcc="432" mnc="32" shortdescr="Taliya" fulldescr="Iran Taliya"/>
+		</Region>
+		<Region descr="Uzbekistan">
+			<Item mcc="434" mnc="04" shortdescr="Beeline" fulldescr="Beeline UZ"/>
+			<Item mcc="434" mnc="05" shortdescr="COSCOM" fulldescr="UZB CSOCOM GSM"/>
+			<Item mcc="434" mnc="07" shortdescr="UZB MTS" fulldescr="UZB MTS"/>
+			<Item mcc="436" mnc="01" shortdescr="Somoncom" fulldescr="Somoncom"/>
+		    <Item mcc="436" mnc="02" shortdescr="INDIGO-T" fulldescr="INDIGO-T"/>
+		    <Item mcc="436" mnc="03" shortdescr="MLT" fulldescr="TJK MLT"/>
+		    <Item mcc="436" mnc="04" shortdescr="Babilon" fulldescr="Babilon-M"/>
+		    <Item mcc="436" mnc="12" shortdescr="INDIGO-T" fulldescr="INDIGO-3G"/>
+		    <Item mcc="436" mnc="91" shortdescr="BEELINE" fulldescr="BEELINE"/>
+		</Region>
+		<Region descr="Kyrgyz Republic">
+			<Item mcc="437" mnc="01" shortdescr="BITEL" fulldescr="BITEL KGZ"/>
+		    <Item mcc="437" mnc="05" shortdescr="MEGACOM" fulldescr="MEGACOM"/>
+		</Region>
+		<Region descr="Japan">
+			<Item mcc="440" mnc="00" shortdescr="EMOBILE" fulldescr="EMOBILE JP"/>
+			<Item mcc="440" mnc="10" shortdescr="DoCoMo" fulldescr="JP DoCoMo"/>
+			<Item mcc="440" mnc="20" shortdescr="Voda JP" fulldescr="Vodafone JP"/>
+			<Item mcc="450" mnc="02" shortdescr="KTF" fulldescr="KR KTF"/>
+			<Item mcc="450" mnc="05" shortdescr="SKT" fulldescr="KOR SK Telecom"/>
+			<Item mcc="450" mnc="08" shortdescr="KTF" fulldescr="KR KTF"/>
+		</Region>
+		<Region descr="Vietnam">
+			<Item mcc="452" mnc="01" shortdescr="VMS" fulldescr="VN MOBIFONE"/>
+			<Item mcc="452" mnc="02" shortdescr="GPC" fulldescr="VN VINAPHONE"/>
+			<Item mcc="452" mnc="04" shortdescr="VIETTEL" fulldescr="VNM and VIETTEL"/>
+		</Region>
+		<Region descr="Hong Kong">
+			<Item mcc="454" mnc="00" shortdescr="CSL" fulldescr="HK CSL"/>
+			<Item mcc="454" mnc="00" shortdescr="CSL" fulldescr="HK CSL"/>
+			<Item mcc="454" mnc="02" shortdescr="CSL" fulldescr="HK CSL"/>
+			<Item mcc="454" mnc="02" shortdescr="CSL" fulldescr="HK CSL"/>
+			<Item mcc="454" mnc="03" shortdescr="3"  fulldescr="3 HK"/>
+			<Item mcc="454" mnc="04" shortdescr="3 DUALBAND" fulldescr="3(2G)"/>
+			<Item mcc="454" mnc="06" shortdescr="SMC-Voda" fulldescr="SmarToneVodafone"/>
+			<Item mcc="454" mnc="10" shortdescr="NWPCS" fulldescr="HK NEW WORLD"/>
+			<Item mcc="454" mnc="12" shortdescr="PEOPLES" fulldescr="HK PEOPLES"/>
+			<Item mcc="454" mnc="15" shortdescr="454-15" fulldescr="454-15"/>
+			<Item mcc="454" mnc="16" shortdescr="PCCW" fulldescr="PCCW"/>
+			<Item mcc="454" mnc="18" shortdescr="CSL" fulldescr="HK CSL"/>
+			<Item mcc="454" mnc="18" shortdescr="CSL" fulldescr="HK CSL"/>
+			<Item mcc="454" mnc="19" shortdescr="PCCW" fulldescr="PCCW"/>
+		</Region>
+		<Region descr="Macau">
+			<Item mcc="455" mnc="00" shortdescr="SmarTone" fulldescr="SmarTone Macau"/>
+			<Item mcc="455" mnc="01" shortdescr="CTM" fulldescr="MAC-CTM"/>
+			<Item mcc="455" mnc="03" shortdescr="HT Macau" fulldescr="Hutchison MAC"/>
+		</Region>
+		<Region descr="Cambodia">
+			<Item mcc="456" mnc="01" shortdescr="MT-KHM" fulldescr="MOBITEL - KHM"/>
+			<Item mcc="456" mnc="02" shortdescr="KHM-SM" fulldescr="KHM-Hello GSM"/>
+			<Item mcc="456" mnc="18" shortdescr="CAMSHIN" fulldescr="CAMBODIA SHINAWATRA"/>
+		</Region>
+		<Region descr="Lao">
+			<Item mcc="457" mnc="01" shortdescr="LAO GSM" fulldescr="LAO TELECOMMUNICATIONS"/>
+			<Item mcc="457" mnc="02" shortdescr="ETLMNW" fulldescr="ETL MOBILE NETWORK"/>
+			<Item mcc="457" mnc="03" shortdescr="LATMOBIL" fulldescr="45703"/>
+			<Item mcc="457" mnc="08" shortdescr="TANGO" fulldescr="TANGO LAO"/>
+		</Region>
+		<Region descr="China">
+			<Item mcc="460" mnc="00" shortdescr="CMCC" fulldescr="CHINA MOBILE"/>
+			<Item mcc="460" mnc="01" shortdescr="CU-GSM" fulldescr="CHN-CUGSM"/>
+		</Region>
+		<Region descr="Taiwan">
+			<Item mcc="466" mnc="01" shortdescr="遠傳電信" fulldescr="Far EasTone Telecommunications GSM 900/1800"/>
+			<Item mcc="466" mnc="68" shortdescr="ACeS" fulldescr="ACeS"/>
+			<Item mcc="466" mnc="88" shortdescr="KGT" fulldescr="KGT-Online"/>
+			<Item mcc="466" mnc="89" shortdescr="VIBO" fulldescr="VIBO"/>
+			<Item mcc="466" mnc="92" shortdescr="中華電信" fulldescr="Chunghwa Telecom" langid="IDS_OP_CHUNGHWA"/>
+			<Item mcc="466" mnc="93" shortdescr="TW MOB" fulldescr="TWN MOBITAI"/>
+			<Item mcc="466" mnc="97" shortdescr="TWM" fulldescr="TW Mobile"/>
+			<Item mcc="466" mnc="99" shortdescr="TA-GSM" fulldescr="TWN TransAsia Telecom GSM"/>
+			<Item mcc="466" mnc="99" shortdescr="TransAsi" fulldescr="TransAsia"/>
+			<Item mcc="467" mnc="03" shortdescr="SUNNET" fulldescr="KP SUN"/>
+		</Region>
+		<Region descr="Bangladesh">
+			<Item mcc="470" mnc="01" shortdescr="GRAMEEN" fulldescr="GrameenPhone"/>
+			<Item mcc="470" mnc="02" shortdescr="AKTEL" fulldescr="BGD AKTEL"/>
+			<Item mcc="470" mnc="03" shortdescr="Banglalink" fulldescr="Banglalink"/>
+			<Item mcc="470" mnc="04" shortdescr="bMobile" fulldescr="BGD bMobile"/>
+		</Region>
+		<Region descr="Maldives">
+			<Item mcc="472" mnc="01" shortdescr="D-MOBILE" fulldescr="MV DHIMOBILE"/>
+			<Item mcc="472" mnc="02" shortdescr="WMOBILE" fulldescr="WMOBILE"/>
+		</Region>
+		<Region descr="Malaysia">
+			<Item mcc="502" mnc="12" shortdescr="MY MAXIS" fulldescr="MY MAXIS"/>
+			<Item mcc="502" mnc="13" shortdescr="CELCOM" fulldescr="MY CELCOM 3G"/>
+			<Item mcc="502" mnc="16" shortdescr="DiGi" fulldescr="DiGi"/>
+			<Item mcc="502" mnc="19" shortdescr="CELCOM" fulldescr="MY CELCOM"/>
+		</Region>
+		<Region descr="Australia">
+			<Item mcc="505" mnc="01" shortdescr="Telstra" fulldescr="Telstra Mobile"/>
+			<Item mcc="505" mnc="02" shortdescr="Optus" fulldescr="YES OPTUS"/>
+			<Item mcc="505" mnc="03" shortdescr="voda AU" fulldescr="vodafone AU"/>
+			<Item mcc="505" mnc="06" shortdescr="3 Telstra" fulldescr="3TELSTRA"/>
+		</Region>
+		<Region descr="Indonesia">
+			<Item mcc="510" mnc="00" shortdescr="ACeS" fulldescr="ACeS"/>
+			<Item mcc="510" mnc="01" shortdescr="INDOSAT" fulldescr="IND INDOSAT"/>
+			<Item mcc="510" mnc="08" shortdescr="LIPPOTEL" fulldescr="LIPPO TEL"/>
+			<Item mcc="510" mnc="10" shortdescr="T-SEL" fulldescr="IND TELKOMSEL"/>
+			<Item mcc="510" mnc="11" shortdescr="XL" fulldescr="IND XL"/>
+			<Item mcc="510" mnc="21" shortdescr="INDOSAT" fulldescr="IND INDOSAT"/>
+			<Item mcc="510" mnc="89" shortdescr="3" fulldescr="IND HCPT"/>
+			<Item mcc="510" mnc="89" shortdescr="3" fulldescr="IND HCPT"/>
+			<Item mcc="514" mnc="02" shortdescr="TT" fulldescr="TLS-TT"/>
+		</Region>
+		<Region descr="Philipines">
+			<Item mcc="515" mnc="01" shortdescr="ISLACOM" fulldescr="ISLACOM"/>
+			<Item mcc="515" mnc="02" shortdescr="GLOBE" fulldescr="Globe Telecom-PH"/>
+			<Item mcc="515" mnc="03" shortdescr="SMART" fulldescr="SMART"/>
+			<Item mcc="515" mnc="05" shortdescr="SUN" fulldescr="PH Sun Cellular"/>
+			<Item mcc="515" mnc="11" shortdescr="ACeS" fulldescr="ACeS"/>
+		</Region>
+		<Region descr="Thailand">
+			<Item mcc="520" mnc="01" shortdescr="TH GSM" fulldescr="TH GSM"/>
+			<Item mcc="520" mnc="15" shortdescr="ACT-1900" fulldescr="TH ACT 1900"/>
+			<Item mcc="520" mnc="18" shortdescr="DTAC" fulldescr="TH-DTAC"/>
+			<Item mcc="520" mnc="20" shortdescr="ACeS" fulldescr="ACeS"/>
+			<Item mcc="520" mnc="23" shortdescr="GSM 1800" fulldescr="TH GSM 1800"/>
+			<Item mcc="520" mnc="99" shortdescr="TRUE" fulldescr="TRUE"/>
+		</Region>
+		<Region descr="Singapore">
+			<Item mcc="525" mnc="01" shortdescr="SingTel" fulldescr="SingTel"/>
+			<Item mcc="525" mnc="02" shortdescr="SingTel" fulldescr="SingTel-G18"/>
+			<Item mcc="525" mnc="03" shortdescr="M1-3GSM" fulldescr="SGP-M1-3GSM"/>
+			<Item mcc="525" mnc="03" shortdescr="M1-3GSM" fulldescr="SGP-M1-3GSM"/>
+			<Item mcc="525" mnc="05" shortdescr="STARHUB" fulldescr="STARHUB-SGP"/>
+			<Item mcc="525" mnc="05" shortdescr="STARHUB" fulldescr="STARHUB"/>
+		</Region>
+		<Region descr="Brunei">
+			<Item mcc="528" mnc="02" shortdescr="b-mobile" fulldescr="BRU-bmobile"/>
+		    <Item mcc="528" mnc="11" shortdescr="DSTCom" fulldescr="BRU-DSTCom"/>			
+		</Region>
+		<Region descr="New Zealand">
+			<Item mcc="530" mnc="01" shortdescr="voda NZ" fulldescr="vodafone NZ"/>
+			<Item mcc="537" mnc="01" shortdescr="BMobile" fulldescr="PNGBMobile"/>
+		</Region>
+		<Region descr="Tonga">
+			<Item mcc="539" mnc="01" shortdescr="U-CALL" fulldescr="U-CALL"/>
+			<Item mcc="540" mnc="01" shortdescr="BREEZE" fulldescr="SI BREEZE"/>
+		</Region>
+		<Region descr="Vanuatu">
+			<Item mcc="541" mnc="01" shortdescr="SMILE" fulldescr="VUT SMILE"/>
+		</Region>
+		<Region descr="Fiji">
+			<Item mcc="542" mnc="01" shortdescr="VODAFONE" fulldescr="FJ VODAFONE"/>
+		</Region>
+		<Region descr="American Samoa">
+			<Item mcc="545" mnc="09" shortdescr="KI-FRIG" fulldescr="KL-Frigate"/>
+		</Region>
+		<Region descr="New Caledonia">
+			<Item mcc="546" mnc="01" shortdescr="MOBNCL" fulldescr="NCL MOBILIS"/>
+		</Region>
+		<Region descr="French Polynesia">
+			<Item mcc="547" mnc="20" shortdescr="VINI" fulldescr="F-VINI"/>
+			<Item mcc="548" mnc="01" shortdescr="KOKANET" fulldescr="CK KOKANET"/>
+		</Region>
+		<Region descr="Micronesia">
+			<Item mcc="550" mnc="01" shortdescr="FSMTC" fulldescr="FSM Telecom"/>
+			<Item mcc="552" mnc="80" shortdescr="PLWPMC" fulldescr="PLWPMC"/>
+		</Region>
+		<Region descr="Egypt">
+			<Item mcc="602" mnc="01" shortdescr="MobiNiL" fulldescr="EGY MobiNiL"/>
+			<Item mcc="602" mnc="02" shortdescr="voda EG" fulldescr="vodafone EG"/>
+		</Region>
+		<Region descr="Algeria">
+			<Item mcc="603" mnc="01" shortdescr="Mobilis" fulldescr="ALG Mobilis"/>
+			<Item mcc="603" mnc="02" shortdescr="Djezzy" fulldescr="Djezzy"/>
+			<Item mcc="603" mnc="03" shortdescr="NEDJMA" fulldescr="DZA NEDJMA"/>
+		</Region>
+		<Region descr="Morocco">
+			<Item mcc="604" mnc="00" shortdescr="MEDITEL" fulldescr="MOR MEDITEL"/>
+			<Item mcc="604" mnc="01" shortdescr="IAM" fulldescr="MOR IAM"/>
+		</Region>
+		<Region descr="Tunisia">
+			<Item mcc="605" mnc="02" shortdescr="TUNTEL" fulldescr="TUNISIE TELECOM"/>
+			<Item mcc="605" mnc="03" shortdescr="TUNSIANA" fulldescr="TUNISIANA"/>
+			<Item mcc="606" mnc="00" shortdescr="LIBYANA" fulldescr="LIBYANA"/>
+			<Item mcc="606" mnc="01" shortdescr="606 01" fulldescr="Libya Al Madar"/>
+		</Region>
+		<Region descr="Gambia">
+			<Item mcc="607" mnc="01" shortdescr="GAMCEL" fulldescr="GAMCEL"/>
+			<Item mcc="607" mnc="02" shortdescr="AFRICELL" fulldescr="Africell (Gambia) Ltd"/>
+		</Region>
+		<Region descr="Senegal">
+			<Item mcc="608" mnc="01" shortdescr="ALIZE" fulldescr="SN ALIZE"/>
+			<Item mcc="608" mnc="02" shortdescr="SENTEL" fulldescr="SN-SENTEL SG"/>
+			<Item mcc="609" mnc="01" shortdescr="MATTEL" fulldescr="MR MATTEL"/>
+			<Item mcc="609" mnc="10" shortdescr="MAURITEL" fulldescr="MAURITEL MOBILES"/>
+		</Region>
+		<Region descr="Mali">
+		    <Item mcc="610" mnc="01" shortdescr="MALITEL" fulldescr="MALITEL ML"/>
+			<Item mcc="610" mnc="02" shortdescr="IKATEL" fulldescr="IKATEL ML"/>
+		</Region>
+		<Region descr="Guinea">
+			<Item mcc="611" mnc="02" shortdescr="LAGUI" fulldescr="GN LAGUI"/>
+			<Item mcc="611" mnc="04" shortdescr="Areeba" fulldescr="CKY-Areeba"/>
+		</Region>
+		<Region descr="Cote d'Ivoire">
+			<Item mcc="612" mnc="02" shortdescr="ACELL-CI" fulldescr="CIV02"/>
+			<Item mcc="612" mnc="03" shortdescr="Orange" fulldescr="Orange CI"/>
+			<Item mcc="612" mnc="05" shortdescr="TELCEL" fulldescr="TELECEL-CI"/>
+		</Region>
+		<Region descr="Burkina Faso">
+			<Item mcc="613" mnc="02" shortdescr="celtel" fulldescr="BF Celtel"/>
+		</Region>
+		<Region descr="Niger">
+   		    <Item mcc="614" mnc="01" shortdescr="SAHELCOM" fulldescr="SAHELCOM"/>
+			<Item mcc="614" mnc="02" shortdescr="CELTEL" fulldescr="CELTEL"/>
+			<Item mcc="614" mnc="03" shortdescr="TELECEL" fulldescr="NE TELECEL"/>
+		</Region>
+		<Region descr="Togo">
+			<Item mcc="615" mnc="01" shortdescr="TGCELL" fulldescr="TG-TOGO CELL"/>
+		</Region>
+		<Region descr="Benin">
+			<Item mcc="616" mnc="02" shortdescr="TLCL-BEN" fulldescr="TELECEL BENIN"/>
+			<Item mcc="616" mnc="03" shortdescr="BENCELL" fulldescr="BJ BENINCELL"/>
+			<Item mcc="616" mnc="04" shortdescr="BBCOM" fulldescr="BELL BENIN COMMUNICATION"/>
+		</Region>
+		<Region descr="Mauritius">
+			<Item mcc="617" mnc="01" shortdescr="CELL +" fulldescr="CELLPLUS-MRU"/>
+			<Item mcc="617" mnc="10" shortdescr="EMTEL" fulldescr="EMTEL-MRU"/>
+		</Region>
+		<Region descr="Liberia">
+			<Item mcc="618" mnc="01" shortdescr="LoneStar" fulldescr="LBR Lonestar Cell"/>
+			<Item mcc="618" mnc="02" shortdescr="LIBERCEL" fulldescr="LIBERCELL"/>
+			<Item mcc="618" mnc="03" shortdescr="Celcom" fulldescr="Celcom GSM"/>
+			<Item mcc="619" mnc="01" shortdescr="CELTEL" fulldescr="CELTEL SL"/>
+			<Item mcc="619" mnc="02" shortdescr="MILLICOM" fulldescr="MILLICOM SL"/>
+		</Region>
+		<Region descr="Ghana">
+			<Item mcc="620" mnc="01" shortdescr="SPACE" fulldescr="GH SPACEFON"/>
+			<Item mcc="620" mnc="02" shortdescr="ONEtouch" fulldescr="GH ONEtouch"/>
+			<Item mcc="620" mnc="03" shortdescr="tiGO GHANA" fulldescr="tiGO"/>
+		</Region>
+		<Region descr="Nigeria">
+			<Item mcc="621" mnc="20" shortdescr="Celtel" fulldescr="Celtel"/>
+			<Item mcc="621" mnc="30" shortdescr="MTN-NG" fulldescr="MTN - NG"/>
+			<Item mcc="621" mnc="40" shortdescr="Mtel" fulldescr="NG Mtel"/>
+			<Item mcc="621" mnc="50" shortdescr="glo" fulldescr="Glo NG"/>
+		</Region>
+		<Region descr="Chad">
+			<Item mcc="622" mnc="01" shortdescr="CELTEL" fulldescr="CELTEL TCD"/>
+		</Region>
+		<Region descr="Cameroon">
+			<Item mcc="624" mnc="01" shortdescr="MTN" fulldescr="MTN CAM"/>
+			<Item mcc="624" mnc="02" shortdescr="Orange" fulldescr="Orange CAM"/>
+		</Region>
+		<Region descr="Cape Verde">
+			<Item mcc="625" mnc="01" shortdescr="CMOVEL" fulldescr="CPV MOVEL"/>
+			<Item mcc="626" mnc="01" shortdescr="CSTmovel" fulldescr="STP CSTmovel"/>
+			<Item mcc="627" mnc="01" shortdescr="GETESA" fulldescr="GNQ01"/>
+		</Region>
+		<Region descr="Gabon">
+			<Item mcc="628" mnc="01" shortdescr="LIBERTIS" fulldescr="628 01/LIBERTIS"/>
+			<Item mcc="628" mnc="02" shortdescr="TELECEL" fulldescr="GAB TELECEL"/>
+			<Item mcc="628" mnc="03" shortdescr="CELTEL" fulldescr="CELTEL GA"/>
+		</Region>
+		<Region descr="Congo">
+			<Item mcc="629" mnc="01" shortdescr="CELTEL RC" fulldescr="CELTEL"/>
+			<Item mcc="629" mnc="10" shortdescr="MTN-CG" fulldescr="COG MTN"/>
+			<Item mcc="630" mnc="01" shortdescr="VODACOM" fulldescr="VODACOM CD"/>
+			<Item mcc="630" mnc="02" shortdescr="CELTEL" fulldescr="CELTEL DRC"/>
+			<Item mcc="630" mnc="05" shortdescr="SCELL" fulldescr="SCELL CD"/>
+			<Item mcc="630" mnc="89" shortdescr="OASIS" fulldescr="CD OASIS"/>
+		</Region>
+		<Region descr="Somalia">
+			<Item mcc="631" mnc="02" shortdescr="UNITEL" fulldescr="UNITEL"/>
+			<Item mcc="632" mnc="07" shortdescr="GTM" fulldescr="GTM"/>
+		</Region>
+		<Region descr="Seychelles">
+			<Item mcc="633" mnc="01" shortdescr="C&amp;W SEY" fulldescr="C&amp;W SEY"/>
+			<Item mcc="633" mnc="10" shortdescr="AIRTEL" fulldescr="SEZ AIRTEL"/>
+		</Region>
+		<Region descr="Sudan">
+			<Item mcc="634" mnc="01" shortdescr="MobiTel" fulldescr="MobiTel SDN"/>
+			<Item mcc="634" mnc="02" shortdescr="areeba" fulldescr="areeba SDN"/>
+		</Region>
+		<Region descr="Rwanda">
+			<Item mcc="635" mnc="10" shortdescr="RCELL" fulldescr="R-CELL"/>
+		</Region>
+		<Region descr="Ethiopia">
+			<Item mcc="636" mnc="01" shortdescr="ET-MTN" fulldescr="ETH-MTN"/>
+			<Item mcc="637" mnc="01" shortdescr="TELESOM" fulldescr="SOMTELESOM"/>
+			<Item mcc="637" mnc="04" shortdescr="SOMAFONE" fulldescr="SOMAFONE"/>
+			<Item mcc="637" mnc="30" shortdescr="Golis" fulldescr="Som Golis"/>
+			<Item mcc="637" mnc="82" shortdescr="Telsom" fulldescr="Telsom"/>
+			<Item mcc="638" mnc="01" shortdescr="EVATIS" fulldescr="DJ EVATIS"/>
+		</Region>
+		<Region descr="Kenya">
+			<Item mcc="639" mnc="02" shortdescr="SAF-COM" fulldescr="Safaricom"/>
+			<Item mcc="639" mnc="03" shortdescr="CELTEL" fulldescr="CELTEL"/>
+		</Region>
+		<Region descr="Tanzania">
+			<Item mcc="640" mnc="02" shortdescr="MOBITEL" fulldescr="MOBITEL - TZ"/>
+			<Item mcc="640" mnc="03" shortdescr="ZANTEL" fulldescr="ZANTEL-TZ"/>
+			<Item mcc="640" mnc="04" shortdescr="VodaCom" fulldescr="VodaCom"/>
+			<Item mcc="640" mnc="05" shortdescr="celtel" fulldescr="celtel"/>
+		</Region>
+		<Region descr="Uganda">
+			<Item mcc="641" mnc="01" shortdescr="CELTEL" fulldescr="UG CelTel"/>
+			<Item mcc="641" mnc="10" shortdescr="MTN-UG" fulldescr="MTN-UGANDA"/>
+			<Item mcc="641" mnc="11" shortdescr="UTL" fulldescr="Uganda Telecom"/>
+		</Region>
+		<Region descr="Burundi">
+			<Item mcc="642" mnc="01" shortdescr="SPACETEL" fulldescr="Spacetel BI"/>
+			<Item mcc="642" mnc="02" shortdescr="SAFARIS" fulldescr="BUSAFA"/>
+			<Item mcc="642" mnc="03" shortdescr="ONATEL" fulldescr="ONATEL BDI"/>
+			<Item mcc="642" mnc="82" shortdescr="BDITL" fulldescr="TELECEL-BDI"/>
+		</Region>
+		<Region descr="Mozambique">
+			<Item mcc="643" mnc="01" shortdescr="mCel" fulldescr="MOZ - mCel"/>
+			<Item mcc="643" mnc="04" shortdescr="VodaCom" fulldescr="VodaCom-MZ"/>
+		</Region>
+		<Region descr="Zambia">
+			<Item mcc="645" mnc="01" shortdescr="CELTEL" fulldescr="ZM CELTEL"/>
+			<Item mcc="645" mnc="02" shortdescr="TELECEL" fulldescr="TELECEL ZM"/>
+		</Region>
+		<Region descr="Madagascar">
+			<Item mcc="646" mnc="01" shortdescr="Madacom" fulldescr="MG Madacom"/>
+			<Item mcc="646" mnc="02" shortdescr="ANTARIS" fulldescr="MG ANTARIS"/>
+		</Region>
+		<Region descr="Reunion (La)">
+			<Item mcc="647" mnc="00" shortdescr="Orange" fulldescr="Orange re"/>
+			<Item mcc="647" mnc="10" shortdescr="SFR RU" fulldescr="SFR REUNION"/>
+		</Region>
+		<Region descr="Zimbabwe">
+			<Item mcc="648" mnc="01" shortdescr="NETONE" fulldescr="ZW NET*ONE"/>
+			<Item mcc="648" mnc="03" shortdescr="TELECEL" fulldescr="TELECEL ZW"/>
+			<Item mcc="648" mnc="04" shortdescr="ECONET" fulldescr="ZW ECONET"/>
+		</Region>
+		<Region descr="Namibia">
+			<Item mcc="649" mnc="01" shortdescr="MTCNAM" fulldescr="MTC NAMIBIA"/>
+		</Region>
+		<Region descr="Malawi">
+			<Item mcc="650" mnc="01" shortdescr="CP 900" fulldescr="MW CP 900"/>
+			<Item mcc="650" mnc="10" shortdescr="CELTEL" fulldescr="CELTEL MW"/>
+		</Region>
+		<Region descr="Lesotho">
+			<Item mcc="651" mnc="01" shortdescr="Vodacom-LS" fulldescr="Vodacom Lesotho"/>
+			<Item mcc="651" mnc="02" shortdescr="EZI-CEL" fulldescr="LS-ECONET-EZI-CEL"/>
+		</Region>
+		<Region descr="Botswana">
+			<Item mcc="652" mnc="01" shortdescr="MASCOM" fulldescr="BW MASCOM"/>
+			<Item mcc="652" mnc="02" shortdescr="Orange" fulldescr="Orange"/>
+		</Region>
+		<Region descr="Swaziland">
+			<Item mcc="653" mnc="10" shortdescr="SwaziMTN" fulldescr="Swazi-MTN"/>
+			<Item mcc="654" mnc="01" shortdescr="HURI" fulldescr="HURI"/>
+		</Region>
+		<Region descr="South Africa">
+			<Item mcc="655" mnc="01" shortdescr="VODA" fulldescr="VodaCom-SA"/>
+			<Item mcc="655" mnc="07" shortdescr="Cell C" fulldescr="Cell C"/>
+			<Item mcc="655" mnc="10" shortdescr="MTN" fulldescr="MTN-SA"/>
+			<Item mcc="702" mnc="67" shortdescr="BTL" fulldescr="BTL"/>
+			<Item mcc="704" mnc="01" shortdescr="PCS" fulldescr="PCS"/>
+			<Item mcc="704" mnc="02" shortdescr="COMCEL" fulldescr="Comcel_GSM"/>
+			<Item mcc="704" mnc="03" shortdescr="TM Guatemala" fulldescr="TM Guatemala"/>
+		</Region>
+		<Region descr="El Salvador">
+			<Item mcc="706" mnc="01" shortdescr="PERSONAL" fulldescr="ESV PERSONAL"/>
+			<Item mcc="706" mnc="02" shortdescr="DIGICEL" fulldescr="Digicel"/>
+			<Item mcc="706" mnc="03" shortdescr="TM" fulldescr="TELEMOVIL"/>
+			<Item mcc="706" mnc="04" shortdescr="TM El Salvador" fulldescr="TM El Salvador"/>
+			<Item mcc="708" mnc="01" shortdescr="ALO" fulldescr="ALO"/>
+			<Item mcc="708" mnc="02" shortdescr="CELTEL" fulldescr="CELTELHND"/>
+			<Item mcc="708" mnc="30" shortdescr="HT - 200" fulldescr="HND"/>
+			<Item mcc="710" mnc="00" shortdescr="NICMS" fulldescr="NICMS"/>
+			<Item mcc="710" mnc="00" shortdescr="NICMS" fulldescr="NICMS"/>
+			<Item mcc="710" mnc="03" shortdescr="NICMS" fulldescr="NICMS"/>
+			<Item mcc="710" mnc="21" shortdescr="ENITEL" fulldescr="ENITEL GSM"/>
+			<Item mcc="710" mnc="30" shortdescr="TM Nicaragua" fulldescr="TM Nicaragua"/>
+			<Item mcc="710" mnc="730" shortdescr="SERCOM" fulldescr="ALO NIC"/>
+			<Item mcc="712" mnc="01" shortdescr="I.C.E." fulldescr="I.C.E."/>
+			<Item mcc="712" mnc="02" shortdescr="I.C.E." fulldescr="I.C.E."/>
+			<Item mcc="714" mnc="01" shortdescr="PANCW" fulldescr="PANCW"/>
+			<Item mcc="714" mnc="02" shortdescr="TM Panamá" fulldescr="TM Panamá"/>
+			<Item mcc="714" mnc="20" shortdescr="movistar" fulldescr="movistar –GSM 850"/>
+		</Region>
+		<Region descr="Peru">
+			<Item mcc="716" mnc="06" shortdescr="TM Perú" fulldescr="TM Perú"/>
+			<Item mcc="716" mnc="10" shortdescr="Claro" fulldescr="Claro"/>
+		</Region>
+		<Region descr="Argentina">
+			<Item mcc="722" mnc="07" shortdescr="TM Argentina" fulldescr="TM Argentina"/>
+			<Item mcc="722" mnc="34" shortdescr="AR TP" fulldescr="AR PERSONAL"/>
+			<Item mcc="722" mnc="310" shortdescr="CTIMovil" fulldescr="ARG CTI Movil"/>
+			<Item mcc="722" mnc="310" shortdescr="CTIARG" fulldescr="CTI Argentina"/>
+			<Item mcc="724" mnc="02" shortdescr="TIM" fulldescr="TIM BRASIL"/>
+			<Item mcc="724" mnc="03" shortdescr="TIM" fulldescr="TIM BRASIL"/>
+			<Item mcc="724" mnc="04" shortdescr="TIM" fulldescr="TIM BRASIL"/>
+			<Item mcc="724" mnc="05" shortdescr="Claro" fulldescr="Claro"/>
+			<Item mcc="724" mnc="06" shortdescr="VIVO" fulldescr="VIVO"/>
+			<Item mcc="724" mnc="10" shortdescr="VIVO" fulldescr="VIVO"/>
+			<Item mcc="724" mnc="11" shortdescr="VIVO" fulldescr="VIVO"/>
+			<Item mcc="724" mnc="15" shortdescr="SCTL" fulldescr="BRA SCTL"/>
+			<Item mcc="724" mnc="16" shortdescr="BrTCel" fulldescr="BRA BrTCelular"/>
+			<Item mcc="724" mnc="23" shortdescr="TELEMIGC" fulldescr="TELEMIG CEL"/>
+			<Item mcc="724" mnc="24" shortdescr="AMAZONIA" fulldescr="AMAZONIA"/>
+			<Item mcc="724" mnc="31" shortdescr="Oi" fulldescr="Oi"/>
+			<Item mcc="724" mnc="32" shortdescr="CTBC" fulldescr="CTBC"/>
+			<Item mcc="724" mnc="33" shortdescr="CTBC" fulldescr="CTBC"/>
+            <Item mcc="724" mnc="34" shortdescr="CTBC" fulldescr="CTBC"/>
+		</Region>
+		<Region descr="Chile">
+			<Item mcc="730" mnc="01" shortdescr="ENTEL" fulldescr="CL ENTEL PCS"/>
+			<Item mcc="730" mnc="02" shortdescr="movistar Chile" fulldescr="movistar Chile"/>
+			<Item mcc="730" mnc="03" shortdescr="SMARTCOM" fulldescr="SMARTCOMCHL"/>
+			<Item mcc="730" mnc="10" shortdescr="ENTEL" fulldescr="CL ENTEL PCS"/>
+			<Item mcc="732" mnc="101" shortdescr="COMCEL" fulldescr="COMCEL 3GSM"/>
+			<Item mcc="732" mnc="12" shortdescr="TM Colombia" fulldescr="TM Colombia"/>
+			<Item mcc="732" mnc="111" shortdescr="OLA" fulldescr="OLA"/>
+			<Item mcc="732" mnc="111" shortdescr="OLA" fulldescr="OLA"/>
+			<Item mcc="732" mnc="123" shortdescr="TM Colombia" fulldescr="TM Colombia"/>
+		</Region>
+		<Region descr="Venezuela">
+			<Item mcc="734" mnc="01" shortdescr="INFONT" fulldescr="VZ INFO"/>
+			<Item mcc="734" mnc="02" shortdescr="DIGITEL" fulldescr="DIGITEL TIM"/>
+			<Item mcc="734" mnc="04" shortdescr="TM Venezuela" fulldescr="TM Venezuela"/>			
+		</Region>
+		<Region descr="Bolivia">
+			<Item mcc="736" mnc="01" shortdescr="NUEVATEL" fulldescr="VIVA"/>
+			<Item mcc="736" mnc="02" shortdescr="EMOVIL" fulldescr="BOMOV"/>
+			<Item mcc="736" mnc="03" shortdescr="Telecel" fulldescr="Telecel_Bolivia_GSM"/>
+			<Item mcc="738" mnc="01" shortdescr="TWTGUY" fulldescr="GUY TW"/>
+			<Item mcc="738" mnc="02" shortdescr="CLNK PLS" fulldescr="GUY CLNK PLS"/>
+			<Item mcc="740" mnc="00" shortdescr="TM Ecuador" fulldescr="TM Ecuador"/>
+			<Item mcc="740" mnc="01" shortdescr="PORTAGSM" fulldescr="PORTA GSM"/>
+		</Region>
+		<Region descr="Paraguay">
+			<Item mcc="744" mnc="01" shortdescr="HPGYSA" fulldescr="HOLA PARAGUAY S.A."/>
+			<Item mcc="744" mnc="02" shortdescr="Porth" fulldescr="PRY Porthable"/>
+			<Item mcc="744" mnc="04" shortdescr="Telecel" fulldescr="Telecel GSM"/>
+			<Item mcc="744" mnc="05" shortdescr="Personal" fulldescr="PY Personal"/>
+		</Region>
+		<Region descr="Surinam">
+			<Item mcc="746" mnc="02" shortdescr="TeleG" fulldescr="SR.TELESUR.GSM"/>
+			<Item mcc="748" mnc="07" shortdescr="TM Uruguay" fulldescr="TM Uruguay"/>
+			<Item mcc="748" mnc="10" shortdescr="CTIURY" fulldescr="CTI Uruguay"/>
+			<Item mcc="795" mnc="02" shortdescr="TM Cell" fulldescr="Altyn Asyr"/>
+		</Region>
+		<Region descr="Satellite">
+			<Item mcc="901" mnc="05" shortdescr="Thuraya" fulldescr="Thuraya Satellite Telecommunications Co"/>
+			<Item mcc="901" mnc="06" shortdescr="Thuraya" fulldescr="Thuraya Satellite Telecommunications Co"/>
+			<Item mcc="901" mnc="12" shortdescr="MCP" fulldescr="MCP Maritime Com"/>
+			<Item mcc="901" mnc="14" shortdescr="AeroMob" fulldescr="AeroMobile"/>
+		</Region>
+		
+	</MccMnc>
+	<MccOnly>
+		<Item mcc="001" shortdescr="TEST1"/>
+		<Item mcc="002" shortdescr="TEST2"/>
+		<Item mcc="202" shortdescr="GR"/>
+		<Item mcc="204" shortdescr="NL"/>
+		<Item mcc="206" shortdescr="B"/>
+		<Item mcc="208" shortdescr="F"/>
+		<Item mcc="213" shortdescr="AND"/>
+		<Item mcc="214" shortdescr="E"/>
+		<Item mcc="216" shortdescr="H"/>
+		<Item mcc="218" shortdescr="BIH"/>
+		<Item mcc="219" shortdescr="HR"/>
+		<Item mcc="220" shortdescr="YU"/>
+		<Item mcc="222" shortdescr="I"/>
+		<Item mcc="226" shortdescr="RO"/>
+		<Item mcc="228" shortdescr="CH"/>
+		<Item mcc="230" shortdescr="CZ"/>
+		<Item mcc="231" shortdescr="SK"/>
+		<Item mcc="232" shortdescr="A"/>
+		<Item mcc="234" shortdescr="UK"/>
+		<Item mcc="238" shortdescr="DK"/>
+		<Item mcc="240" shortdescr="S"/>
+		<Item mcc="242" shortdescr="N"/>
+		<Item mcc="244" shortdescr="FI"/>
+		<Item mcc="246" shortdescr="LT"/>
+		<Item mcc="247" shortdescr="LV"/>
+		<Item mcc="248" shortdescr="EE"/>
+		<Item mcc="250" shortdescr="RUS"/>
+		<Item mcc="255" shortdescr="UA"/>
+		<Item mcc="260" shortdescr="PL"/>
+		<Item mcc="262" shortdescr="D"/>
+		<Item mcc="266" shortdescr="GIB"/>
+		<Item mcc="268" shortdescr="P"/>
+		<Item mcc="270" shortdescr="L"/>
+		<Item mcc="272" shortdescr="IRL"/>
+		<Item mcc="274" shortdescr="IS"/>
+		<Item mcc="276" shortdescr="AL"/>
+		<Item mcc="278" shortdescr="M"/>
+		<Item mcc="280" shortdescr="CY"/>
+		<Item mcc="282" shortdescr="GEO"/>
+		<Item mcc="283" shortdescr="ARM"/>
+		<Item mcc="284" shortdescr="BG"/>
+		<Item mcc="286" shortdescr="TR"/>
+		<Item mcc="293" shortdescr="SI"/>
+		<Item mcc="294" shortdescr="MKD"/>
+		<Item mcc="302" shortdescr="CAN"/>
+		<Item mcc="310" shortdescr="US"/>
+		<Item mcc="340" shortdescr="F"/>
+		<Item mcc="400" shortdescr="AZE"/>
+		<Item mcc="404" shortdescr="INA"/>
+		<Item mcc="413" shortdescr="SRI"/>
+		<Item mcc="415" shortdescr="RL"/>
+		<Item mcc="416" shortdescr="JOR"/>
+		<Item mcc="417" shortdescr="SYR"/>
+		<Item mcc="419" shortdescr="KT"/>
+		<Item mcc="420" shortdescr="KSA"/>
+		<Item mcc="422" shortdescr="OMN"/>
+		<Item mcc="424" shortdescr="UAE"/>
+		<Item mcc="426" shortdescr="BHR"/>
+		<Item mcc="427" shortdescr="QAT"/>
+		<Item mcc="434" shortdescr="UZB"/>
+		<Item mcc="437" shortdescr="KGZ"/>
+		<Item mcc="452" shortdescr="VN"/>
+		<Item mcc="454" shortdescr="HK"/>
+		<Item mcc="455" shortdescr="MAC"/>
+		<Item mcc="456" shortdescr="KHM"/>
+		<Item mcc="460" shortdescr="CHN"/>
+		<Item mcc="466" shortdescr="ROC"/>
+		<Item mcc="470" shortdescr="BGD"/>
+		<Item mcc="502" shortdescr="MY"/>
+		<Item mcc="505" shortdescr="AUS"/>
+		<Item mcc="510" shortdescr="IND"/>
+		<Item mcc="515" shortdescr="PH"/>
+		<Item mcc="520" shortdescr="TH"/>
+		<Item mcc="525" shortdescr="SGP"/>
+		<Item mcc="528" shortdescr="BRU"/>
+		<Item mcc="530" shortdescr="NZ"/>
+		<Item mcc="542" shortdescr="FIJ"/>
+		<Item mcc="546" shortdescr="NCL"/>
+		<Item mcc="547" shortdescr="F"/>
+		<Item mcc="604" shortdescr="MOR"/>
+		<Item mcc="611" shortdescr="GN"/>
+		<Item mcc="612" shortdescr="CI"/>
+		<Item mcc="617" shortdescr="MRU"/>
+		<Item mcc="620" shortdescr="GH"/>
+		<Item mcc="624" shortdescr="CAM"/>
+		<Item mcc="625" shortdescr="CPV"/>
+		<Item mcc="633" shortdescr="SEZ"/>
+		<Item mcc="634" shortdescr="SDN"/>
+		<Item mcc="635" shortdescr="R"/>
+		<Item mcc="636" shortdescr="ETH"/>
+		<Item mcc="640" shortdescr="TZ"/>
+		<Item mcc="641" shortdescr="UG"/>
+		<Item mcc="642" shortdescr="MDG"/>
+		<Item mcc="643" shortdescr="MOZ"/>
+		<Item mcc="647" shortdescr="F"/>
+		<Item mcc="648" shortdescr="ZW"/>
+		<Item mcc="650" shortdescr="MW"/>
+		<Item mcc="651" shortdescr="LSO"/>
+		<Item mcc="655" shortdescr="SA"/>
+		<Item mcc="730" shortdescr="CL"/>
+		<Item mcc="734" shortdescr="VZ"/>
+	</MccOnly>
+</OperatorList>

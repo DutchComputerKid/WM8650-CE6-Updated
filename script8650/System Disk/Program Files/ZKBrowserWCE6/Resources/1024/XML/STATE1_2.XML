@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<state ID="1.2">
+	<!-- UI Files  -->
+	<btn_file>state1_2.png</btn_file>
+	<btn_focus_file>state1_2_focus.png</btn_focus_file>
+	<btn_hl_file>state1_2_hl.png</btn_hl_file>
+	<btn_imgmap_file>state1_2_imgmap.png</btn_imgmap_file>
+	<bg_file>state1_2_bg.png</bg_file>
+  	<bg_imgmap_file>state1_2_bg_imgmap.png</bg_imgmap_file>
+
+	<!-- When click on empty area, which state to go -->	
+	<empty_click_next_state>0</empty_click_next_state>
+
+	<!-- Initial focus element for key control-->
+	<initial_focus>CLEAR_ALL_HISTORY</initial_focus>
+	
+	<!-- Sub states
+	<substate>
+		<sub_id>1.2.1</sub_id>
+		<sub_xml_file>state1_2_1.xml</sub_xml_file>
+	</substate>
+    -->
+
+	<!-- Background images -->
+	<background>
+		<name>STATE_1_2_BG</name>
+		<img_map_color>BE0000</img_map_color>
+		<align>TL</align>
+	</background>
+
+	<!-- Buttons  -->
+	<button>
+		<name>SET_PROXY</name>
+		<type>PUSH_BUTTON</type>
+		<img_map_color>640000</img_map_color>
+		<align>TL</align>
+		<push_next_state>proxy</push_next_state>
+	</button>
+	<button>
+		<name>CLEAR_ALL_HISTORY</name>
+		<type>PUSH_BUTTON</type>
+		<img_map_color>AA0000</img_map_color>
+		<align>TL</align>
+		<push_next_state>1</push_next_state>
+	</button>
+	<button>
+		<name>EXIT_APP</name>
+		<type>PUSH_BUTTON</type>
+		<img_map_color>960000</img_map_color>
+		<align>TL</align>
+	</button>	
+</state>

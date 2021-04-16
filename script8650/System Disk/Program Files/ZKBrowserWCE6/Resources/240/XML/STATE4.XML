@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<state ID="4">
+	<!-- UI Files  -->
+	<btn_file>state4.png</btn_file>
+	<btn_hl_file>state4_hl.png</btn_hl_file>
+    <btn_focus_file>state4_focus.png</btn_focus_file>
+    <btn_grey_file>state4_grey.png</btn_grey_file>
+	<btn_imgmap_file>state4_imgmap.png</btn_imgmap_file>
+	<bg_imgmap_file>state4_bg_imgmap.png</bg_imgmap_file>
+
+	<!-- When click on empty area, which state to go -->	
+	<empty_click_next_state>0</empty_click_next_state>
+
+	<!-- If this state is not transparaent, set the below will speed up ui drawing speed -->
+	<no_transparency>true</no_transparency>	
+	
+	<!-- Background fill rect -->
+	<bg_fillrect>
+		<name>STATE4_BG_Rect</name>
+		<img_map_color>0000FF</img_map_color>
+		<fill_color_start>FF404040</fill_color_start>
+		<fill_color_end>FFA0A0A0</fill_color_end>		
+		<align>TBLR</align>
+	</bg_fillrect>	
+
+	<button>
+		<!-- Bookmark label  -->
+		<name>del_bookmark_label</name>
+		<type>DISABLED_BUTTON</type>
+		<label_text>Delete Bookmarks</label_text>
+		<label_color>FFFFFFFF</label_color>
+		<label_font_scale>90</label_font_scale>
+		<label_align>CL</label_align>		
+		<label_align_offset>3</label_align_offset>		
+		<img_map_color>780000</img_map_color>
+		<align>TL</align>
+	</button>
+	
+	<button>
+		<!-- back button  -->
+		<name>CHANGE_STATE_back2</name>
+		<type>PUSH_BUTTON</type>
+		<push_next_state>1</push_next_state>
+		<img_map_color>640000</img_map_color>
+		<align>TL</align>
+	</button>		
+
+	<!-- Bookmarks -->
+	<bookmark_app>
+		<name>DEL_BOOKMARK_LIST</name>
+		<img_map_color>E60000</img_map_color>
+		<text_color>FFD0D0D0</text_color>
+		<columns>2</columns>
+		<rows>2</rows>
+		<h_spacing>20</h_spacing>
+		<v_spacing>15</v_spacing>			
+		<numbering>0</numbering>
+
+		<button>
+			<!-- Bookmark previous page  -->
+			<name>PREV_DEL_BOOKMARK_PAGE</name>
+			<type>PUSH_BUTTON</type>
+			<greyout>1</greyout>
+			<img_map_color>C80000</img_map_color>
+			<align>BL</align>
+		</button>
+	
+		<button>
+			<!-- Bookmark next page -->
+			<name>NEXT_DEL_BOOKMARK_PAGE</name>
+			<type>PUSH_BUTTON</type>
+			<greyout>1</greyout>
+			<img_map_color>AA0000</img_map_color>
+			<align>BL</align>
+		</button>		
+	
+		<bookmark>
+			<name>DEL_BOOKMARK1</name>
+			<align>TL</align>
+			<push_next_state>4</push_next_state>
+			<greyout>1</greyout>			
+		</bookmark>
+	
+		<bookmark>
+			<name>DEL_BOOKMARK2</name>
+			<align>TL</align>
+			<push_next_state>4</push_next_state>	
+			<greyout>1</greyout>			
+		</bookmark>
+		
+		<bookmark>
+			<name>DEL_BOOKMARK3</name>
+			<align>TL</align>
+			<push_next_state>4</push_next_state>
+			<greyout>1</greyout>			
+		</bookmark>
+		
+		<bookmark>
+			<name>DEL_BOOKMARK4</name>
+			<align>TL</align>
+			<push_next_state>4</push_next_state>
+			<greyout>1</greyout>				
+		</bookmark>
+	
+
+	
+
+	</bookmark_app>
+		
+	
+</state>

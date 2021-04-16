@@ -1,0 +1,14 @@
+ErrorLevel("off")
+
+cwd = SystemPath("ScriptPath")
+exe = cwd\"Nankin.exe"
+saveFile = "Nankinc1.hsc"
+
+If(FileExists(cwd\saveFile))
+	Copy(cwd\saveFile, "\Windows"\saveFile, TRUE)
+	Sleep(500)
+EndIf
+
+RunWait(exe)
+Sleep(1000)
+Move("\Windows"\saveFile, cwd\saveFile, TRUE)

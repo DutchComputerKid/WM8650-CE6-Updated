@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<state ID="prompt2">
+	<!-- UI Files  -->
+	<btn_file>state_prompt2.png</btn_file>
+	<btn_focus_file>state_prompt2_focus.png</btn_focus_file>
+	<btn_hl_file>state_prompt2_hl.png</btn_hl_file>
+	<btn_imgmap_file>state_prompt2_imgmap.png</btn_imgmap_file>
+	<bg_imgmap_file>state_prompt2_bg_imgmap.png</bg_imgmap_file>
+
+	<!-- When click on empty area, which state to go -->	
+	<empty_click_next_state>prompt2</empty_click_next_state>
+	<show_when_ui_disabled>true</show_when_ui_disabled>
+			
+	<!-- Initial focus element for key control-->
+	<initial_focus>DLG2_INPUT1_BOX</initial_focus>
+				
+	<!-- Background fill rect -->
+	<bg_fillrect>
+		<name>DLG2_BG</name>
+		<img_map_color>900000</img_map_color>
+		<fill_color_start>F0808080</fill_color_start>
+		<fill_color_end>F0DDDDDD</fill_color_end>		
+		<align>TL</align>
+	</bg_fillrect>		
+	
+	<!-- Buttons  -->
+	<button>
+		<!-- Dialog message button  -->
+		<name>DLG2_MESSAGE</name>
+		<type>DISABLED_BUTTON</type>
+		<img_map_color>FF0000</img_map_color>
+		<label_text>Default Message</label_text>
+		<label_color>FF202020</label_color>
+		<shared>1</shared>
+		<align>TL</align>
+	</button>	
+
+	<button>
+		<!-- input1 label button  -->
+		<name>DLG2_INPUT1_LABEL</name>
+		<type>DISABLED_BUTTON</type>
+		<img_map_color>F00000</img_map_color>
+		<label_text>Username :</label_text>
+		<label_color>FF202020</label_color>
+		<shared>1</shared>
+		<align>TL</align>
+	</button>	
+
+	<button>
+		<!-- input2 label button  -->
+		<name>DLG2_INPUT2_LABEL</name>
+		<type>DISABLED_BUTTON</type>
+		<shared_img>DLG2_INPUT1_LABEL</shared_img>
+		<img_map_color>D00000</img_map_color>
+		<label_text>Password :</label_text>
+		<label_color>FF202020</label_color>
+		<align>TL</align>
+	</button>	
+
+	<button>
+		<!-- Dialog OK button  -->
+		<name>DLG2_OK</name>
+		<type>PUSH_BUTTON</type>
+		<label_text>OK</label_text>
+		<label_color>FF000000</label_color>		
+		<label_focus_color>FF000000</label_focus_color>
+		<label_align>center</label_align>	
+		<label_font_scale>50</label_font_scale>			
+		<img_map_color>B00000</img_map_color>		
+		<align>TL</align>
+		<push_next_state>0</push_next_state>
+		<shared>1</shared>
+	</button>	
+
+	<button>
+		<!-- Dialog Cancel button  -->
+		<name>DLG2_CANCEL</name>
+		<type>PUSH_BUTTON</type>
+		<label_text>Cancel</label_text>
+		<label_color>FF000000</label_color>		
+		<label_focus_color>FF000000</label_focus_color>
+		<label_align>center</label_align>	
+		<label_font_scale>50</label_font_scale>						
+		<img_map_color>A00000</img_map_color>
+		<align>TL</align>
+		<push_next_state>0</push_next_state>
+		<shortcut_key>27</shortcut_key>
+		<shared_img>DLG2_OK</shared_img>		
+	</button>		
+
+	<!-- Inputbox  -->
+	<inputbox>
+		<name>DLG2_INPUT1_BOX</name>
+		<img_map_color>E00000</img_map_color>
+		<align>TL</align>
+		<shared>1</shared>
+		<action_on_mouse_click>1</action_on_mouse_click>
+		<push_next_focus>KEY_A3</push_next_focus>		
+	</inputbox>	
+
+	<inputbox>
+		<name>DLG2_INPUT2_BOX</name>
+		<img_map_color>C00000</img_map_color>
+		<align>TL</align>
+		<shortcut_key>9</shortcut_key>
+		<shared_img>DLG2_INPUT1_BOX</shared_img>
+		<action_on_mouse_click>1</action_on_mouse_click>
+		<push_next_focus>KEY_A3</push_next_focus>		
+	</inputbox>	
+	
+
+</state>

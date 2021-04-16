@@ -1,0 +1,79 @@
+Zetakey End User License Agreement
+----------------------------------
+Important: Carefully read this End User License Agreement (EULA) before installing or using the Software. You may
+use the Software only if You agree to be bound by the terms of this EULA. If You do not agree to the terms of this
+EULA, You may NOT use the Software and You MUST return the Software. ANY INSTALLATION OR USE OF THE SOFTWARE INDICATES
+YOUR AGREEMENT TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS EULA.
+1.0 Definitions
+1.1 “System” and “Device” means the Your computer equipment and on which the Software to be installed.
+1.2 “Software” means the computer program(s) acquired from Zetakey and installed on the System or any Revisions
+thereto. This may include programs written by Zetakey as well as user interface XML, graphic, binary and library files
+written by others which have been provided to You. Software will be provided to You in object code form only. The
+Software includes any electronic Documentation or any “on-line” help and guide.
+1.3 “Documentation” means the materials accompanying the Software which describe its functions and how to install and
+use the Software.
+1.4 “Revision” means any correction, modification, update, enhancement, or new version of the Software or
+Documentation.
+1.5 “You” or “Your” refers to the end user licensed to use the Software under this EULA.
+1.6 “Zetakey” means Zetakey Solutions Limited, a registered HONG KONG company.
+2.0 License
+2.1 Zetakey hereby grants You a license to use the Software subject to the following terms and conditions.
+For non-private/commercial/for-profit use, You MUST obtain the valid commercial license from Zetakey on agreed
+separate licensing agreement.
+2.2 The Software is licensed, not sold. Zetakey hereby grants You a non-exclusive, terminable, limited license to use the
+Software on the System(s) for Your own internal business purposes. No other right or license is granted or implied. You
+agree to not modify, copy, distribute or otherwise disclose the Software without the prior written consent of Zetakey.
+You further agree not to reverse engineer, disassemble, or de-compile the Software. This license shall terminate when
+You no longer own or You cease to use the System(s) on which You are licensed to use the Software.
+2.3 You may not duplicate or copy the Software except that You may make a single copy of the Software for use solely for
+archival purposes. The archival copy must bear the copyright notices appearing in the original.
+2.4 You may not sell, lease, rent, assign, sublicense or transfer the Software except that You may transfer all of Your
+rights under this EULA as part of a sale or transfer of the System(s). Such a sale or transfer may only be made if You
+retain no copies of the Software, You transfer all of the Software (including any media, archival copies, upgrades and
+Documentation) and the recipient agrees to abide by the terms of this EULA. An upgrade may not be transferred unless
+You transfer all prior versions of the Software. In the event of any such transfer, You shall remain liable and
+responsible to Zetakey for the performance of all of Your duties and obligations under this EULA.
+2.5 The Software product is protected under the copyright laws of Your country, Hong Kong and international copyright
+treaties, as well as other intellectual property laws and treaties. You agree that if any unauthorized copies are made,
+or if the Software is used in violation of this EULA, Zetakey shall have the right to obtain an injunction against the
+unauthorized copying or use, in addition to any other rights and remedies Zetakey might have. You acknowledge and
+agree that nothing in this Agreement gives You any right, title or interest in the Software except the limited rights
+expressly granted herein. Some or all of the Software may have been developed by an independent third party software
+supplier which holds copyright or other proprietary rights to the software product. You may be held responsible to any
+such supplier for any infringement of such rights.
+2.6 You may not remove, intentionally cover or alter any proprietary notices, copyright notices, labels or marks that
+are contained in or on the Software.
+2.7 Zetakey reserve the right to terminate this EULA if You violate any term or condition of this
+EULA. In the event of termination, You must stop using the Software and must return all copies of the Software to
+Zetakey.
+2.8 In the event You modify the Software or include it in any other software program, upon termination of this EULA You
+agree either to remove the Software or any portion thereof from the modified program and return the Software to
+Zetakey.
+3.0 Limited Warranty
+3.1 Zetakey provides software on an “as is” basis only.
+4.0 Compatibility
+4.1 The Software is not warranted to be compatible with all environments. You may try different OS versions to fit Your
+System.
+5.0 Warranty Support
+5.1 Warranty support is not provided. Zetakey will provide general usability support via email and may improve the
+Software based on customer feedback.
+6.0 Termination
+6.1 Zetakey may terminate this Agreement at any time should You violate any term or condition of this EULA. Upon
+termination of this EULA, The provisions of this paragraph of this EULA and any other material provisions of this EULA
+shall survive any termination of this EULA.
+7.0 Severability
+7.1 Should any part or provision of this EULA be held unenforceable or in conflict with the law of any jurisdiction, the
+validity of the remaining parts or provisions shall not be affected by such holding.
+8.0 Limitation On Effect Of Waiver
+8.1 A waiver of any breach of any provision of this EULA shall not be construed as a continuing waiver of other breaches
+of the same or other provisions of this EULA.
+9.0 Entire Agreement
+9.1 This EULA constitutes the entire agreement and understanding between the parties and supersedes all prior
+agreements and understandings with respect to the subject matter of this EULA whether written or oral, including any
+and all purchase orders to the extent that they are inconsistent with this agreement. No modification or claimed waiver
+of any of the provisions hereof shall be valid unless in writing and signed by authorized representatives of the party
+against whom such modification or waiver is sought to be enforced.
+10.0 Governing Law
+10.1 The validity and interpretation of this Agreement shall be governed by the laws of the Hong Kong and China.
+
+[1 Dec, 2014]

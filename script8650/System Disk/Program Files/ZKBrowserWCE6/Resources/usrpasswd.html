@@ -1,0 +1,10 @@
+<br /><br /><center>
+<script type="text/javascript" language="JavaScript">
+function gup( name ){  name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");  var regexS = "[\\?&]"+name+"=([^&#]*)";  var regex = new RegExp( regexS );  var results = regex.exec( window.location.href );  if( results == null )    return "";  else    return results[1];}
+var retry = gup("retry"); 
+if (retry == "yes")	{ document.writeln("<br/><br/><br/>Incorrect Username/Password"); document.writeln("<br/>Retry<br />");}	
+</script><br /><form name="input" action="data://setdata" method="get"> 
+<br /><table><tr><td>Username:</td><td><input type="text" name="user" /></td></tr>
+<tr><td>Password:</td><td><input type="password" name="passwd" /></td></tr>
+<TR ALIGN=left><td></td><td><input type="submit" value="Enter" />
+</td></tr></table></center></form> 

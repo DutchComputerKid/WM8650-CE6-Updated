@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<state ID="1">
+	<!-- UI Files  -->
+	<btn_file>state1.png</btn_file>
+	<btn_focus_file>state1_focus.png</btn_focus_file>
+    <btn_grey_file>state1_grey.png</btn_grey_file>
+	<btn_hl_file>state1_hl.png</btn_hl_file>
+	<btn_tog_file>state1_tog.png</btn_tog_file>
+	<btn_tog_focus_file>state1_tog_focus.png</btn_tog_focus_file>
+	<btn_tog_hl_file>state1_tog_hl.png</btn_tog_hl_file>
+	<btn_imgmap_file>state1_imgmap.png</btn_imgmap_file>
+	<bg_file>state1_bg.png</bg_file>
+	<bg_imgmap_file>state1_bg_imgmap.png</bg_imgmap_file>
+
+	<!-- When click on empty area, which state to go -->	
+	<empty_click_next_state>0</empty_click_next_state>
+	
+	<!-- Initial focus element for key control
+	<initial_focus>GOTOURL_home</initial_focus>
+	-->
+
+	<!-- Sub states-->
+	<substate>
+		<sub_id>1.1</sub_id>
+		<sub_xml_file>state1_1.xml</sub_xml_file>
+	</substate>
+
+	<substate>
+		<sub_id>1.2</sub_id>
+		<sub_xml_file>state1_2.xml</sub_xml_file>
+	</substate>
+		
+	<!-- Background images -->
+	<background>
+		<name>TOP</name>
+		<img_map_color>C80000</img_map_color>
+		<align>TLR</align>
+	</background>
+	<background>
+		<name>BOTTOM</name>
+		<img_map_color>FF0000</img_map_color>
+		<align>BLR</align>
+	</background>
+	
+	<!-- Buttons  -->
+	<button>
+		<name>LOAD_STOP</name>
+		<type>TOGGLE_BUTTON</type>
+		<img_map_color>EB0000</img_map_color>
+		<align>TR</align>
+		<text_source>URLINPUT</text_source>
+	</button>
+	<button>
+		<name>BACK</name>
+		<type>PUSH_BUTTON</type>
+		<greyout>1</greyout>
+		<img_map_color>FF0000</img_map_color>
+		<align>BL</align>
+	</button>
+		<button>
+		<!-- Bookmark button  -->
+		<name>CHANGE_STATE_open_bookmark</name>
+		<type>PUSH_BUTTON</type>
+		<img_map_color>D70000</img_map_color>
+		<align>BL</align>
+		<push_next_state>1.1</push_next_state>
+	</button>
+	<button>
+		<name>GOTOURL_home</name>
+		<type>PUSH_BUTTON</type>
+		<img_map_color>E10000</img_map_color>
+		<align>BL</align>
+		<push_next_state>1b</push_next_state>
+		<url>ZK_HOME_PAGE</url>
+	</button>
+	<button>
+    	<!-- Zoom button  -->
+		<name>CHANGE_STATE_zoom</name>
+		<type>PUSH_BUTTON</type>
+		<img_map_color>B90000</img_map_color>
+		<align>BL</align>
+		<push_next_state>2</push_next_state>
+	</button>
+	<button>
+		<!-- setting button  -->
+		<name>CHANGE_STATE_setting</name>
+		<type>PUSH_BUTTON</type>
+		<img_map_color>AF0000</img_map_color>
+		<align>BL</align>
+		<push_next_state>1.2</push_next_state>
+	</button>
+	<button>
+		<!-- SIP button  -->
+		<name>INPUT</name>
+		<type>PUSH_BUTTON</type>
+		<img_map_color>960000</img_map_color>
+		<align>BL</align>
+	</button>
+	
+	<!-- Inputbox  -->
+	<inputbox>
+		<name>URLINPUT</name>
+		<img_map_color>C30000</img_map_color>
+		<align>TLR</align>
+		<has_progress_bar>1</has_progress_bar>
+		<inputbox_pbar_v_margin>13</inputbox_pbar_v_margin>		
+		<search_history>1</search_history>
+		<history_pos>BOTTOM</history_pos>
+	</inputbox>	
+
+	<!-- Timer -->
+	<timer>
+		<name>TIMER_IDLE</name>
+		<timeout>10000</timeout>
+		<timeout_state_change>0</timeout_state_change>
+	</timer>	
+
+</state>

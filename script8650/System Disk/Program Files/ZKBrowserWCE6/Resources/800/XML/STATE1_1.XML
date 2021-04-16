@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<state ID="1.1">
+	<!-- UI Files  -->
+	<btn_file>state1_1.png</btn_file>
+	<btn_focus_file>state1_1_focus.png</btn_focus_file>
+	<btn_hl_file>state1_1_hl.png</btn_hl_file>
+	<btn_imgmap_file>state1_1_imgmap.png</btn_imgmap_file>
+	<bg_file>state1_1_bg.png</bg_file>
+  	<bg_imgmap_file>state1_1_bg_imgmap.png</bg_imgmap_file>
+
+	<!-- When click on empty area, which state to go -->	
+	<empty_click_next_state>0</empty_click_next_state>
+
+	<!-- Initial focus element for key control-->
+	<initial_focus>ZOOM_IN</initial_focus>
+	
+	<!-- Background images -->
+	<background>
+		<name>STATE_1_1_BG</name>
+		<img_map_color>960000</img_map_color>
+		<align>TL</align>
+	</background>
+
+	<!-- Buttons  -->
+	<button>
+    	<!-- Larger button  -->
+		<name>ZOOM_IN</name>
+		<type>PUSH_BUTTON</type>
+		<img_map_color>820000</img_map_color>
+		<align>TL</align>
+	</button>
+	<button>
+    	<!-- NORMAL button  -->
+		<name>ZOOM_100</name>
+		<type>PUSH_BUTTON</type>
+		<img_map_color>6E0000</img_map_color>
+		<align>TL</align>
+	</button>
+	<button>
+    	<!-- Smaller button  -->
+		<name>ZOOM_OUT</name>
+		<type>PUSH_BUTTON</type>
+		<img_map_color>5A0000</img_map_color>
+		<align>TL</align>
+	</button>
+	
+	<!-- Timer -->
+	<timer>
+		<name>TIMER_IDLE</name>
+		<timeout>4000</timeout>
+		<timeout_state_change>0</timeout_state_change>
+	</timer>
+</state>

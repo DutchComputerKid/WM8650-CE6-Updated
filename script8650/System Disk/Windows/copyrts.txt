@@ -1,0 +1,11 @@
+Depending upon which components you are running, your product may contain the following third party technologies:
+
+Portions of this software are based on NCSA Mosaic. NCSA Mosaic was developed by the National Center for Supercomputing Applications at the University of Illinois at Urbana-Champaign.Distributed under a licensing agreement with Spyglass, Inc.
+
+Contains security software licensed from RSA Data Security, Inc.
+
+Portions of this software are based in part on the work of the Independent JPEG Group.
+
+Portions of IPSec and related services jointly developed by Microsoft Corporation and Cisco Systems, Inc.
+
+The names of actual companies and products mentioned herein may be the trademarks of their respective owners.

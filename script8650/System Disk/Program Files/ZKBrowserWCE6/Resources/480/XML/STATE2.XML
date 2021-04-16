@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<state ID="2">
+	<!-- UI Files  -->
+	<btn_file>state2.png</btn_file>
+	<btn_hl_file>state2_hl.png</btn_hl_file>
+	<btn_imgmap_file>state2_imgmap.png</btn_imgmap_file>
+	<bg_file>state2_bg.png</bg_file>
+	<bg_imgmap_file>state2_bg_imgmap.png</bg_imgmap_file>
+
+	<!-- When click on empty area, which state to go -->	
+	<empty_click_next_state>0</empty_click_next_state>
+
+	<!-- Background images -->
+	<background>
+		<name>ZOOM_BAR_BACKGROUND</name>
+		<img_map_color>003C00</img_map_color>
+		<align>BL</align>
+	</background>
+	
+	<!-- Slider  -->
+	<slider>
+		<name>ZOOMSLIDER</name>
+		<default_pos>ZOOMNORMAL</default_pos>
+		<release_next_state>0</release_next_state>
+		<button>
+			<name>ZOOM_OUT5</name>
+			<type>SLIDER_BUTTON</type>
+			<img_map_color>00FF00</img_map_color>
+			<align>BL</align>
+		</button>
+		<button>
+			<name>ZOOM_OUT4</name>
+			<type>SLIDER_BUTTON</type>
+			<img_map_color>00F000</img_map_color>
+			<align>BL</align>
+		</button>
+		<button>
+			<name>ZOOM_OUT3</name>
+			<type>SLIDER_BUTTON</type>
+			<img_map_color>00DC00</img_map_color>
+			<align>BL</align>
+		</button>
+		<button>
+			<name>ZOOM_OUT2</name>
+			<type>SLIDER_BUTTON</type>
+			<img_map_color>00C800</img_map_color>
+			<align>BL</align>
+		</button>
+		<button>
+			<name>ZOOM_OUT1</name>
+			<type>SLIDER_BUTTON</type>
+			<img_map_color>00B400</img_map_color>
+			<align>BL</align>
+		</button>
+		<button>
+			<name>ZOOM_NORMAL</name>
+			<type>SLIDER_BUTTON</type>
+			<img_map_color>00A000</img_map_color>
+			<align>BL</align>
+		</button>
+		<button>
+			<name>ZOOM_IN1</name>
+			<type>SLIDER_BUTTON</type>
+			<img_map_color>008C00</img_map_color>
+			<align>BL</align>
+		</button>
+		<button>
+			<name>ZOOM_IN2</name>
+			<type>SLIDER_BUTTON</type>
+			<img_map_color>007800</img_map_color>
+			<align>BL</align>
+		</button>
+		<button>
+			<name>ZOOM_IN3</name>
+			<type>SLIDER_BUTTON</type>
+			<img_map_color>006400</img_map_color>
+			<align>BL</align>
+		</button>
+		<button>
+			<name>ZOOM_IN4</name>
+			<type>SLIDER_BUTTON</type>
+			<img_map_color>005000</img_map_color>
+			<align>BL</align>
+		</button>
+		<button>
+			<name>ZOOM_IN5</name>
+			<type>SLIDER_BUTTON</type>
+			<img_map_color>003C00</img_map_color>
+			<align>BL</align>
+		</button>
+	</slider>
+</state>

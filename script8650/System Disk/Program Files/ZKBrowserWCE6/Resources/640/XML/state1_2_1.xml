@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<state ID="1.2.1">
+	<!-- UI Files  -->
+	<btn_file>state1_2_1.png</btn_file>
+	<btn_imgmap_file>state1_2_1_imgmap.png</btn_imgmap_file>
+	<bg_file>state1_2_1_bg.png</bg_file>
+  	<bg_imgmap_file>state1_2_1_bg_imgmap.png</bg_imgmap_file>
+	<btn_tog_file>state1_2_1_tog.png</btn_tog_file>
+  	<btn_tog_focus_file>state1_2_1_tog_focus.png</btn_tog_focus_file>
+  	<btn_tog_hl_file>state1_2_1_tog_hl.png</btn_tog_hl_file>
+
+	<!-- When click on empty area, which state to go -->
+	<empty_click_next_state>1.2</empty_click_next_state>
+	
+	<!-- Background images -->
+	<background>
+		<name>BG_IMAGE</name>
+		<img_map_color>00FF00</img_map_color>
+		<align>BL</align>
+	</background>
+
+	<!-- Buttons  -->
+	<button>
+		<name>LANGUAGE_GB</name>
+		<type>TOGGLE_BUTTON</type>
+		<img_map_color>00E600</img_map_color>
+		<align>BL</align>
+	</button>
+	<button>
+		<name>LANGUAGE_ENG</name>
+		<type>TOGGLE_BUTTON</type>
+		<img_map_color>00D200</img_map_color>
+		<align>BL</align>
+	</button>
+</state>

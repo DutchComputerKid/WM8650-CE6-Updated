@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<state ID="proxy">
+	<!-- UI Files  -->
+	<btn_file>state_proxy.png</btn_file>
+	<btn_focus_file>state_proxy_focus.png</btn_focus_file>
+	<btn_hl_file>state_proxy_tog.png</btn_hl_file>
+	<btn_tog_file>state_proxy_tog.png</btn_tog_file>
+	<btn_tog_hl_file>state_proxy.png</btn_tog_hl_file>
+	<btn_tog_focus_file>state_proxy_tog_focus.png</btn_tog_focus_file>
+	<btn_imgmap_file>state_proxy_imgmap.png</btn_imgmap_file>
+	<bg_imgmap_file>state_proxy_bg_imgmap.png</bg_imgmap_file>
+
+	<!-- When click on empty area, which state to go -->	
+	<empty_click_next_state>proxy</empty_click_next_state>
+			
+	<!-- Initial focus element for key control-->
+	<initial_focus>PROXY_ENABLE</initial_focus>
+				
+	<!-- Background fill rect -->
+	<bg_fillrect>
+		<name>PROXY_BG</name>
+		<img_map_color>900000</img_map_color>
+		<fill_color_start>F0808080</fill_color_start>
+		<fill_color_end>F0DDDDDD</fill_color_end>		
+		<align>TL</align>
+	</bg_fillrect>		
+	
+	<!-- Buttons  -->
+	<button>
+		<!-- Dialog message button  -->
+		<name>PROXY_MESSAGE</name>
+		<type>DISABLED_BUTTON</type>
+		<img_map_color>FF0000</img_map_color>
+		<label_text>Proxy Settings</label_text>
+		<label_color>FF202020</label_color>
+		<label_font_scale>100</label_font_scale>			
+		<shared_img>DLG2_MESSAGE</shared_img>
+		<align>TL</align>
+	</button>	
+	
+	<button>
+		<!-- enbale proxy label  -->
+		<name>PROXY_ENABLE_LABEL</name>
+		<type>DISABLED_BUTTON</type>
+		<img_map_color>640000</img_map_color>
+		<label_text>Enable Proxy</label_text>
+		<label_color>FF202020</label_color>
+		<label_font_scale>100</label_font_scale>			
+		<align>TL</align>
+	</button>	
+
+	<button>
+		<!-- Proxy address label button  -->
+		<name>PROXY_ADDR_LABEL</name>
+		<type>DISABLED_BUTTON</type>
+		<shared_img>DLG2_INPUT1_LABEL</shared_img>		
+		<img_map_color>F00000</img_map_color>
+		<label_text>Address :</label_text>
+		<label_color>FF202020</label_color>
+		<label_font_scale>100</label_font_scale>			
+		<align>TL</align>
+	</button>	
+
+	<button>
+		<!-- Proxy port label button  -->
+		<name>PROXY_PORT_LABEL</name>
+		<type>DISABLED_BUTTON</type>
+		<shared_img>DLG2_INPUT1_LABEL</shared_img>
+		<img_map_color>D00000</img_map_color>
+		<label_text>Port :</label_text>
+		<label_color>FF202020</label_color>
+		<label_font_scale>100</label_font_scale>			
+		<align>TL</align>
+	</button>	
+	
+	<button>
+		<!-- Proxy user label button  -->
+		<name>PROXY_USERNAME_LABEL</name>
+		<type>DISABLED_BUTTON</type>
+		<shared_img>DLG2_INPUT1_LABEL</shared_img>		
+		<img_map_color>960000</img_map_color>
+		<label_text>Username :</label_text>
+		<label_color>FF202020</label_color>
+		<label_font_scale>100</label_font_scale>			
+		<align>TL</align>
+	</button>	
+
+	<button>
+		<!-- Proxy password label button  -->
+		<name>PROXY_PASSWORD_LABEL</name>
+		<type>DISABLED_BUTTON</type>
+		<shared_img>DLG2_INPUT1_LABEL</shared_img>
+		<img_map_color>820000</img_map_color>
+		<label_text>Password :</label_text>
+		<label_color>FF202020</label_color>
+		<label_font_scale>100</label_font_scale>			
+		<align>TL</align>
+	</button>	
+	
+	<button>
+		<!-- enable proxy button  -->
+		<name>PROXY_ENABLE</name>
+		<type>TOGGLE_BUTTON</type>
+		<img_map_color>6E0000</img_map_color>		
+		<align>TL</align>	
+	</button>		
+
+	<button>
+		<!-- Dialog OK button  -->
+		<name>PROXY_OK</name>
+		<type>PUSH_BUTTON</type>
+		<label_text>OK</label_text>
+		<label_color>FF000000</label_color>		
+		<label_focus_color>FF000000</label_focus_color>
+		<label_align>center</label_align>	
+		<label_font_scale>50</label_font_scale>			
+		<img_map_color>B00000</img_map_color>		
+		<align>TL</align>
+		<push_next_state>0</push_next_state>
+		<shared_img>DLG2_OK</shared_img>			
+	</button>	
+
+	<button>
+		<!-- Dialog Cancel button  -->
+		<name>CHANGE_STAET_PROXY_CANCEL</name>
+		<type>PUSH_BUTTON</type>
+		<label_text>Cancel</label_text>
+		<label_color>FF000000</label_color>		
+		<label_focus_color>FF000000</label_focus_color>
+		<label_align>center</label_align>	
+		<label_font_scale>50</label_font_scale>						
+		<img_map_color>A00000</img_map_color>
+		<align>TL</align>
+		<push_next_state>0</push_next_state>
+		<shortcut_key>27</shortcut_key>
+		<shared_img>DLG2_OK</shared_img>		
+	</button>		
+
+	<!-- Inputbox  -->
+	<inputbox>
+		<name>PROXY_ADDR_INPUT</name>
+		<img_map_color>E00000</img_map_color>
+		<inputbox_h_margin>3</inputbox_h_margin>			
+		<align>TL</align>
+		<shared_img>DLG2_INPUT1_BOX</shared_img>
+		<action_on_mouse_click>1</action_on_mouse_click>
+	</inputbox>	
+
+	<inputbox>
+		<name>PROXY_PORT_INPUT</name>
+		<img_map_color>C00000</img_map_color>
+		<inputbox_h_margin>3</inputbox_h_margin>			
+		<align>TL</align>
+		<shared_img>DLG2_INPUT1_BOX</shared_img>
+		<action_on_mouse_click>1</action_on_mouse_click>
+	</inputbox>	
+
+	<inputbox>
+		<name>PROXY_USERNAME_INPUT</name>
+		<img_map_color>8C0000</img_map_color>
+		<inputbox_h_margin>3</inputbox_h_margin>			
+		<align>TL</align>
+		<shared_img>DLG2_INPUT1_BOX</shared_img>
+		<action_on_mouse_click>1</action_on_mouse_click>
+	</inputbox>	
+
+	<inputbox>
+		<name>PROXY_PASSWORD_INPUT</name>
+		<img_map_color>780000</img_map_color>
+		<inputbox_h_margin>3</inputbox_h_margin>			
+		<align>TL</align>
+		<shared_img>DLG2_INPUT1_BOX</shared_img>
+		<action_on_mouse_click>1</action_on_mouse_click>		
+	</inputbox>		
+	
+
+</state>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="Dialup">
+<Profile name="66" user="66" password="" phonenumber="*99#" apn="CMNET" autoapn="false" ip="" pap="false" chap="false" dns="" dnsalt="" wins="" winsalt=""/>
+</utpsdoc>

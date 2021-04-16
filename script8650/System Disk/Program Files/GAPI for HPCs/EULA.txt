@@ -1,0 +1,37 @@
+Check the website for updates ! (http://www.WinCESoft.de)
+
+This application is freeware, you may distribute it without profit and with a copy of the End User License Agreement.
+
+By using this application, you agree with the license agreement.
+If you did not receive a copy of the license, download the application from the web site (http://www.WinCESoft.de), you can also read it at the end of this text.
+If you do not agree with its terms, you must destroy all your copies of the application.
+
+This application is provided as it, with no warranty of any kind.
+More information, other utilities and updates available at http://www.WinCESoft.de.
+
+
+WINCESOFT FREEWARE END USER LICENSE AGREEMENT
+
+WinCESoft grants you a license to use this program for free.
+We do not transfer title to the program to you.
+You obtain no rights other than those granted you under this license.
+
+If you download or use this program you agree to these terms.
+
+Under this license, you may:
+1. use the program on one or more machines at a time.
+2. make copies of the program for use or backup purposes.
+3. make copies of the original file you downloaded and distribute it for free, provided that you transfer a copy of this license to the other party. The other party agrees to these terms by its first use of the program.
+
+You may NOT:
+1. modify the program and merge it into another program.
+2. make copies of the original file you downloaded and distribute it (or link to the original file) for commercial purposes without our permission, this include free download sites displaying ads banners.
+3. edit, reverse assemble, reverse compile, or otherwise translate the program.
+
+
+We do not warrant uninterrupted or error free operation of the program.
+We have no obligation to provide service, defect correction, or any maintenance for the program.
+We have no obligation to supply any program updates or enhancements to you even if such are later become available.
+
+If you download or use this program you agree to these terms.
+You may terminate this license at any time. We may terminate this license if you fail to comply with any of its terms. In either event, you must destroy all your copies of the program.
