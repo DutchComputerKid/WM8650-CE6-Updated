@@ -21,4 +21,4 @@ Original forum post about the image [here](https://www.slatedroid.com/topic/2309
 - ZetaKey Browser 2017
 
 ### Installation
-Installation is guided [here](https://unitedandco.net "here"), as are all other information for this installation and the images.
+Installation is guided [here](https://unitedandco.net/2021/04/16/wm8650-laptops-all-over-the-place-but-still-useful/ "here"), as are all other information for this installation and the images.
