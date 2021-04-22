@@ -16,7 +16,7 @@ Original forum post about the image [here](https://www.slatedroid.com/topic/2309
 
 #### Updated:
 - nPOPuk to 3.04 SSL from 2.13p2 SSL
-- ResInfo to 1.58 2011 from 2005
+- ResInfo to 1.58 2011 (Provided was 2005)
 
 #### Added:
 - ZetaKey Browser 2017
