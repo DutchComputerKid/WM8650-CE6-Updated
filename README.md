@@ -19,7 +19,7 @@ Original forum post about the image [here](https://www.slatedroid.com/topic/2309
 - ResInfo to 1.58 2011 (Provided was 2005)
 
 #### Added:
-- ZetaKey Browser 2017
+- ZetaKey Browser 2017 (3.3.1)
 
 ### Installation
 Installation is guided [here](https://unitedandco.net/2021/04/16/wm8650-laptops-all-over-the-place-but-still-useful/ "here"), as are all other information for this installation and the images.
